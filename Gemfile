@@ -12,5 +12,3 @@ gem 'guard-rspec'
 gem 'nokogiri'
 gem 'sinatra'
 gem 'thin'
-
-gem 'byebug'

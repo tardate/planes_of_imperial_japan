@@ -1,0 +1,2700 @@
+[
+  {
+    "name": "Kawanishi N1K Kyofu Navy Fighter Seaplane",
+    "category": "Fighters",
+    "path": "/wiki/Kawanishi_N1K",
+    "allied_code": "Rex",
+    "first_flown": 1942,
+    "number_built": 1532,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "2ad0cafbdae52374ba8ee9486f90b0d1",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K",
+    "title": "Kawanishi N1K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kawanishi_N1K2-J_050317-F-1234P-015.jpg/300px-Kawanishi_N1K2-J_050317-F-1234P-015.jpg",
+    "image_local_name": "2ad0cafbdae52374ba8ee9486f90b0d1.jpg",
+    "variants": [
+      {
+        "name": "N1K1",
+        "description": "N1K1: Standard type as floatplane, which was used from early 1943, with Mitsubishi MK4C Kasei 13 engine."
+      },
+      {
+        "name": "N1K2",
+        "description": "N1K2: Reserved name for an intended model with larger engine, not built."
+      },
+      {
+        "name": "N1K1-J",
+        "description": "N1K1-J Prototypes: development of fighter hydroplane N1K1 Kyofu, with 1,820 hp Homare 11 engine."
+      },
+      {
+        "name": "N1K1-J",
+        "description": "N1K1-J Shiden Model 11: Navy Land Based Interceptor, first production model with 1,990 hp Homare 21 engine and revised cover, armed with two 7.7 mm Type 97 machine guns and two 20 mm Type 99 cannons. Modified total-vision cockpit."
+      },
+      {
+        "name": "N1K1-Ja",
+        "description": "N1K1-Ja Shiden Model 11A: without frontal 7.7 mm Type 97s, with only four 20 mm Type 99s in wings."
+      },
+      {
+        "name": "N1K1-Jb",
+        "description": "N1K1-Jb Shiden Model 11B: similar to Model 11A amongst load two 250 kg bombs, revised wing weapons."
+      },
+      {
+        "name": "N1K1-Jc",
+        "description": "N1K1-Jc Shiden Model 11C: definitive fighter-bomber version, derived from Model 11B. Four bomb racks under wings."
+      },
+      {
+        "name": "N1K1-J KAIa",
+        "description": "N1K1-J KAIa Experimental version with auxiliary rocket. One Model 11 conversion."
+      },
+      {
+        "name": "N1K1-J KAIb",
+        "description": "N1K1-J KAIb Conversion for dive bombing. One 250 kg bomb under belly and six rockets under wings."
+      },
+      {
+        "name": "N1K2-J",
+        "description": "N1K2-J Prototypes: N1K1-Jb redesigned. Low wings, engine cover and landing gear modified. New fuselage and tail, 8 built."
+      },
+      {
+        "name": "N1K2-J",
+        "description": "N1K2-J Shiden KAI Model 21: Navy Land Based Interceptor, first model of series with a Nakajima Homare 21 engine."
+      },
+      {
+        "name": "N1K2-Ja",
+        "description": "N1K2-Ja Shiden KAI Model 21A: Fighter Interceptor version: 2,000 hp Homare 21-18 engine with a low wing and larger prop design with four 250 kg ground bombs. Fixed problem with teething pains of N1K2 J at high altitude."
+      },
+      {
+        "name": "N1K2-K",
+        "description": "N1K2-K Shiden Kai Rensen 1, Model A: Fighter Trainer, modified from N1K-J Series with two seats, operative or factory conversions."
+      },
+      {
+        "name": "N1K3-J",
+        "description": "N1K3-J Shiden KAI 1, Model 31: Prototypes: Engines displaced to ahead, two 13.2 mm Type 3 machine guns in front, 2 built."
+      },
+      {
+        "name": "N1K3-A",
+        "description": "N1K3-A Shiden KAI 2, Model 41: Prototypes: Carrier-based version of N1K3-J, 2 built."
+      },
+      {
+        "name": "N1K4-J",
+        "description": "N1K4-J Shiden KAI 3, Model 32: Prototypes: 2,000 hp Homare 23 engine, 2 built."
+      },
+      {
+        "name": "N1K4-A",
+        "description": "N1K4-A Shiden KAI 4, Model 42: Prototype: Experimental conversion of N1K4-J example with equipment for use in carriers, 1 built."
+      },
+      {
+        "name": "N1K5-J",
+        "description": "N1K5-J Shiden KAI 5, Model 25: High-Altitude Interceptor version with Mitsubishi HA-43 (MK9A) with 2,200 takeoff hp, project only."
+      }
+    ]
+  },
+  {
+    "name": "Kawanishi N1K1-J/N1K2-J Shiden Navy Land-Based Interceptor",
+    "category": "Fighters",
+    "path": "/wiki/Kawanishi_N1K-J",
+    "allied_code": "George",
+    "first_flown": 1943,
+    "number_built": 1435,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "8db9bedd6990b3c01e31a80e6956a452",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K-J",
+    "title": "Kawanishi N1K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kawanishi_N1K2-J_050317-F-1234P-015.jpg/300px-Kawanishi_N1K2-J_050317-F-1234P-015.jpg",
+    "image_local_name": "8db9bedd6990b3c01e31a80e6956a452.jpg",
+    "variants": [
+      {
+        "name": "N1K1",
+        "description": "N1K1: Standard type as floatplane, which was used from early 1943, with Mitsubishi MK4C Kasei 13 engine."
+      },
+      {
+        "name": "N1K2",
+        "description": "N1K2: Reserved name for an intended model with larger engine, not built."
+      },
+      {
+        "name": "N1K1-J",
+        "description": "N1K1-J Prototypes: development of fighter hydroplane N1K1 Kyofu, with 1,820 hp Homare 11 engine."
+      },
+      {
+        "name": "N1K1-J",
+        "description": "N1K1-J Shiden Model 11: Navy Land Based Interceptor, first production model with 1,990 hp Homare 21 engine and revised cover, armed with two 7.7 mm Type 97 machine guns and two 20 mm Type 99 cannons. Modified total-vision cockpit."
+      },
+      {
+        "name": "N1K1-Ja",
+        "description": "N1K1-Ja Shiden Model 11A: without frontal 7.7 mm Type 97s, with only four 20 mm Type 99s in wings."
+      },
+      {
+        "name": "N1K1-Jb",
+        "description": "N1K1-Jb Shiden Model 11B: similar to Model 11A amongst load two 250 kg bombs, revised wing weapons."
+      },
+      {
+        "name": "N1K1-Jc",
+        "description": "N1K1-Jc Shiden Model 11C: definitive fighter-bomber version, derived from Model 11B. Four bomb racks under wings."
+      },
+      {
+        "name": "N1K1-J KAIa",
+        "description": "N1K1-J KAIa Experimental version with auxiliary rocket. One Model 11 conversion."
+      },
+      {
+        "name": "N1K1-J KAIb",
+        "description": "N1K1-J KAIb Conversion for dive bombing. One 250 kg bomb under belly and six rockets under wings."
+      },
+      {
+        "name": "N1K2-J",
+        "description": "N1K2-J Prototypes: N1K1-Jb redesigned. Low wings, engine cover and landing gear modified. New fuselage and tail, 8 built."
+      },
+      {
+        "name": "N1K2-J",
+        "description": "N1K2-J Shiden KAI Model 21: Navy Land Based Interceptor, first model of series with a Nakajima Homare 21 engine."
+      },
+      {
+        "name": "N1K2-Ja",
+        "description": "N1K2-Ja Shiden KAI Model 21A: Fighter Interceptor version: 2,000 hp Homare 21-18 engine with a low wing and larger prop design with four 250 kg ground bombs. Fixed problem with teething pains of N1K2 J at high altitude."
+      },
+      {
+        "name": "N1K2-K",
+        "description": "N1K2-K Shiden Kai Rensen 1, Model A: Fighter Trainer, modified from N1K-J Series with two seats, operative or factory conversions."
+      },
+      {
+        "name": "N1K3-J",
+        "description": "N1K3-J Shiden KAI 1, Model 31: Prototypes: Engines displaced to ahead, two 13.2 mm Type 3 machine guns in front, 2 built."
+      },
+      {
+        "name": "N1K3-A",
+        "description": "N1K3-A Shiden KAI 2, Model 41: Prototypes: Carrier-based version of N1K3-J, 2 built."
+      },
+      {
+        "name": "N1K4-J",
+        "description": "N1K4-J Shiden KAI 3, Model 32: Prototypes: 2,000 hp Homare 23 engine, 2 built."
+      },
+      {
+        "name": "N1K4-A",
+        "description": "N1K4-A Shiden KAI 4, Model 42: Prototype: Experimental conversion of N1K4-J example with equipment for use in carriers, 1 built."
+      },
+      {
+        "name": "N1K5-J",
+        "description": "N1K5-J Shiden KAI 5, Model 25: High-Altitude Interceptor version with Mitsubishi HA-43 (MK9A) with 2,200 takeoff hp, project only."
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-10 Army Type 95 Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Kawasaki_Ki-10",
+    "allied_code": "Perry",
+    "first_flown": 1935,
+    "number_built": 588,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "09fbf7e8284a52ac2daef4c61f404048",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-10",
+    "title": "Kawasaki Ki-10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ki-10_Kumagaya.jpg/300px-Ki-10_Kumagaya.jpg",
+    "image_local_name": "09fbf7e8284a52ac2daef4c61f404048.jpg",
+    "variants": [
+      {
+        "name": "Ki-10",
+        "description": "Ki-10 : Prototype for Imperial Japanese Army Air Force (4 built in early 1935)."
+      },
+      {
+        "name": "Ki-10-I",
+        "description": "Ki-10-I (Army Fighter Type 95-I): Initial production version (300 built December 1935 - October 1937)"
+      },
+      {
+        "name": "Ki-10-II",
+        "description": "Ki-10-II : Prototype of modified Mark I, increased in length (1 built May 1936)"
+      },
+      {
+        "name": "Ki-10-II ",
+        "description": "Ki-10-II  (Army Fighter Type 95–2): Improved production version (280 built June 1937 - December 1938)"
+      },
+      {
+        "name": "Ki-10-I KAI",
+        "description": "Ki-10-I KAI : Prototype Ki-10-I with modifications to engine and radiator (1 built October 1936)"
+      },
+      {
+        "name": "Ki-10-II KAI",
+        "description": "Ki-10-II KAI : Prototype - Aerodynamic modification of Ki-10-II, now designated Ki-10-I-KAI, with 634 kW (850 hp) Kawasaki Ha9-IIb engine (2 built November 1937)"
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-45 Toryu Army Type 2 Two-Seat Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Kawasaki_Ki-45",
+    "allied_code": "Nick",
+    "first_flown": 1941,
+    "number_built": 1370,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "f6a235f91255c394e1223a8db68fd0c9",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-45",
+    "title": "Kawasaki Ki-45",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ki_45_001.jpg/300px-Ki_45_001.jpg",
+    "image_local_name": "f6a235f91255c394e1223a8db68fd0c9.jpg",
+    "variants": [
+      {
+        "name": "Ki-45",
+        "description": "Prototype aircraft"
+      },
+      {
+        "name": "KI-45 Type 1",
+        "description": "Modified operative models"
+      },
+      {
+        "name": "Ki-45 KAI",
+        "description": "Prototype aircraft"
+      },
+      {
+        "name": "Ki-45 KAI",
+        "description": "Pre-series aircraft"
+      },
+      {
+        "name": "Ki-45 KAIa (ko/甲)",
+        "description": "Toryu: Two-seat fighter Type 2 of the army (Mark A) initial model of series, one 20 mm Ho-3 in ventral position, two Ho-103 12.7 mm in the nose and a flexible 7.92 mm in the back position"
+      },
+      {
+        "name": "Ki-45 KAIb (otsu/乙)",
+        "description": "retrofit version based on the KAIa, 20 mm belly cannon replaced by a 37 mm type 94 anti-tank gun"
+      },
+      {
+        "name": "Ki-45 KAIc (hei/丙)",
+        "description": "Mark C version against naval objectives, one 37 mm (1.46 in) Ho-203 automatic cannon in the nose, one 7.92 mm (.312 in) machine gun in the back position."
+      },
+      {
+        "name": "Ki-45 KAId (tei/丁)",
+        "description": "Mark D, a modified Model B, night fighter version, equipped with one 37 mm (1.46 in) Ho-203 cannon in nose and two fixed 20 mm Ho-5 cannons in a Schräge Musik-style dorsal frontal position, and one 7.92 mm (.312 in) Type 98 machine gun in the back position"
+      },
+      {
+        "name": "Ki-45 II",
+        "description": "Single-seat fighter prototype; later re-designated Ki-96"
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-61 Hien Army Type 3 Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Kawasaki_Ki-61",
+    "allied_code": "Tony",
+    "first_flown": 1943,
+    "number_built": 3159,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "8c8a9347f44ed82b147f4b794725df80",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-61",
+    "title": "Kawasaki Ki-61",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kawasaki_Ki-61-14.jpg/300px-Kawasaki_Ki-61-14.jpg",
+    "image_local_name": "8c8a9347f44ed82b147f4b794725df80.jpg",
+    "variants": [
+      {
+        "name": "Ki-61",
+        "description": "Ki-61 Prototypes: 12 built"
+      },
+      {
+        "name": "Ki-61-I-Ko",
+        "description": "Ki-61-I-Ko First production version: fully retractable tailwheel, two 7.7 mm (0.303 in) Type 89 machine guns in the wings and two synchronized 12.7 mm (0.50 in) Ho-103 machine guns in the forward decking. Capable of carrying one 151 L (40 gal) drop tank or a light bomb.[12]"
+      },
+      {
+        "name": "Ki-61-I-Otsu",
+        "description": "Ki-61-I-Otsu Second production fighter variant: Tailwheel retraction mechanism was unreliable, the aircraft was modified accordingly. Two 12.7 mm (.50 in) Ho-103 machine guns replaced the wing 7.7 mm (.303 in) machine guns.[12]"
+      },
+      {
+        "name": "Ki-61-I-Hei",
+        "description": "Ki-61-I-Hei: The Hei was built in conjunction with the Otsu variant, the wing machine guns were replaced by Mauser MG 151/20 cannons."
+      },
+      {
+        "name": "Ki-61-I-Tei",
+        "description": "Ki-61-I-Tei Fighter variant with two fuselage mounted Japanese 20 mm Ho-5 cannon and two 12.7 mm (.50 in) wing mounted Ho-103 machine guns."
+      },
+      {
+        "name": "Ki-61-I-KAId",
+        "description": "Ki-61-I-KAId: Interceptor variant with 2 × 12.7 mm (.50 in) machine guns and 2 × 30 mm (1.18 in) Ho-155 wing cannon."
+      },
+      {
+        "name": "Ki-61-I- w.c.e.s",
+        "description": "Ki-61-I- w.c.e.s: Experimental aircraft with evaporation system, as used on the Heinkel He 100. It was the fastest Ki-61 built, achieving 630 km/h (395 mph)."
+      },
+      {
+        "name": "Ki-61-II",
+        "description": "Ki-61-II Prototype with 1,500 PS (1,103 kW) Ha-140 engine and first flown in December 1943."
+      },
+      {
+        "name": "Ki-61-II-KAI",
+        "description": "Ki-61-II-KAI: Pre-production version which reverted to the Ki-61-I-Tei wing, a 220 mm (8.7 in) fuselage stretch, enlarged rudder, and Ha-140 engine; 30 built."
+      },
+      {
+        "name": "Ki-61-II-KAIa",
+        "description": "Ki-61-II-KAIa: Armed with 2 x 12.7 mm (.50 in) machine guns in the wings and 2 x 20 mm cannon in the fuselage."
+      },
+      {
+        "name": "Ki-61-II-KAIb",
+        "description": "Ki-61-II-KAIb: Armed with 4 x 20 mm cannon."
+      },
+      {
+        "name": "Ki-61-III",
+        "description": "Ki-61-III Prototype: This version had a cut-down rear fuselage and a canopy design which was later used by the Ki-100-I-Otsu"
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-100 Goshikisen Army Type 5 Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Kawasaki_Ki-100",
+    "allied_code": "n/a",
+    "first_flown": 1945,
+    "number_built": 395,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "c82a2d7f8a2cab40073b04bf25de0dc8",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-100",
+    "title": "Kawasaki Ki-100",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ki-100-RAF-side.jpg/300px-Ki-100-RAF-side.jpg",
+    "image_local_name": "c82a2d7f8a2cab40073b04bf25de0dc8.jpg",
+    "variants": [
+      {
+        "name": "Ki-100",
+        "description": "Ki-100 (prototypes): Kawasaki Ki-61 II KAI modified with a radial engine. 3 converted from Ki-61s."
+      },
+      {
+        "name": "Ki-100-I-Ko",
+        "description": "Ki-100-I-Ko: initial production variant, modified from Ki-61 II KAI. 271 converted from Ki-61s."
+      },
+      {
+        "name": "Ki-100-I-Otsu",
+        "description": "Ki-100-I-Otsu: improved canopy and cut down rear fuselage. 118 built."
+      },
+      {
+        "name": "Ki-100-II",
+        "description": "Ki-100-II (prototypes): powered with a 1,120 kW (1,500 hp) Mitsubishi Ha-112-II Ru fitted with a turbocharger. 3 built."
+      },
+      {
+        "name": "Army Fighter Type 5 Mark Ia",
+        "description": "Army Fighter Type 5 Mark Ia: IJA designation for Ki-100-I-Ko"
+      },
+      {
+        "name": "Army Fighter Type 5 Mark Ib",
+        "description": "Army Fighter Type 5 Mark Ib: IJA designation for Ki-100-I-Otsu"
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-102 Army Type 4 Assault Aircraft",
+    "category": "Fighters",
+    "path": "/wiki/Kawasaki_Ki-102",
+    "allied_code": "Randy",
+    "first_flown": 1944,
+    "number_built": 238,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "4327859cf1010025ba9c1b072d94f01c",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-102",
+    "title": "Kawasaki Ki-102",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kawasaki_KI-102b_heavy_fighter.jpg/300px-Kawasaki_KI-102b_heavy_fighter.jpg",
+    "image_local_name": "4327859cf1010025ba9c1b072d94f01c.jpg",
+    "variants": [
+      {
+        "name": "Ki-102",
+        "description": "prototypes, three built"
+      },
+      {
+        "name": "Ki-102 Kō",
+        "description": "Externally similar to the Ki-102 Otsu, but with turbosuperchargers that enabled the engines to maintain their rating at higher altitudes. The 57 mm (2.24 in) cannon was swapped in favor of a 37 mm (1.46 in) cannon, and the 12.7 mm (.50 in) rear gun was deleted, 26 built."
+      },
+      {
+        "name": "Ki-102 Otsu",
+        "description": "Ground-attack variant similar to prototypes, except with revised tail wheel, 207 built"
+      },
+      {
+        "name": "Ki-102 Hei",
+        "description": "Night fighter version with lengthened fuselage and span. Radar under a Plexiglas dome, oblique-firing 20 mm cannons, and the 20 mm cannons in the belly replaced with 30 mm (1.18 in) cannons in Schräge Musik behind the cockpit, two built."
+      },
+      {
+        "name": "Ki-108",
+        "description": "High-altitude fighter prototype with pressurised cabin, two conversions from Ki-102 Otsu aircraft using the structural improvements used on the Ki-102 Hei."
+      },
+      {
+        "name": "Ki-108 Kai",
+        "description": "Improved version of the Ki-108 with longer fuselage and enlarged wings. Two built."
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi A5M Navy Type 96 Carrier-based Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Mitsubishi_A5M",
+    "allied_code": "Claude",
+    "first_flown": 1937,
+    "number_built": 1094,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "0af66229ab1cd584e77d1cdfd1c56a5e",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_A5M",
+    "title": "Mitsubishi A5M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/A5M_Claude.jpg/300px-A5M_Claude.jpg",
+    "image_local_name": "0af66229ab1cd584e77d1cdfd1c56a5e.jpg",
+    "variants": [
+
+    ]
+  },
+  {
+    "name": "Mitsubishi A6M Zero-Sen Navy Type Zero Carrier Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Mitsubishi_A6M_Zero",
+    "allied_code": "Zeke/Hamp",
+    "first_flown": 1940,
+    "number_built": 10939,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "40fb0b58fa332e223683f477e048b70d",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero",
+    "title": "Mitsubishi A6M Zero",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/A6M3_Zero_N712Z_1.jpg/300px-A6M3_Zero_N712Z_1.jpg",
+    "image_local_name": "40fb0b58fa332e223683f477e048b70d.jpg",
+    "variants": [
+
+    ]
+  },
+  {
+    "name": "Mitsubishi A7M Reppū Navy Carrier-based Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Mitsubishi_A7M",
+    "allied_code": "Sam",
+    "first_flown": 1944,
+    "number_built": 10,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "e5066e2fb15de42687a06452e03d72fd",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_A7M",
+    "title": "Mitsubishi A7M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mitsubishi_A7M2_in_a_hangar%2C_circa_in_late_1945_%2880-G-193473%29.jpg/300px-Mitsubishi_A7M2_in_a_hangar%2C_circa_in_late_1945_%2880-G-193473%29.jpg",
+    "image_local_name": "e5066e2fb15de42687a06452e03d72fd.jpg",
+    "variants": [
+      {
+        "name": "A7M1 Reppū",
+        "description": "First prototype powered by a 2,000 hp (1,500 kW) Nakajima Homare 22 engine, with a maximum speed of 574 km/h (356 mph). The armament consisted of two 13.2 mm (.52 in) Type 3 machine guns and two 20 mm (.80 in) Type 99 cannons in the wings. While featuring excellent manoeuvrability, the A7M1's Homare engine left it underpowered which resulted in its cancellation. Eight built."
+      },
+      {
+        "name": "A7M2 Reppū",
+        "description": "Revised version powered by a 2,200 hp (1,600 kW) Mitsubishi Ha-43 engine, with a maximum speed of 627 km/h (389 mph). Armament the same as previous model, or four 20 mm (.80 in) Type 99 cannons. The A7M2 was to be the main production aircraft of the A7M series. Three were converted from A7M1. One massproduction type under assembling at the end of the war."
+      },
+      {
+        "name": "A7M3 Reppū",
+        "description": "Proposed land-based fighter version powered by a 2,250 hp (1,680 kW) mechanically driven three-speed supercharged Mitsubishi Ha-43 engine, with a maximum speed of 642 km/h (398 mph). The armament consisted of six 20 mm (.80 in) Type 99 cannons in the wings. Prototype under construction but was incomplete prior to end of war."
+      },
+      {
+        "name": "A7M3-J Reppū-Kai",
+        "description": "Proposed land-based interceptor version powered by a 2,200 hp (1,600 kW) turbo-supercharged Mitsubishi Ha-43 engine including an inter-cooler, with a maximum speed of 648 km/h (402 mph). The armament consisted of six 30 mm (1.20 in) Type 5 cannons, four wing-mounted & two oblique fuselage-mounted. Full-scale mock-up built, but no prototype."
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi J2M Raiden Navy Interceptor Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Mitsubishi_J2M",
+    "allied_code": "Jack",
+    "first_flown": 1942,
+    "number_built": 621,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "b09789c0676f4db31dec69bc5c1a226c",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_J2M",
+    "title": "Mitsubishi J2M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mitsubishi_J2M.JPG/300px-Mitsubishi_J2M.JPG",
+    "image_local_name": "b09789c0676f4db31dec69bc5c1a226c.jpg",
+    "variants": [
+      {
+        "name": "J2M1",
+        "description": "J2M1 Prototype: fitted with the 1,044 kW (1,400 hp) Mitsubishi MK4C Kasei 13 14-cylinder air-cooled radial engine, and armed with two 7.7 mm (.303 in) Type 97 machine guns in the upper fuselage and two wing-mounted 20 mm Type 99 Model II cannon. - Eight builds."
+      },
+      {
+        "name": "J2M2 Model 11",
+        "description": "J2M2 Model 11: Powered by 1,379 kW (1,850 hp) Mitsubishi MK4R-A Kasei 23a 14-cylinder radial engine, same armament as the J2M1."
+      },
+      {
+        "name": "J2M3 Model 21",
+        "description": "J2M3 Model 21: Armed with two wing-mounted 20 mm Type 99 Model II cannon and two wing-mounted 20 mm Type 99 Model I cannon."
+      },
+      {
+        "name": "J2M3a Model 21A",
+        "description": "J2M3a Model 21A: Armed with four wing-mounted 20 mm Type 99 Model II cannon."
+      },
+      {
+        "name": "J2M4 Model 32",
+        "description": "J2M4 Model 32: Prototype fitted with the 1,357 kW (1,820 hp) Mitsubishi MK4R-C Kasei 23c engine. Many armament configurations have been reported, e.g., fuselage-mounted oblique-firing 20 mm Type 99 Model I cannon designed to fire upward as it passed underneath a bomber, two wing-mounted 20 mm Type 99 Model II cannon, and two wing-mounted 20 mm Type 99 Model I cannon. Problems with turbocharger; only two experimental versions were built."
+      },
+      {
+        "name": "J2M5 Model 33",
+        "description": "J2M5 Model 33: High altitude variant powered by 1,357 kW (1,820 hp) Mitsubishi MK4U-A Kasei 26a engine with mechanically driven supercharger, giving increased high-altitude speed at the expense of range. Two 20 mm Type 99 cannon in fuselage, two 20 mm Type 99 Model II cannon in wings.[4]"
+      },
+      {
+        "name": "J2M5a Model 33A",
+        "description": "J2M5a Model 33A: Armed with four wing-mounted 20 mm Type 99 Model II cannon. Wing cannon were harmonized in trajectory and ballistics with each 200 rpg."
+      },
+      {
+        "name": "J2M6 Model 31",
+        "description": "J2M6 Model 31: Chronologically earlier than J2M4 and J2M5 this version was based on J2M3. Had wider cockpit and improved bubble canopy later used in J2M3 built since July 1943."
+      },
+      {
+        "name": "J2M6a Model 31A",
+        "description": "J2M6a Model 31A: Chronologically earlier than J2M4 and J2M5 this version was based on J2M3a. Had wider cockpit and improved bubble canopy later used in J2M3a built since July 1943. One J2M6a was built."
+      },
+      {
+        "name": "J2M7 Model 23A",
+        "description": "J2M7 Model 23A: J2M3 powered by Kasei 26a engine, a few built."
+      },
+      {
+        "name": "J2M7a Model 23A",
+        "description": "J2M7a Model 23A: J2M3a powered by Kasei 26a engine, a few built."
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi Ki-46-III-Kai Army Type 100 Air Defence Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Mitsubishi_Ki-46",
+    "allied_code": "Dinah",
+    "first_flown": 1941,
+    "number_built": 1742,
+    "services": [
+      "IJA",
+      "IJN"
+    ],
+    "uuid": "2e090e977e02b0b90915b7317b3c7d3f",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
+    "title": "Mitsubishi Ki-46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ki-46_100sitei.jpg/300px-Ki-46_100sitei.jpg",
+    "image_local_name": "2e090e977e02b0b90915b7317b3c7d3f.jpg",
+    "variants": [
+      {
+        "name": "Army Type 100 Command Reconnaissance Plane",
+        "description": "The Shiki designation for the Ki-46 Command Reconnaissance Plane"
+      },
+      {
+        "name": "Army Type 100 Air Defence Fighter",
+        "description": "The Shiki designation for the Ki-46 Interceptor Fighter"
+      },
+      {
+        "name": "Army Type 100 Assault Plane",
+        "description": "The Shiki designation for the Ki-46 Assault Plane"
+      },
+      {
+        "name": "Ki-46",
+        "description": "Prototype."
+      },
+      {
+        "name": "Ki-46 I",
+        "description": "Reconnaissance version of the Ki-46."
+      },
+      {
+        "name": "Ki-46 II",
+        "description": "The first operational model of the series."
+      },
+      {
+        "name": "Ki-46 II KAI",
+        "description": "Three-seat training version of the Ki-46. Used for radio and navigation training, with a redesigned cabin, dorsal en echelon extension. Conversions of the Ki-46 II."
+      },
+      {
+        "name": "Ki-46 III",
+        "description": "\"Traditional\" stepped windshield replaced with a smooth, curved, glazed panel extended over the pilot's seat giving a more aerodynamic nose profile. Engine power increased to 1,500 hp (Ha-112-II), extra fuel tank added in the nose."
+      },
+      {
+        "name": "Ki-46 III-KAI",
+        "description": "Defense interceptor/night fighter version of the Ki-46. Equipped with two 20 mm cannon in the nose and one 37 mm (1.46 in) cannon in the \"Schräge Musik\"-style upwards-aimed dorsal frontal position."
+      },
+      {
+        "name": "Ki-46 III",
+        "description": "Land strike version of the Ki-46, without 37 mm (1.46 in) cannon armament."
+      },
+      {
+        "name": "Ki-46 IIIb",
+        "description": "Ground-attack version."
+      },
+      {
+        "name": "Ki-46 IIIc",
+        "description": "Unbuilt design project."
+      },
+      {
+        "name": "Ki-46 IV",
+        "description": "Prototype, equipped with two turbocharged 1,119 kW (1,500 hp) Mitsubishi Ha-112-IIru engines, and more fuel capacity."
+      },
+      {
+        "name": "Ki-46 IVa/b",
+        "description": "Series models of reconnaissance/fighter aircraft, unbuilt design projects"
+      }
+    ]
+  },
+  {
+    "name": "Nakajima A6M2-N Navy Type 2 Interceptor/Fighter-Bomber",
+    "category": "Fighters",
+    "path": "/wiki/Nakajima_A6M2-N",
+    "allied_code": "Rufe",
+    "first_flown": 1941,
+    "number_built": 327,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "839cb0259dfd68e51445995a3136be94",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_A6M2-N",
+    "title": "Nakajima A6M2-N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/A6M2-N_Rufe.jpg/300px-A6M2-N_Rufe.jpg",
+    "image_local_name": "839cb0259dfd68e51445995a3136be94.jpg"
+  },
+  {
+    "name": "Nakajima J1N1-S Gekko",
+    "category": "Fighters",
+    "path": "/wiki/Nakajima_J1N",
+    "allied_code": "Irving",
+    "first_flown": 1941,
+    "number_built": 479,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "d946df437755f9151345f9f03efd9c49",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
+    "title": "Nakajima J1N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/J1N-7s.jpg/300px-J1N-7s.jpg",
+    "image_local_name": "d946df437755f9151345f9f03efd9c49.jpg",
+    "variants": [
+      {
+        "name": "J1N1",
+        "description": "J1N1 : Three seaters long-range fighter. Two of prototypes and seven of supplementary prototypes."
+      },
+      {
+        "name": "J1N1 KAI",
+        "description": "J1N1 KAI : Night Fighter converted from J1N1."
+      },
+      {
+        "name": "J1N1-CJ1N1-R",
+        "description": "J1N1-C : Long-range reconnaissance aircraft. Later re-designated J1N1-R."
+      },
+      {
+        "name": "J1N1-C KAI",
+        "description": "J1N1-C KAI : Night Fighter converted from J1N1-C."
+      },
+      {
+        "name": "J1N1-R",
+        "description": "J1N1-R : Long-range reconnaissance aircraft."
+      },
+      {
+        "name": "J1N1-F",
+        "description": "J1N1-F : Observation aircraft. A little number of prototypes only. Equipped G5N2 turret or G4M2 turret."
+      },
+      {
+        "name": "J1N1-S",
+        "description": "J1N1-S : Night fighter aircraft. Armed with 2 × 20 mm forward up-firing Type 99 cannons and 2 × 20 mm forward under-firing Type 99 cannons."
+      },
+      {
+        "name": "J1N1-Sa",
+        "description": "J1N1-Sa : Night Fighter same as above, armed with 3 × 20 mm forward up-firing Type 99 cannons."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima Ki-27 Army Type 97 Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Nakajima_Ki-27",
+    "allied_code": "Nate",
+    "first_flown": 1937,
+    "number_built": 3368,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "fdcb2fdac1b220cc4a5e522209b6732d",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-27",
+    "title": "Nakajima Ki-27",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ki-27_2.jpg/300px-Ki-27_2.jpg",
+    "image_local_name": "fdcb2fdac1b220cc4a5e522209b6732d.jpg",
+    "variants": [
+      {
+        "name": "Nakajima Army Type 97 Fighter",
+        "description": "Long Army designation for the Ki-27"
+      },
+      {
+        "name": "Nakajima Type PE",
+        "description": "Private-venture experimental aircraft with Nakajima Ha1a engine."
+      },
+      {
+        "name": "Nakajima Ki-27",
+        "description": "Prototype version with armament in response to IJAAF specs, two aircraft built."
+      },
+      {
+        "name": "Nakajima Ki-27-Kai Prototype",
+        "description": "Pre-production units with armament and heavier Nakajima Ha1b engine, 10 aircraft built."
+      },
+      {
+        "name": "Ki-27a",
+        "description": "First production version. Approximately 565 aircraft built."
+      },
+      {
+        "name": "Ki-27a-Kai",
+        "description": "Trainer version converted from existing production. Approximately 150 aircraft converted."
+      },
+      {
+        "name": "Ki-27b (Army Type 97b Fighter)",
+        "description": "Improved canopy, oil cooler and provision for 4 × 25 kg (55 lb) bombs or fuel tanks under the wings. A total of 1,492 built, including 50 by Tachikawa Aircraft Company Ltd."
+      },
+      {
+        "name": "Ki-27b-Kai",
+        "description": "Trainer version converted from existing production. Approximately 225 aircraft converted."
+      },
+      {
+        "name": "Nakajima Ki-27-Kai",
+        "description": "Experimental lightened version developed as an interim solution when Ki-43 development was delayed, top speed 475 km/h (295 mph); two aircraft built[15])."
+      },
+      {
+        "name": "Mansyū Ki-79",
+        "description": "Trainer version, built by Manshūkoku Hikōki Seizo KK with a 510 hp Hitachi Ha.13a-I or Ha.13a-III engine. A total of 1,329 aircraft built in four sub-versions (The single seat Ki-79a (Ha.13a-I) and Ki-79c (Ha.13a-III) and the two-seat Ki-79b (Ha.13a-I) and Ki-79d (Ha.13a-III)[16][17])."
+      },
+      {
+        "name": "Mansyū Army Type 2 Advanced Trainer",
+        "description": "Long Army designation for the Mansyū Ki-79"
+      }
+    ]
+  },
+  {
+    "name": "Nakajima Ki-43 Hayabusa Army Type 1 Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Nakajima_Ki-43",
+    "allied_code": "Oscar",
+    "first_flown": 1939,
+    "number_built": 5919,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "f25728f0d7e694c1ec1a430d6792ff7b",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-43",
+    "title": "Nakajima Ki-43 Hayabusa",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Nakajima_Ki-43-IIa.jpg/300px-Nakajima_Ki-43-IIa.jpg",
+    "image_local_name": "f25728f0d7e694c1ec1a430d6792ff7b.jpg",
+    "variants": [
+
+    ]
+  },
+  {
+    "name": "Nakajima Ki-44 Shoki Army Type 2 Single-Seat Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Nakajima_Ki-44",
+    "allied_code": "Tojo",
+    "first_flown": 1941,
+    "number_built": 1225,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "e616adcad7e8cb71640011378407cc91",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-44",
+    "title": "Nakajima Ki-44",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg/300px-Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg",
+    "image_local_name": "e616adcad7e8cb71640011378407cc91.jpg",
+    "variants": [
+      {
+        "name": "Ki-44",
+        "description": "First prototype (s/n 4401) with Ha-41 engine with a complex cooling system, unique for the first prototype."
+      },
+      {
+        "name": "Ki-44",
+        "description": "Nine pre-production aircraft (s/n 4402-4410), the first of which were quite different than the later ones. These aircraft were used for combat evaluation with the 47th Independent Fighter Chutai at the start of the Pacific War. Their armament consisted of two 7.7 mm (.303 in) Type 89 machine guns in the nose and two 12.7 mm (.50 in) Ho-103 machine guns in the wings. Type 89 telescopic gunsight protruding through the windscreen. Provision for a single drop tank under the fuselage centre line or two drop tanks under the wings. Recognisable by their pointed spinner caps."
+      },
+      {
+        "name": "Ki-44-I",
+        "description": "Powered by a 930 kW (1,250 hp) Nakajima Ha-41 engine with annular oil cooler, with a maximum speed of 580 km/h (363 mph). Armament and gunsight were unchanged from the pre-production models. Provision for two drop tanks under the wings. Rounded spinner caps with provision for Hucks starter. Late models had external fuel coolers. Forty produced (s/n 111-150)."
+      },
+      {
+        "name": "Ki-44-II Ko (Ki-44-IIa)",
+        "description": "Powered by a 1,074 kW (1,440 hp) Nakajima Ha-109 engine with external oil cooler and a top speed of 604 km/h (378 mph). Armament, gunsight and drop tank provision as for Ki-44-I. Rectangular cockpit access doors replaced the rounded version of earlier models. 355 produced (s/n 1001-1355)."
+      },
+      {
+        "name": "Ki-44-II Otsu (Ki-44-IIb)",
+        "description": "Standard armament reduced to just two 12.7 mm (.50 in) Ho-103 machine guns in the nose. Optional provision for two 40 mm (1.57 in) Ho-301 cannons in the wings. These were not always installed due to disappointing combat results and were sometimes replaced with two 12.7 mm (.50 in) Ho-103 machine guns. This variant retained the Type 89 telescopic gunsight as standard. 394 produced (s/n 1356-1749)."
+      },
+      {
+        "name": "Ki-44-II Hei (Ki-44-IIc)",
+        "description": "Standard armament of four 12.7 mm (.50 in) Ho-103 machine guns, two in the nose and two in the wings. Type 100 reflector gunsight mounted as standard. 427 produced (s/n 1750-2176)."
+      },
+      {
+        "name": "Ki-44-III",
+        "description": "A single prototype built, powered by a Ha-145 two-row 18-cylinder engine of 1,491 kW (2,000 hp)."
+      },
+      {
+        "name": "Ki-44-III Ko (Ki-44-IIIa)",
+        "description": "Proposed variant with an armament of four 20 mm Ho-5 cannons."
+      },
+      {
+        "name": "Ki-44-III Otsu (Ki-44-IIIb)",
+        "description": "Proposed variant with armament of two 20 mm Ho-5 cannons and two 37 mm (1.46 in) Ho-203 cannons."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima Ki-84 Hayate Army Type 4 Fighter",
+    "category": "Fighters",
+    "path": "/wiki/Nakajima_Ki-84",
+    "allied_code": "Frank",
+    "first_flown": 1943,
+    "number_built": 3514,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "40e5330f93ceec7576230d897c7ca30a",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-84",
+    "title": "Nakajima Ki-84",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nakajima_Ki84_Hayate_N3385G_ONT_18.10.70_edited-3.jpg/300px-Nakajima_Ki84_Hayate_N3385G_ONT_18.10.70_edited-3.jpg",
+    "image_local_name": "40e5330f93ceec7576230d897c7ca30a.jpg",
+    "variants": [
+      {
+        "name": "Ki-84-a",
+        "description": "Ki-84-a: Prototype."
+      },
+      {
+        "name": "Ki-84-b",
+        "description": "Ki-84-b: Evaluation model."
+      },
+      {
+        "name": "Ki-84-c",
+        "description": "Ki-84-c: Pre-production model."
+      },
+      {
+        "name": "Ki-84-I Ko",
+        "description": "Ki-84-I Ko: Armed with 2 × 12.7 mm Ho-103 machine guns and 2 × 20mm Ho-5 cannons in wings (most widely produced version)."
+      },
+      {
+        "name": "Ki-84-I Otsu",
+        "description": "Ki-84-I Otsu: Armed with 4 × 20 mm Ho-5 cannon. (Limited production run, may not have equipped a full Sentai)"
+      },
+      {
+        "name": "Ki-84-I Hei",
+        "description": "Ki-84-I Hei: Armed with 2 × 20 mm Ho-5 cannon and 2 × 30 mm Ho-155 cannon in wings."
+      },
+      {
+        "name": "Ki-84-I Tei",
+        "description": "Ki-84-I Tei: Night fighter variant of Ki-84 Otsu. Equipped with an additional Ho-5 20mm cannon (300 shells) placed at 45 degree angle behind the cockpit in Schräge Musik configuration. Rare variant, 2 built."
+      },
+      {
+        "name": "Ki-84-I Ko - Manshu Type",
+        "description": "Ki-84-I Ko - Manshu Type: Manufactured in Manchukuo for Manshūkoku Hikōki Seizo KK by Nakajima License."
+      },
+      {
+        "name": "Ki-84-II",
+        "description": "Ki-84-II: Sometimes known as the 'Hayate-Kai', the Ki-84-II had certain duralumin components replaced with ones made of wood and plywood, mainly concerning the rear fuselage, tail unit elements, wing tips, push-pull rods and other, minor components. This model was produced with the designations Ko, Otsu and Hei depending on the armament."
+      },
+      {
+        "name": "Ki-84-III",
+        "description": "Ki-84-III: A planned conversion of the Ki-84 into a high-attitude interceptor after development of the Ki-87 prototype was delayed. Replaced the Homare engine with a 2450 hp Nakajima Ha-44 12 Ru air cooled radial engine with a turbo-supercharger mounted under the fuselage. The airframe remained unchanged, aside from the engine mountings to support the larger diameter engine. The airplane did not progress beyond the design stage."
+      },
+      {
+        "name": "Ki-84 Sa Go",
+        "description": "Ki-84 Sa Go: Oxygen injection system replacing the traditional water-methanol injection system to improve high attitude performance. No prototypes were built."
+      },
+      {
+        "name": "Ki-84-N",
+        "description": "Ki-84-N: 1st high-altitude interceptor variant of the Ki-84, with a 2500 hp Nakajima Ha-219 air cooled radial engine and with wing area increased to 249.19 square feet. The Ki-84-N production model was assigned to the Kitai 'Ki-117'. Neither aircraft left the design stage before the war's end."
+      },
+      {
+        "name": "Ki-84-P",
+        "description": "Ki-84-P: 2nd high-altitude interceptor variant of the Ki-84, with a 2500 hp Nakajima Ha-219 air cooled radial engine and with wing area increased to 263.4 square feet. Cancelled in favor of further development of the Ki-84-R, which was proving to be a less ambitious project."
+      },
+      {
+        "name": "Ki-84-R",
+        "description": "Ki-84-R: 3rd high-altitude interceptor variant of the Ki-84, with a 2000 hp Nakajima Ha-45-44 with a mechanically driven two-stage three-speed supercharger. The prototype was 80% completed at war's end."
+      },
+      {
+        "name": "Ki-106",
+        "description": "Ki-106: Prototype, constructed mainly out of wood. 3 Built."
+      },
+      {
+        "name": "Ki-113",
+        "description": "Ki-113: Based on the Ki-84 Otsu, with certain steel components on different areas of the aircraft. The project was an attempt to sustain light alloys, which were becoming very scarce later in the war. It employed steel sheet skinning and the cockpit section, ribs, and bulkheads were made of carbon steel."
+      },
+      {
+        "name": "Ki-116",
+        "description": "Ki-116: Evaluation model, equipped with a Mitsubishi Ha-112-II (Ha-33-62), 1,120 kW (1,500 hp). 1 Built."
+      },
+      {
+        "name": "Ki-117",
+        "description": "Ki-117: Production designation of the Ki-84N."
+      }
+    ]
+  },
+  {
+    "name": "Aichi D3A Navy Type 99 Carrier Bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Aichi_D3A",
+    "allied_code": "Val",
+    "first_flown": 1940,
+    "number_built": 1486,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "700b7a3089c2fcfe092ebba221d7c9c9",
+    "url": "https://en.wikipedia.org/wiki/Aichi_D3A",
+    "title": "Aichi D3A",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/D3A1_Akagi.jpg/300px-D3A1_Akagi.jpg",
+    "image_local_name": "700b7a3089c2fcfe092ebba221d7c9c9.jpg"
+  },
+  {
+    "name": "Aichi B7A Ryusei Navy carrier torpedo bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Aichi_B7A",
+    "allied_code": "Grace",
+    "first_flown": 1942,
+    "number_built": 114,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "7c698e1440838dc1b20c18ad1b61d217",
+    "url": "https://en.wikipedia.org/wiki/Aichi_B7A",
+    "title": "Aichi B7A",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Aichi_B7A_Ryusei.jpg/300px-Aichi_B7A_Ryusei.jpg",
+    "image_local_name": "7c698e1440838dc1b20c18ad1b61d217.jpg",
+    "variants": [
+      {
+        "name": "B7A1",
+        "description": "One prototype and eight supplementary prototypes."
+      },
+      {
+        "name": "B7A2",
+        "description": "Two-seat torpedo-dive bomber aircraft for the Imperial Japanese Navy; 105 built.[8]"
+      },
+      {
+        "name": "B7A2 Experimental",
+        "description": "One aircraft fitted with a 1,491 kW (2,000 hp) Nakajima Homare 23 radial engine."
+      },
+      {
+        "name": "B7A3",
+        "description": "Proposed version with a 1641 kW (2,200 hp) Mitsubishi MK9A (Ha-43). Not built."
+      }
+    ]
+  },
+  {
+    "name": "Aichi M6A1 Seiran Navy Special Strike Submarine Bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Aichi_M6A",
+    "allied_code": "n/a",
+    "first_flown": 1943,
+    "number_built": 28,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "f447b8e50085f21ac9f55ef5346e8dcd",
+    "url": "https://en.wikipedia.org/wiki/Aichi_M6A",
+    "title": "Aichi M6A",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/M6A1.jpg/300px-M6A1.jpg",
+    "image_local_name": "f447b8e50085f21ac9f55ef5346e8dcd.jpg",
+    "variants": [
+      {
+        "name": "M6A1",
+        "description": "Prototypes powered by Atsuta 30 or 31 1,044 kW (1,400 hp) engine and removable floats, 8 built."
+      },
+      {
+        "name": "M6A1 Seiran (Shisei-Seiran)",
+        "description": "Special Attack Bomber, 18 built.[22]"
+      },
+      {
+        "name": "M6A1-K Nanzan (南山, \"South Mountain\")('Shisei-Seiran Kai)",
+        "description": "Prototypes of training version, retractable wheeled landing gear, 2 built."
+      },
+      {
+        "name": "M6A2",
+        "description": "Prototype modification, powered by Mitsubishi Kinsei MK8P 62 1,163 kW (1,560 hp) engine, 1 built[23]"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi Ki-15 Army Type 97 Command Reconnaissance Plane",
+    "category": "Attack aircraft",
+    "path": "/wiki/Mitsubishi_Ki-15",
+    "allied_code": "Babs",
+    "first_flown": 1936,
+    "number_built": 500,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "0b78a524c0822a3db0c5738d92935131",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-15",
+    "title": "Mitsubishi Ki-15",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ki-15-2.jpg/300px-Ki-15-2.jpg",
+    "image_local_name": "0b78a524c0822a3db0c5738d92935131.jpg",
+    "variants": [
+      {
+        "name": "Karigane I",
+        "description": "Karigane I : Prototype version for civilian use"
+      },
+      {
+        "name": "Ki-15-I (Army Type 97 Command Reconnaissance Aircraft Model 1)",
+        "description": "Ki-15-I (Army Type 97 Command Reconnaissance Aircraft Model 1) : Initial production variant for the Japanese Army, with Nakajima Ha-8 (Army Type 94) 640 hp at take-off, 900 hp at 11,810 ft (3,600 m)"
+      },
+      {
+        "name": "Ki-15-II (Army Type 97 Command Reconnaissance Model 2)",
+        "description": "Ki-15-II (Army Type 97 Command Reconnaissance Model 2) : Improved Army production version with smaller, more powerful engine 14-cylinder Mitsubishi Ha-25-I (Army Type 99 Model 1), with 850 hp at take-off, 900 hp at 11,810 ft. This gave an increased maximum speed of 317 mph at 14,205 ft (510 km/h at 4,300 m), roughly comparable with fighters like Hawker Hurricane or the Nakajima Ki-43 Hayabusa. Rate of climb was even more improved: 16,405 ft (5,000 m) in 6 min 49 sec (6,83 min), and was achieved despite the increase in weight (empty, normal, max: 3,510 vs 3,084 lb, normal 4,826 vs 4,482 and max 5,470 vs 5,071 lb). Maiden flight in June 1938, production started in September 1939[7]"
+      },
+      {
+        "name": "Ki-15-III ",
+        "description": "Ki-15-III  : Proposed upgraded version; did not enter production. It had the Mitsubishi Ha-102 engine (1,080 hp (810 kW) at take-off, 1,055 hp (787 kW) at 9,185 ft (2,800 m) and 950 hp (710 kW) at 19,030 ft (5,800 m)), with a top speed of 329 mph (530 km/h), roughly the same as Ki-46 \"Dinah\".  The latter was expected to be far better in other ways (endurance, two engines, etc.) so this Ki-15 version never went into production"
+      },
+      {
+        "name": "C5M1 (Navy Type 98 Reconnaissance Aircraft Model I)",
+        "description": "C5M1 (Navy Type 98 Reconnaissance Aircraft Model I) : Improved version of Ki-15-I for the Japanese Navy"
+      },
+      {
+        "name": "C5M2 (Navy Type 98 Reconnaissance Aircraft Model 2)",
+        "description": "C5M2 (Navy Type 98 Reconnaissance Aircraft Model 2) : Upgraded version of C5M1 with more powerful engine for the Japanese Navy"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi Ki-51 Army Type 99 Assault Plane",
+    "category": "Attack aircraft",
+    "path": "/wiki/Mitsubishi_Ki-51",
+    "allied_code": "Sonia",
+    "first_flown": 1939,
+    "number_built": 2385,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "a457477dffff694f40744fd288ea8228",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-51",
+    "title": "Mitsubishi Ki-51",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mitsubishi_Ki-51-1.jpg/300px-Mitsubishi_Ki-51-1.jpg",
+    "image_local_name": "a457477dffff694f40744fd288ea8228.jpg",
+    "variants": [
+      {
+        "name": "Prototypes",
+        "description": "Prototypes: two built"
+      },
+      {
+        "name": "Service trials",
+        "description": "Service trials: 11 built"
+      },
+      {
+        "name": "Ki-51",
+        "description": "Ki-51: 2,372 built (Manufacturers: Mitsubishi (1,462), Tachikawa Army Air Arsenal (913)) until March 1944"
+      },
+      {
+        "name": "Ki-51A",
+        "description": "Ki-51A: reconnaissance version."
+      },
+      {
+        "name": "Ki-51B",
+        "description": "Ki-51B: assault version with armor and bomb racks to carry 200 kg (441 lb) of bombs. It could also be fitted with an aerial camera."
+      },
+      {
+        "name": "Mansyu Ki-71",
+        "description": "Mansyu Ki-71: three prototypes built by Mansyu with retractable landing gear, did not enter production.[3]"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi B5M Navy Type 97 No.2 Carrier Attack Bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Mitsubishi_B5M",
+    "allied_code": "Mabel",
+    "first_flown": 1937,
+    "number_built": 125,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "f9b5b41561fe7e4ec89dd56e6c1590f9",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_B5M",
+    "title": "Mitsubishi B5M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B5M_Type_97_Carrier_Attack_Bomber_Mabel_B5M-11.jpg/300px-B5M_Type_97_Carrier_Attack_Bomber_Mabel_B5M-11.jpg",
+    "image_local_name": "f9b5b41561fe7e4ec89dd56e6c1590f9.jpg",
+    "variants": [
+      {
+        "name": "B5M1",
+        "description": "B5M1:Three-seat attack aircraft for the Imperial Japanese Navy."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima B5N Navy Type 97 Carrier Attack Bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Nakajima_B5N",
+    "allied_code": "Kate",
+    "first_flown": 1937,
+    "number_built": 1150,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "b97b4a858b171b32fe64d58a001cd239",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_B5N",
+    "title": "Nakajima B5N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Nakajima_B5N.jpg/300px-Nakajima_B5N.jpg",
+    "image_local_name": "b97b4a858b171b32fe64d58a001cd239.jpg",
+    "variants": [
+      {
+        "name": "Type K",
+        "description": "Type K:Prototype."
+      },
+      {
+        "name": "B5N1",
+        "description": "B5N1:First production model."
+      },
+      {
+        "name": "B5N1-K",
+        "description": "B5N1-K:Many B5N1s were converted into advanced training aircraft."
+      },
+      {
+        "name": "B5N2",
+        "description": "B5N2:Improved version."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima B6N Tenzan Navy Carrier Torpedo Bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Nakajima_B6N",
+    "allied_code": "Jill",
+    "first_flown": 1941,
+    "number_built": 1268,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "c0bde204d6c836a2da3ec5c4adbf7654",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_B6N",
+    "title": "Nakajima B6N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/B6N_in_flight.jpg/300px-B6N_in_flight.jpg",
+    "image_local_name": "c0bde204d6c836a2da3ec5c4adbf7654.jpg",
+    "variants": [
+      {
+        "name": "",
+        "description": "B6N1 : Prototypes - Engine Nakajima NK7A Mamori 11 of 1,394 kW (1,870 hp), four-blade propeller. Two examples built."
+      },
+      {
+        "name": "",
+        "description": "B6N1 Tenzan Navy Carrier Based-Attack Bomber, Model 11: First series model. 133 built (work number 1–133)."
+      },
+      {
+        "name": "",
+        "description": "B6N2 Model 12: Main production model, featured Mitsubishi MK4T Kasei 25 of 1,380 kW (1,850 hp). 1,131 built as B6N2/B6N2a (work number 134–750, 753–1,266)."
+      },
+      {
+        "name": "",
+        "description": "B6N2a Model 12A: Revised dorsal armament. 7.7 mm (.303 in) Type 92 machine gun, replaced with one 13 mm Type 2 machine gun."
+      },
+      {
+        "name": "",
+        "description": "B6N3 Model 13 Prototypes: Engine Mitsubishi MK4T-C Kasei 25c of 1,380 kW (1,850 hp). Modified landing gear for operating from land bases; two built (work number 751–752)."
+      },
+      {
+        "name": "",
+        "description": "Total Production (all versions): 1,268 examples."
+      }
+    ]
+  },
+  {
+    "name": "Tachikawa Ki-36 Army Type 98 Direct Co-operation Aircraft",
+    "category": "Attack aircraft",
+    "path": "/wiki/Tachikawa_Ki-36",
+    "allied_code": "Ida",
+    "first_flown": 1938,
+    "number_built": 1334,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "2b752d40d30e567bc4586e413c3931b0",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-36",
+    "title": "Tachikawa Ki-36",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tachikawa_Ki-36_98chokkyo.jpg/300px-Tachikawa_Ki-36_98chokkyo.jpg",
+    "image_local_name": "2b752d40d30e567bc4586e413c3931b0.jpg",
+    "variants": [
+      {
+        "name": "",
+        "description": "Ki-55: Two-seat advanced trainer version."
+      },
+      {
+        "name": "",
+        "description": "Ki-72: An evolved version with a 600-hp (447-kW) Hitachi Ha-38 engine and retractable undercarriage. Not built."
+      }
+    ]
+  },
+  {
+    "name": "Yokosuka B4Y Navy Type 96 Carrier Attacker",
+    "category": "Attack aircraft",
+    "path": "/wiki/Yokosuka_B4Y",
+    "allied_code": "Jean",
+    "first_flown": 1935,
+    "number_built": 205,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "66ff4161d4bab99abe522b644c436c68",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_B4Y",
+    "title": "Yokosuka B4Y",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/96siki-kankou.jpg/300px-96siki-kankou.jpg",
+    "image_local_name": "66ff4161d4bab99abe522b644c436c68.jpg",
+    "variants": [
+      {
+        "name": "First Prototype",
+        "description": "559 kW (750 hp) Hiro Type 91 520 hp water-cooled W-12 driving a two-bladed  propeller."
+      },
+      {
+        "name": "Second and Third Prototypes",
+        "description": "477 kW (640 hp) Nakajima Kotobuki 3 nine-cylinder air-cooled radial driving a two-bladed propeller."
+      },
+      {
+        "name": "Fourth and Fifth Prototype and Production Aircraft",
+        "description": "636 kW (853 hp) Nakajima Hikari 2 nine-cylinder air-cooled radial driving a two-bladed propeller."
+      }
+    ]
+  },
+  {
+    "name": "Yokosuka D4Y Suisei Navy Carrier Dive bomber",
+    "category": "Attack aircraft",
+    "path": "/wiki/Yokosuka_D4Y",
+    "allied_code": "Judy",
+    "first_flown": 1942,
+    "number_built": 2038,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "0dee81b6b0b67a1d80a861bb09a4c45b",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_D4Y",
+    "title": "Yokosuka D4Y",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Yokosuka_D4Y3_in_the_field.jpg/300px-Yokosuka_D4Y3_in_the_field.jpg",
+    "image_local_name": "0dee81b6b0b67a1d80a861bb09a4c45b.jpg",
+    "variants": [
+      {
+        "name": "",
+        "description": "D4Y1 Experimental Type 13 carrier dive-bomber (十三試艦上爆撃機, 13-Shi Kanjō Bakugekiki)\n5 prototypes were produced. #2 and #3 were rebuilt to reconnaissance plane and carried on aircraft carrier Sōryū, and used the Battle of Midway.#4 was rebuilt to reconnaissance plane also, and carried on aircraft carrier Shōkaku, and used the Battle of the Santa Cruz Islands.\nD4Y1-C Type 2 reconnaissance aircraft Model 11 (二式艦上偵察機一一型, Nishiki Kanjō Teisatsuki 11-Gata)\nReconnaissance version produced at Aichi's Nagoya factory. Developed on 7 July 1942.\nD4Y1 Suisei Model 11 (彗星一一型, Suisei 11-Gata)\nFirst batch of serial produced dive bomber aircraft. Powered by 895 kW (1,200 hp) Aichi AE1A Atsuta 12 engine. Developed in December 1943.\nD4Y1 KAI Suisei Model 21 (彗星二一型, Suisei 21-Gata)\nD4Y1 with catapult equipment for battleship Ise and Hyūga. Developed on 17 March 1944."
+      },
+      {
+        "name": "",
+        "description": "D4Y1-C Type 2 reconnaissance aircraft Model 11 (二式艦上偵察機一一型, Nishiki Kanjō Teisatsuki 11-Gata)\nReconnaissance version produced at Aichi's Nagoya factory. Developed on 7 July 1942."
+      },
+      {
+        "name": "",
+        "description": "D4Y1 Suisei Model 11 (彗星一一型, Suisei 11-Gata)\nFirst batch of serial produced dive bomber aircraft. Powered by 895 kW (1,200 hp) Aichi AE1A Atsuta 12 engine. Developed in December 1943."
+      },
+      {
+        "name": "",
+        "description": "D4Y1 KAI Suisei Model 21 (彗星二一型, Suisei 21-Gata)\nD4Y1 with catapult equipment for battleship Ise and Hyūga. Developed on 17 March 1944."
+      },
+      {
+        "name": "",
+        "description": "D4Y2 Suisei Model 12 (彗星一二型, Suisei 12-Gata)\n1,044 kW (1,400 hp) Aichi AE1P Atsuta 32 engine adopted. Developed in October 1944.\nD4Y2a Suisei Model 12A (彗星一二甲型, Suisei 12 Kō-Gata)\nD4Y2 with the rear cockpit 13 mm (.51 in) machine gun. Developed in November 1944.\nD4Y2-S Suisei Model 12E (彗星一二戊型, Suisei 12 Bo-Gata)\nNight fighter version of the D4Y2 with bomb equipment removed and a 20 mm upward-firing cannon installed.\nD4Y2 KAI Suisei Model 22 (彗星二二型, Suisei 22-Gata)\nD4Y2 with catapult equipment for battleship Ise and Hyūga.\nD4Y2a KAI Suisei Model 22A (彗星二二甲型, Suisei 22 Kō-Gata)\nD4Y2 KAI with the rear cockpit 13 mm (.51 in) machine gun.\nD4Y2-R Type 2 reconnaissance aircraft Model 12 (二式艦上偵察機一二型, Nishiki Kanjō Teisatsuki 12-Gata)\nReconnaissance version of the D4Y2. Developed in October 1944.\nD4Y2a-R Type 2 reconnaissance aircraft Model 12A (二式艦上偵察機一二甲型, Nishiki Kanjō Teisatsuki 12 Kō-Gata)\nD4Y2-R with the rear cockpit 13 mm (.51 in) machine gun."
+      },
+      {
+        "name": "",
+        "description": "D4Y2a Suisei Model 12A (彗星一二甲型, Suisei 12 Kō-Gata)\nD4Y2 with the rear cockpit 13 mm (.51 in) machine gun. Developed in November 1944."
+      },
+      {
+        "name": "",
+        "description": "D4Y2-S Suisei Model 12E (彗星一二戊型, Suisei 12 Bo-Gata)\nNight fighter version of the D4Y2 with bomb equipment removed and a 20 mm upward-firing cannon installed."
+      },
+      {
+        "name": "",
+        "description": "D4Y2 KAI Suisei Model 22 (彗星二二型, Suisei 22-Gata)\nD4Y2 with catapult equipment for battleship Ise and Hyūga."
+      },
+      {
+        "name": "",
+        "description": "D4Y2a KAI Suisei Model 22A (彗星二二甲型, Suisei 22 Kō-Gata)\nD4Y2 KAI with the rear cockpit 13 mm (.51 in) machine gun."
+      },
+      {
+        "name": "",
+        "description": "D4Y2-R Type 2 reconnaissance aircraft Model 12 (二式艦上偵察機一二型, Nishiki Kanjō Teisatsuki 12-Gata)\nReconnaissance version of the D4Y2. Developed in October 1944."
+      },
+      {
+        "name": "",
+        "description": "D4Y2a-R Type 2 reconnaissance aircraft Model 12A (二式艦上偵察機一二甲型, Nishiki Kanjō Teisatsuki 12 Kō-Gata)\nD4Y2-R with the rear cockpit 13 mm (.51 in) machine gun."
+      },
+      {
+        "name": "",
+        "description": "D4Y3 Suisei Model 33 (彗星三三型, Suisei 33-Gata)\nLand-based bomber variant. 1,163 kW (1,560 hp) Mitsubishi Kinsei 62 radial engine adopted. Removed tailhook also.\nD4Y3a Suisei Model 33A (彗星三三甲型, Suisei 33 Kō-Gata)\nD4Y3 with the rear cockpit 13 mm (.51 in) machine gun.\nD4Y3 Suisei Model 33 night-fighter variant (彗星三三型改造夜戦, Suisei 33-Gata Kaizō yasen)\nTemporary rebuilt night-fighter version. Two planes were converted from D4Y3.[23] Equipment a 20 mm upward-firing cannon installed. This was not naval regulation equipment. Development code D4Y3-S (or Suisei Model 33E) was not discovered in the IJN official documents."
+      },
+      {
+        "name": "",
+        "description": "D4Y3a Suisei Model 33A (彗星三三甲型, Suisei 33 Kō-Gata)\nD4Y3 with the rear cockpit 13 mm (.51 in) machine gun."
+      },
+      {
+        "name": "",
+        "description": "D4Y3 Suisei Model 33 night-fighter variant (彗星三三型改造夜戦, Suisei 33-Gata Kaizō yasen)\nTemporary rebuilt night-fighter version. Two planes were converted from D4Y3.[23] Equipment a 20 mm upward-firing cannon installed. This was not naval regulation equipment. Development code D4Y3-S (or Suisei Model 33E) was not discovered in the IJN official documents."
+      },
+      {
+        "name": "",
+        "description": "D4Y4 Suisei Model 43 (彗星四三型, Suisei 43-Gata)\nFinal production variant. Bomb load increased to 800 kg (1,760 lb) with the main bomb semi-recessed in the bomb bay. It had 75 mm bullet-proof glass in front of the canopy, plus 5mm and 9mm thick armour plates fore and aft of the cockpit. The fuel tanks were also given added protection, and the movable rear machine gun was removed.[2] The addition of five RATO boosters was considered: three in the lower-bottom part of the fuselage and two on both sides below the engine. Generally, the D4Y4 is often recognized as being purpose-built for special attack operations.[24]"
+      },
+      {
+        "name": "",
+        "description": "D4Y5 Suisei Model 54 (彗星五四型, Suisei 54-Gata)\nPlanned version with Nakajima Homare radial engine, four-blade propeller, and more armor protection."
+      }
+    ]
+  },
+  {
+    "name": "Yokosuka MXY-7 Ohka",
+    "category": "Attack aircraft",
+    "path": "/wiki/Ohka",
+    "allied_code": "Baka ('Fool' in Japanese)[1]",
+    "first_flown": 1944,
+    "number_built": 852,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "76889e3e340299ae29eec2edbe6245a3",
+    "url": "https://en.wikipedia.org/wiki/Ohka",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Japanese_Ohka_rocket_plane.jpg/300px-Japanese_Ohka_rocket_plane.jpg",
+    "image_local_name": "76889e3e340299ae29eec2edbe6245a3.jpg",
+    "variants": [
+      {
+        "name": "MXY-7",
+        "description": "Rocket powered suicide attacker, unpowered glider prototypes; ten built"
+      },
+      {
+        "name": "Navy Suicide Attacker Ohka Model 11",
+        "description": "Long designation of the operational attacker"
+      },
+      {
+        "name": "Ohka Model 11",
+        "description": "Suicide attacker powered by 3 × 2.616 kN (588 lbf) Navy Type 4 Mark 1 Model 20 solid-fueled rocket motors, firing for 8–10 seconds; 755 built"
+      },
+      {
+        "name": "Ohka Model 21",
+        "description": "Suicide attacker, fitted with steel-built wings built by Nakajima; one built"
+      },
+      {
+        "name": "Ohka Model 22",
+        "description": "Suicide attacker, powered by an Ishikawajima Tsu-11 thermo-jet engine with reduced span wings and 600 kg (1,300 lb) warhead, to be carried by Yokosuka P1Y1 Ginga bombers. 50 built by the First Naval Air Technical Arsenal (第一海軍航空技術廠, Dai-Ichi Kaigun Koku Gijitsusho)"
+      },
+      {
+        "name": "Ohka Model 33",
+        "description": "Suicide attacker, powered by an Ishikawajima Ne-20 turbojet engine, with an 800 kg (1,800 lb) warhead, to be carried by the Nakajima G8N1 Renzan bomber"
+      },
+      {
+        "name": "Ohka Model 43A Ko",
+        "description": "Suicide attacker, powered by a Ne-20 turbojet engine, with folding wings, to be catapult launched from submarines"
+      },
+      {
+        "name": "Ohka Model 43B Otsu",
+        "description": "Suicide attacker similar to the Model 43A for catapult launching from caves"
+      },
+      {
+        "name": "Ohka Model 53",
+        "description": "Suicide attacker for aerotow launch, powered by a Ne-20 turbojet engine"
+      },
+      {
+        "name": "Ohka K-1",
+        "description": "Suicide attack training glider"
+      },
+      {
+        "name": "Ohka Model 43 K-1 Kai Wakazakura (若桜, \"Young Cherry\")",
+        "description": "Two-seat suicide attack glider trainer with flaps and retractable skid undercarriage, fitted with a single Type 4 Mark 1 Model 20 rocket motor, for limited powered flight"
+      },
+      {
+        "name": "\"Suzuka-24\" (Japanese designation unknown)",
+        "description": "Alleged interceptor version with warhead replaced by a fuel tank and two 20 mm cannon mounted on top. Supposedly employed at least twice against B-29 formations in April 1945[18]"
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-48 Army Type 99 Twin-engined Light Bomber",
+    "category": "Bombers",
+    "path": "/wiki/Kawasaki_Ki-48",
+    "allied_code": "Lily",
+    "first_flown": 1940,
+    "number_built": 1997,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "48f218c712b017b1d71521dbbec0161e",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-48",
+    "title": "Kawasaki Ki-48",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ki-48_99siki-souhatu-keibaku.jpg/300px-Ki-48_99siki-souhatu-keibaku.jpg",
+    "image_local_name": "48f218c712b017b1d71521dbbec0161e.jpg",
+    "variants": [
+      {
+        "name": "Ki-48",
+        "description": "Four prototypes with 708 kW (963 hp) Nakajima Ha25 engines and five pre-production aircraft, with modified tail surfaces."
+      },
+      {
+        "name": "Ki-48-Ia",
+        "description": "Army Type 99 Twin Engine Light Bomber Model 1A; as first series model. Produced from 1940, 557 built."
+      },
+      {
+        "name": "Ki-48-Ib,",
+        "description": "Similar to the Ia, with changes in defensive machine gun mountings."
+      },
+      {
+        "name": "",
+        "description": "Total production of Ki-48 Ia and Ib: 557 aircraft"
+      },
+      {
+        "name": "Ki-48-II",
+        "description": "Three prototypes built."
+      },
+      {
+        "name": "Ki-48-IIa",
+        "description": "Fitted with more powerful engines, a longer fuselage, additional armour, and larger bomb load. Produced from April 1942."
+      },
+      {
+        "name": "Ki-48-IIb",
+        "description": "Dive bomber version, with reinforced fuselage and dive brakes."
+      },
+      {
+        "name": "Ki-48-IIc",
+        "description": "Improved defensive weapons. Produced from 1943."
+      },
+      {
+        "name": "",
+        "description": "Total production of Ki-48 IIa, IIb and IIc: 1,408 aircraft"
+      },
+      {
+        "name": "Ki-48-II KAI Kamikaze (Type Tai-Atari)",
+        "description": "Conversion with 800 kg (1,760 lb) of explosives and two or three crew for kamikaze missions"
+      },
+      {
+        "name": "Ki-66",
+        "description": "Nose turret removed and replaced with solid nose fitted with 2x fixed forward firing 12.7mm machine guns. 8 prototypes built of varying configurations. None selected for mass production due to minimal increase in speed. Dive brakes used on Ki-48 IIb."
+      },
+      {
+        "name": "Ki-81",
+        "description": "Proposed version of the Ki-48. Not built."
+      },
+      {
+        "name": "Ki-174",
+        "description": "Single-seat special attack version. Not built."
+      },
+      {
+        "name": "",
+        "description": "Total production of all versions: 1,997 aircraft"
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-32  Army Type 98 Light Bomber",
+    "category": "Bombers",
+    "path": "/wiki/Kawasaki_Ki-32",
+    "allied_code": "Mary",
+    "first_flown": 1937,
+    "number_built": 854,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "fc288ecbd8f4183bd9944afe9576771a",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-32",
+    "title": "Kawasaki Ki-32",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ki-32_Mary_in_flight2.jpg/300px-Ki-32_Mary_in_flight2.jpg",
+    "image_local_name": "fc288ecbd8f4183bd9944afe9576771a.jpg"
+  },
+  {
+    "name": "Mitsubishi G3M Navy Type 96 Land-based Attack Aircraft",
+    "category": "Bombers",
+    "path": "/wiki/Mitsubishi_G3M",
+    "allied_code": "Nell",
+    "first_flown": 1935,
+    "number_built": 1048,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "5c7d162b67b835926249e60a567a3906",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_G3M",
+    "title": "Mitsubishi G3M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/G3M-37.jpg/300px-G3M-37.jpg",
+    "image_local_name": "5c7d162b67b835926249e60a567a3906.jpg",
+    "variants": [
+      {
+        "name": "Ka-15",
+        "description": "Prototype with either Hiro Type 91 (559 kW/750 hp), Mitsubishi Kinsei 2 (619 kW/830 hp), or Mitsubishi Kinsei 3 (679 kW/910 hp) engines and glass or solid nose. 21 built."
+      },
+      {
+        "name": "G3M1a/c",
+        "description": "Redesignated prototypes powered by Hiro Type 91 or Mitsubishi Kinsei engines, glass nose."
+      },
+      {
+        "name": "G3M1 Model 11",
+        "description": "Land-based attack bomber navy Type 96 first series model. Major extension of the cabin with a revised cover, some with fixed-pitch propeller. 34 built."
+      },
+      {
+        "name": "G3M1-L",
+        "description": "G3M1 converted into an armed or unarmed military transport version and powered by Mitsubishi Kinsei 45 (802 kW/1,075 hp) engines."
+      },
+      {
+        "name": "G3M2 Model 21",
+        "description": "More powerful engines and increased fuel capacity, dorsal turret; 343 constructed by Mitsubishi, 412 G3M2 and G3M3 manufactured by Nakajima."
+      },
+      {
+        "name": "G3M2 Model 22",
+        "description": "Upper and belly turrets substituted for one upper turret, glass side positions. 238 built."
+      },
+      {
+        "name": "G3M3 Model 23",
+        "description": "More powerful engines and increased fuel capacity for longer range, constructed by Nakajima."
+      },
+      {
+        "name": "L3Y1 Model 11",
+        "description": "Transport navy Type 96, advanced conversion of G3M1 armed transport, built by Yokosuka."
+      },
+      {
+        "name": "L3Y2 Model 12",
+        "description": "Modification of G3M2 with Mitsubishi Kinsei engines, built by Yokosuka."
+      },
+      {
+        "name": "Mitsubishi twin-engined transport",
+        "description": "Around two dozen G3M2 Model 21 bombers converted for use by civil operators such as Nippon Koku K.K."
+      },
+      {
+        "name": "Nippon",
+        "description": "One of the twin engined transports converted to carry out a round the world flight in 1939 on behalf of the Mainichi Shimbun newspaper."
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi G4M Navy Type 1 Land-based Attack Aircraft",
+    "category": "Bombers",
+    "path": "/wiki/Mitsubishi_G4M",
+    "allied_code": "Betty",
+    "first_flown": 1941,
+    "number_built": 2435,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "ba9ef8f025337d8a74b80fe754bc3ad1",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_G4M",
+    "title": "Mitsubishi G4M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/G4M-45s.jpg/300px-G4M-45s.jpg",
+    "image_local_name": "ba9ef8f025337d8a74b80fe754bc3ad1.jpg",
+    "variants": [
+
+    ]
+  },
+  {
+    "name": "Mitsubishi Ki-21 Army Type 97 Heavy Bomber",
+    "category": "Bombers",
+    "path": "/wiki/Mitsubishi_Ki-21",
+    "allied_code": "Sally",
+    "first_flown": 1938,
+    "number_built": 2064,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "abbf61a9793ea29db193f44ec391fed8",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-21",
+    "title": "Mitsubishi Ki-21",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ki-21_97juubaku_b.jpg/300px-Ki-21_97juubaku_b.jpg",
+    "image_local_name": "abbf61a9793ea29db193f44ec391fed8.jpg",
+    "variants": [
+      {
+        "name": "Ki-21",
+        "description": "Prototype models with various engines and armament combinations for evaluation. Final version with Nakajima Ha-5 engine. 8 built"
+      },
+      {
+        "name": "Ki-21-Ia (Army Type 97 Heavy Bomber, Model IA)",
+        "description": "First production model, with 634 kW (850 hp) Nakajima Ha-5-kai engines. Most were built by Mitsubishi, 143 manufactured by Nakajima"
+      },
+      {
+        "name": "Ki-21-Ib (Army Type 97 Heavy Bomber, Model IB)",
+        "description": "Improved version with additional 7.7 mm (.303 in) machine guns, larger bomb compartment and flaps, redesigned tail. 120 built by Mitsubishi, 351 (including Ki-21 Ib and Ic) by Nakajima"
+      },
+      {
+        "name": "Ki-21-Ic (Army Type 97 Heavy Bomber, Model IC)",
+        "description": "Improved type with one additional 7.7 mm (.303 in) machine gun, increased fuel capacity, 160 built by Mitsubishi"
+      },
+      {
+        "name": "Ki-21-II",
+        "description": "Evaluation model with more powerful engines, 4 built"
+      },
+      {
+        "name": "Ki-21-IIa (Army Type 97 Heavy Bomber, Model IIA)",
+        "description": "Production model based on Ki-21-II, 590 built"
+      },
+      {
+        "name": "Ki-21-IIb (Army Type 97 Heavy Bomber, Model IIB)",
+        "description": "Final production version based on Ki-21-IIa with modified canopy, clear upper cabin replaced by rotating turret, 688 built."
+      },
+      {
+        "name": "MC-20-I (Army Type 100 Transport, Model I)",
+        "description": "Unarmed civilian transport version, converted from Ki-21-Ia; approximately 100 aircraft were converted"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi Ki-30 Army Type 97 Light bomber",
+    "category": "Bombers",
+    "path": "/wiki/Mitsubishi_Ki-30",
+    "allied_code": "Ann",
+    "first_flown": 1938,
+    "number_built": 704,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "68f46a43c9047834b804174f7beeba2e",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-30",
+    "title": "Mitsubishi Ki-30",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mitsubishi_Ki_30.jpg/300px-Mitsubishi_Ki_30.jpg",
+    "image_local_name": "68f46a43c9047834b804174f7beeba2e.jpg"
+  },
+  {
+    "name": "Mitsubishi Ki-67 Hiryu Navy Type 4 Heavy Bomber",
+    "category": "Bombers",
+    "path": "/wiki/Mitsubishi_Ki-67",
+    "allied_code": "Peggy",
+    "first_flown": 1942,
+    "number_built": 767,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "56917892bfa99dd1e5c47c6274d367ee",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-67",
+    "title": "Mitsubishi Ki-67",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/MitsubishiKi67.jpg/300px-MitsubishiKi67.jpg",
+    "image_local_name": "56917892bfa99dd1e5c47c6274d367ee.jpg",
+    "variants": [
+      {
+        "name": "Ki-67-I",
+        "description": "Ki-67-I: Prototypes. Diverse models with various types of weapons. 19 produced."
+      },
+      {
+        "name": "Ki-67-Ia \"Hiryu\" Army Type 4 Heavy Bomber Model 1",
+        "description": "Ki-67-Ia \"Hiryu\" Army Type 4 Heavy Bomber Model 1: Main production model. The majority (420+) were modified in the factory as land-based torpedo bombers (after work-number 160). Produced by Mitsubishi: 587; by Kawasaki: 91; by 1° Army Arsenal of Tachikawa: 1."
+      },
+      {
+        "name": "Ki-67-Ib",
+        "description": "Ki-67-Ib: Late production model. Reinforced the tail gun turret (2 × 20 mm)."
+      },
+      {
+        "name": "Ki-67-I KAI",
+        "description": "Ki-67-I KAI: Experimental model equipped with Mitsubishi Ha-104 Ru engines. 3 produced."
+      },
+      {
+        "name": "Ki-67-I AEW variant",
+        "description": "Ki-67-I AEW variant: Equipment the early warning radar \"Taki 1 Model II\". 1 produced."
+      },
+      {
+        "name": "Ki-67 \"To-Gō\"",
+        "description": "Ki-67 \"To-Gō\": Army special attack aircraft type 4: Improved version of the Ki-67 I for kamikaze, unarmed, without turrets, and with two 800 kg (1,760 lb) bombs in belly compartment."
+      },
+      {
+        "name": "Ki-67 \"guided missile mother ship\"",
+        "description": "Ki-67 \"guided missile mother ship\": Experimental type for carrying guided missiles.(Kawasaki Ki-147 I-Go Type 1-Ko, Mitsubishi Ki-148 I-Go Type 1-Otsu, I-Go Type 1-Hei, \"Ke-Go\" IR, \"Ko-Go\",\"Sa-Go\") 1 produced."
+      },
+      {
+        "name": "Ki-67 long-range bomber variant",
+        "description": "Ki-67 long-range bomber variant: Equipped with widened wings and without turrets. Only a project."
+      },
+      {
+        "name": "Ki-67 ground attack variant",
+        "description": "Ki-67 ground attack variant: Version armed with three remote-control ground-firing 5 × 30° 20 mm cannons, 20 mm defensive cannon in the tail position, three 13.2 mm (.51 in) machine guns in lateral and upper positions, and more fuel capacity for long range. Specifically designed for land strikes against B-29 bases in the Marianas. Only a project."
+      },
+      {
+        "name": "Ki-67-II",
+        "description": "Ki-67-II: Prototypes. Modified version of the Ki-67-I, with two Mitsubishi Ha-214 engines of 1,603 kW (2,150 hp) each. 2 produced."
+      },
+      {
+        "name": "Ki-67 glider tug",
+        "description": "Ki-67 glider tug: A standard Ki67-I was used to tow the \"Manazuru\" (Crane) transport glider in tests."
+      },
+      {
+        "name": "\"Yasukuni\"",
+        "description": "\"Yasukuni\":  Naval torpedo bomber version of the Ki-67-I. Created from Ki-67-Is transferred from the IJAAF."
+      },
+      {
+        "name": "Ki-69",
+        "description": "Ki-69: Heavily armed escort fighter model. Only a project."
+      },
+      {
+        "name": "Ki-97",
+        "description": "Ki-97: Transport model. Only a project."
+      },
+      {
+        "name": "Ki-109",
+        "description": "Ki-109: Night fighter prototypes. Ki-67-I modified for night fighting for operating in pairs, the Ki-109a with a radar/reflector (similar to the Douglas Havoc II \"Turbinlite\" concept, only using invisible radio beams rather than a powerful searchlight) for radar transmission and detection and the Ki-109b, armed with twin 37 mm Ho-203 cannon in an upward-firing Schrage Musik-style fixed dorsal mount (as the single Ho-203 autocannon in the Mitsubishi Ki-46-III KAI was) to destroy the objective. Only a project."
+      },
+      {
+        "name": "Ki-109",
+        "description": "Ki-109: Day Fighter prototypes. Ki-67-I modified for daylight fighting. One fixed 75 mm Type 88 Heavy Cannon in the nose and one mobile 12.7 mm (0.5 in) Ho-103 Type 1 machine gun in the tail. Equipped with Mitsubishi Ha-104 engines of 1,417 kW (1,900 hp) each or turbocharged Ha-104 Ru with 1,417 kW (1,900 hp) each. 2 produced."
+      },
+      {
+        "name": "Ki-109 Army Heavy Fighter Interceptor",
+        "description": "Ki-109 Army Heavy Fighter Interceptor: First non-prototype model of series. Lacking gun positions in upper and side positions and without bomb-bay compartments[citation needed]. Fixed 75 mm Type 88 Heavy Cannon in the nose retained from Day Fighter prototype. Had a revised version of tail gun. 22 constructed by Mitsubishi."
+      },
+      {
+        "name": "Ki-112",
+        "description": "Ki-112: Bomber escort fighter made with a wooden construction. Armed with 8 x 12.7mm's and 1 x 20mm. Only a project."
+      },
+      {
+        "name": "Ki-167 \"Sakura-dan\"",
+        "description": "Ki-167 \"Sakura-dan\": \"Special Attack\" (kamikaze) version equipped with one shaped charge thermite bomb of 2,900 kg (6,400 lb) in the fuselage behind the crew cabin. The shape of the bomb conducted the blast forward, projecting a jet capable of reaching nearly a mile with a maximum blast radius of 300 m (980 ft). The bomb was designed to breach emplacements as well as to destroy massed formations of armor. 9 produced.[4]"
+      },
+      {
+        "name": "Q2M1 Taiyo",
+        "description": "Q2M1 Taiyo: Navy variant of Ki-67-I, for antisubmarine warfare. Equipped with radar (Type3 Model 1 MAD (KMX), Type 3 Ku-6 Model 4 Radar, and ESM Antenna equipment). Had two Mitsubishi Kasei 25 Otsu engines of 1,380 kW (1,850 hp) each with six-blade propellers. Carried torpedoes or depth charges. Project only."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima Ki-49 Donryu Army Type 100 Heavy Bomber",
+    "category": "Bombers",
+    "path": "/wiki/Nakajima_Ki-49",
+    "allied_code": "Helen",
+    "first_flown": 1941,
+    "number_built": 819,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "39fd7fd29a1c5f435442256e10b6dbae",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-49",
+    "title": "Nakajima Ki-49",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ki-49-i_letecka_skola_hamamacu_1chutai.jpg/300px-Ki-49-i_letecka_skola_hamamacu_1chutai.jpg",
+    "image_local_name": "39fd7fd29a1c5f435442256e10b6dbae.jpg",
+    "variants": [
+      {
+        "name": "Ki-49",
+        "description": "Prototypes and pre-series models with a 708 kW (949 hp) Nakajima Ha-5 KAI or the 930 kW (1,250 hp) Ha-4. The pre-series with little modifications from the prototype."
+      },
+      {
+        "name": "Ki-49-I",
+        "description": "Army Type 100 Heavy Bomber Model 1, first production version."
+      },
+      {
+        "name": "Ki-49-II",
+        "description": "Two prototypes fitted with two Nakajima Ha-109 radial piston engines."
+      },
+      {
+        "name": "Ki-49-IIa",
+        "description": "Army Type 100 Heavy Bomber Model 2A - Production version with Ha-109 engines and armament as Model 1."
+      },
+      {
+        "name": "Ki-49-IIb",
+        "description": "Version of Model 2 with 12.7 mm (0.50 in) Ho-103 machine guns replacing rifle caliber weapons."
+      },
+      {
+        "name": "Ki-49-III",
+        "description": "Six prototypes fitted with two 1,805 kW (2,421 hp) Nakajima Ha-117 engines."
+      },
+      {
+        "name": "Ki-58",
+        "description": "Escort fighter with Ha-109 engines, 5 x 20 mm (0.787 in) cannon, 3 x 12.7 mm (0.5 in) machine guns. 3 prototypes built."
+      },
+      {
+        "name": "Ki-80",
+        "description": "Specialized pathfinder aircraft - 2 prototypes; employed as engine test-beds."
+      }
+    ]
+  },
+  {
+    "name": "Yokosuka P1Y1 Ginga Navy Land-Based Bomber",
+    "category": "Bombers",
+    "path": "/wiki/Yokosuka_P1Y",
+    "allied_code": "Frances",
+    "first_flown": 1943,
+    "number_built": 1098,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "c536192810bf464ed439c4d454bfedf2",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_P1Y",
+    "title": "Yokosuka P1Y",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/P1Y_Kyokkou_Aurora_or_Ginga_Milky_Way_Frances_P1Y-11s.jpg/300px-P1Y_Kyokkou_Aurora_or_Ginga_Milky_Way_Frances_P1Y-11s.jpg",
+    "image_local_name": "c536192810bf464ed439c4d454bfedf2.jpg",
+    "variants": [
+      {
+        "name": "P1Y1 Experimental Type 15 land-based bomber (15試陸上爆撃機, 15-Shi Rikujō Bakugekiki)",
+        "description": "3 of prototypes and 9 of supplementary prototypes[10] with 1,357 kW (1,820 hp) NK9C Nakajima NK9B Homare 11 engines. Prototype #3 was later used for Ishikawajima Tsu-11 testbed."
+      },
+      {
+        "name": "P1Y1 Ginga (\"Milky Way\") Model 11 (銀河11型, Ginga 11-gata)",
+        "description": "First model of the series. Mounted Homare 11 or Homare 12."
+      },
+      {
+        "name": "",
+        "description": "Mounted Homare 12, and fitted 1 × 13 mm (.51 in) Type 2 machine gun in the back defensive position."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1a, mounted Homare 12, and fitted 2 × 13 mm (.51 in) Type 2 machine guns in the back defensive position."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1b, mounted Homare 12, and fitted 1 × 13 mm (.51 in) Type 2 machine gun in the forward position, prototype only."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1. Armed with 2 × 20 mm Type 99 cannons. Equipped 302nd Kōkūtai only. This is not a naval regulation equipment."
+      },
+      {
+        "name": "",
+        "description": "Night fighter variant. Armed with 4 × 20 mm Type 99 cannons firing obliquely forward, and 1 × 13 mm (.51 in) Type 2 machine gun in the back defensive position. Only a project."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1/P1Y1a, installed up to 20 × 20 mm Type 99 cannons in the bomb bay for land strikes against B-29 bases in the Marianas. Approx. 30 rebuilt."
+      },
+      {
+        "name": "P1Y2-S Provisional name Ginga Model 26/Test production Kyokkō (\"Aurora\") (仮称銀河26型/試製極光, Kashō Ginga 26-gata/Shisei Kyokkō)",
+        "description": "Night fighter variant. Initial named Hakkō (\"Corona\", 白光) in October 1943, renamed Kyokkō in March 1944.[11] Converted from P1Y1/P1Y1a. Fitted Mitsubishi MK4T-A Kasei 25 engines. Armed with 2 × 20 mm Type 99 cannons and 1 × 30 mm Type 5 cannon. Later, almost all were converted to P1Y2. 96 or 97 produced.[12]"
+      },
+      {
+        "name": "",
+        "description": "Land based bomber. Converted from P1Y2-S. Mounted 1,380 kW (1,850 hp) Mitsubishi MK4T-A Kasei 25 Kō engines."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1a. Mounted Mitsubishi MK4T-A Kasei 25 Kō engines."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1b. Mounted Mitsubishi MK4T-A Kasei 25 Kō engines."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y1c. Mounted Mitsubishi MK4T-A Kasei 25 Kō engines."
+      },
+      {
+        "name": "",
+        "description": "Converted from P1Y2. Armed with 2 × 20 mm Type 99 machine guns or 1 × 30 mm Type 5 cannon. Equipped 302nd Kōkūtai only. This is not a naval regulation equipment."
+      },
+      {
+        "name": "P1Y3 Provisional name Ginga Model 13 (仮称銀河13型, Kashō Ginga 13-gata)",
+        "description": "Converted from P1Y1. Mounted Homare 21 engines."
+      },
+      {
+        "name": "P1Y4 Provisional name Ginga Model 12 (仮称銀河12型, Kashō Ginga 12-gata)",
+        "description": "Converted from P1Y1. Mounted Homare 23 engines."
+      },
+      {
+        "name": "P1Y5 Provisional name Ginga Model 14 (仮称銀河14型, Kashō Ginga 14-gata)",
+        "description": "Converted from P1Y1. Mounted Mitsubishi Ha-43 engines."
+      },
+      {
+        "name": "P1Y6 Provisional name Ginga Model 17 (仮称銀河17型, Kashō Ginga 17-gata)",
+        "description": "Converted from P1Y2. Mounted Mitsubishi MK4T-C Kasei 25 Hei engines."
+      },
+      {
+        "name": "Provisional name Ginga Model 33 (仮称銀河33型, Kashō Ginga 33-gata)",
+        "description": "Long-range bomber variant. Crew: 4, bombs= up to 3,000 kg. Only a project."
+      },
+      {
+        "name": "Test production Tenga (試製天河, Shisei Tenga)",
+        "description": "Proposed jet-powered bomber variant, mounted Ishikawajima Ne-30. Discontinued in 1945."
+      },
+      {
+        "name": "MXY10 Yokosuka Navy Bomber Ginga",
+        "description": "Ground decoy non-flying replica of Yokosuka P1Y1."
+      }
+    ]
+  },
+  {
+    "name": "Aichi E13A Navy Type 0 Reconnaissance Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Aichi_E13A",
+    "allied_code": "Jake",
+    "first_flown": 1941,
+    "number_built": 1418,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "b38b9829212c48a0a2d97c0e782a32b4",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E13A",
+    "title": "Aichi E13A",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/E13A-3s.jpg/300px-E13A-3s.jpg",
+    "image_local_name": "b38b9829212c48a0a2d97c0e782a32b4.jpg",
+    "variants": [
+      {
+        "name": "E13A1",
+        "description": ""
+      },
+      {
+        "name": "E13A1-K",
+        "description": ""
+      },
+      {
+        "name": "E13A1a",
+        "description": ""
+      },
+      {
+        "name": "E13A1a-S",
+        "description": ""
+      },
+      {
+        "name": "E13A1b",
+        "description": ""
+      },
+      {
+        "name": "E13A1b-S",
+        "description": ""
+      },
+      {
+        "name": "E13A1c",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "name": "Aichi E16A Zuiun Navy Reconnaissance Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Aichi_E16A",
+    "allied_code": "Paul",
+    "first_flown": 1942,
+    "number_built": 256,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "d4e5d882f074dd25ec30cf32f72cc19c",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E16A",
+    "title": "Aichi E16A",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Aichi_E16A.jpg/300px-Aichi_E16A.jpg",
+    "image_local_name": "d4e5d882f074dd25ec30cf32f72cc19c.jpg",
+    "variants": [
+      {
+        "name": "E16A1 Experimental Type 16 reconnaissance seaplane (16試水上偵察機, 16-Shi Suijō Teisatsuki)",
+        "description": "Initial named Experimental Type 14 two-seat reconnaissance seaplane (14試2座水上偵察機, 14-Shi 2-Za Suijō Teisatsuki). 3 prototypes produced. Mounted 1,300 hp (970 kW) Mitsubishi MK8A Kinsei 51 engine, 2 × forward-firing 7.7 mm (.303in) Type 97 machine guns, 1 × rearward-firing 7.7 mm Type 92 machine gun."
+      },
+      {
+        "name": "E16A1 Zuiun Model 11 (瑞雲11型, Zuiun 11-gata)",
+        "description": "General production model. Mounted 1,300 hp (970 kW) Mitsubishi MK8N Kinsei 54 engine, 2 × forward-firing 20 mm Type 99-2 cannons, 1 × rearward-firing 13 mm Type 2 machine gun."
+      },
+      {
+        "name": "E16A2 Provisional name Zuiun Model 12 (仮称瑞雲12型, Kashō Zuiun 12-gata)",
+        "description": "Initial named Zuiun Model 22. Single prototype with a 1,560 hp (1,160 kW) Mitsubishi MK8P Kinsei 62 radial engine. One plane converted from E16A1, incomplete."
+      }
+    ]
+  },
+  {
+    "name": "Kawanishi E7K Navy Type 94 Reconnaissance Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Kawanishi_E7K",
+    "allied_code": "Alf",
+    "first_flown": 1933,
+    "number_built": 533,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "310e243924cdd34571a174570474a749",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_E7K",
+    "title": "Kawanishi E7K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kawanishi_E7K_seaplane.jpg/300px-Kawanishi_E7K_seaplane.jpg",
+    "image_local_name": "310e243924cdd34571a174570474a749.jpg",
+    "variants": [
+      {
+        "name": "E7K1",
+        "description": "Production version with a Hiro Type 91 520 hp water-cooled W-12 engine, 183 built (including 57 built by Nippon Hikoki K.K.)"
+      },
+      {
+        "name": "E7K2",
+        "description": "Re-engined version with a Mitsubishi Zuisei 11 radial engine, about 350 built (including 60 built by Nippon Hikoki K.K.)"
+      }
+    ]
+  },
+  {
+    "name": "Kawanishi E15K Shiun Navy Type 2 High-speed Reconnaissance Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Kawanishi_E15K",
+    "allied_code": "Norm",
+    "first_flown": 1941,
+    "number_built": 15,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "e810aa70774caef2c5fe659c70024d78",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_E15K",
+    "title": "Kawanishi E15K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/E15k-3s.jpg/300px-E15k-3s.jpg",
+    "image_local_name": "e810aa70774caef2c5fe659c70024d78.jpg",
+    "variants": [
+      {
+        "name": "E15K1",
+        "description": "E15K1 : Single-engined reconnaissance floatplane. Production version."
+      }
+    ]
+  },
+  {
+    "name": "Kawanishi H6K Type 97 Large Flying Boat",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Kawanishi_H6K",
+    "allied_code": "Mavis",
+    "first_flown": 1936,
+    "number_built": 215,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "b5d78d6184aa48ed37871f3730b84233",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_H6K",
+    "title": "Kawanishi H6K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/KawanishiH6K.jpg/300px-KawanishiH6K.jpg",
+    "image_local_name": "b5d78d6184aa48ed37871f3730b84233.jpg",
+    "variants": [
+      {
+        "name": "H6K1",
+        "description": "Evaluation prototypes with four Nakajima Hikari 2 engines, four built."
+      },
+      {
+        "name": "H6K1 (navy flying boat Type 97 Model 1)",
+        "description": "Prototypes with 746 kW (1,000 hp) Mitsubishi Kinsei 43 engines, three converted from the original H6K1 prototypes"
+      },
+      {
+        "name": "H6K2 Model 11",
+        "description": "First production model. Includes two H6K2-L officer transport modification, 10 built."
+      },
+      {
+        "name": "H6K2-L (navy transport flying boat Type 97)",
+        "description": "Unarmed transport version of H6K2 powered by Mitsubishi Kinsei 43 engines, 16 built"
+      },
+      {
+        "name": "H6K3 Model 21",
+        "description": "Modified transport version of H6K2 for VIPs and high-ranking officers, 2 built"
+      },
+      {
+        "name": "H6K4 Model 22",
+        "description": "Major production version, modified H6K2 with revised weapons, some with 694 kW (930 hp) Mitsubishi Kinsei 46 engines. Fuel capacity increased from 7,764 L (1,708 Imp gal) to 13,410 L (2,950 Imp gal). Includes two H6K4-L transport versions, 100 to 127 (if other numbers are all correct) built."
+      },
+      {
+        "name": "H6K4-L",
+        "description": "Transport version of H6K4, similar to H6K2-L, but with Mitsubishi Kinsei 46 engines, 20 built and another two converted from the H6K4"
+      },
+      {
+        "name": "H6K5 Model 23",
+        "description": "Fitted with 969 kW (1,300 hp) Mitsubishi Kinsei 51 or 53 engines and new upper turret replacing the open position, 36 built"
+      }
+    ]
+  },
+  {
+    "name": "Kawanishi H8K Type 2 Large Flying Boat",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Kawanishi_H8K",
+    "allied_code": "Emily",
+    "first_flown": 1941,
+    "number_built": 167,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "4fabeba81715f8697f538888e6b141ac",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_H8K",
+    "title": "Kawanishi H8K",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kawanishi_H8K2_%28Emily%29_flying_boat.jpg/300px-Kawanishi_H8K2_%28Emily%29_flying_boat.jpg",
+    "image_local_name": "4fabeba81715f8697f538888e6b141ac.jpg",
+    "variants": [
+      {
+        "name": "H8K1 Experimental Type 13 Large-sized Flying boat (13試大型飛行艇 13-Shi Ōgata Hikōtei)",
+        "description": "One prototype and four supplementary prototypes. Prototype was mounted Mitsubishi Mk4A Kasei 11 engines, supplementary prototype was mounted Mitsubishi MK4B Kasei 12 engines. Supplementary prototypes were renamed Type 2 Flying Boat Model 11 on 5 February 1942. Prototype was rebuilt to H8K1-L in November 1943."
+      },
+      {
+        "name": "H8K1 Type 2 Flying boat, Model 11 (二式飛行艇11型 Nishiki Hikōtei 11-gata)",
+        "description": "Developed on 5 February 1942. First operative model of series, 12 produced. Mounted Mitsubishi MK4B Kasei 12 engines."
+      },
+      {
+        "name": "",
+        "description": "Rebuilt from H8K1 prototype. Fitted augment exhausts. Up to 41 passengers."
+      },
+      {
+        "name": "H8K2 Type 2 Flying boat, Model 12 (二式飛行艇12型 Nishiki Hikōtei 12-gata)",
+        "description": "Developed on 26 June 1943. Mounted Mitsubishi MK4Q Kasei 22 engines and improved tail gun turret. Latter batch was equipped with Air-Surface Vessel (ASV) search radar, and removed side gun blisters. 112 produced.[13]"
+      },
+      {
+        "name": "",
+        "description": "Transport version of H8K2. Initial named Type 2 Transport Flying Boat, Model 32. Armaments were 1 × forward-firing 20 mm cannon and 1 × rearward-firing 13 mm machine gun. Up to 64 passengers."
+      },
+      {
+        "name": "H8K3 Provisional name Type 2 Flying Boat, Model 22 (仮称二式飛行艇22型 Kashō Nishiki Hikōtei 22-gata)",
+        "description": "Experimental version, H8K2 modified. Equipped with retractable floats in wingtips, Fowler flaps, sliding hatch side gun locations in place of the blisters and a retractable dorsal turret, all in an effort to increase speed; two prototypes only (work number 596 and 597)."
+      },
+      {
+        "name": "H8K4 Provisional name Type 2 Flying Boat, Model 23 (仮称二式飛行艇23型 Kashō Nishiki Hikōtei 23-gata)",
+        "description": "H8K3 re-engined with 1,825 hp MK4T Mitsubishi Kasei 25b engines, two converted from H8K3."
+      },
+      {
+        "name": "",
+        "description": "Transport version of H8K4. Only a project, because all H8K4s were lost in March 1945.[further explanation needed]"
+      },
+      {
+        "name": "G9K",
+        "description": "Proposed land-based attack bomber variant, only a project."
+      }
+    ]
+  },
+  {
+    "name": "Kawasaki Ki-10 Army Type 95 Fighter (used for reconnaissance during WWII)",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Kawasaki_Ki-10",
+    "allied_code": "Perry",
+    "first_flown": 1935,
+    "number_built": 588,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "754bd2a4d1ec2c57c7f513c56c2ccd42",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-10",
+    "title": "Kawasaki Ki-10",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ki-10_Kumagaya.jpg/300px-Ki-10_Kumagaya.jpg",
+    "image_local_name": "754bd2a4d1ec2c57c7f513c56c2ccd42.jpg",
+    "variants": [
+      {
+        "name": "Ki-10",
+        "description": "Ki-10 : Prototype for Imperial Japanese Army Air Force (4 built in early 1935)."
+      },
+      {
+        "name": "Ki-10-I",
+        "description": "Ki-10-I (Army Fighter Type 95-I): Initial production version (300 built December 1935 - October 1937)"
+      },
+      {
+        "name": "Ki-10-II",
+        "description": "Ki-10-II : Prototype of modified Mark I, increased in length (1 built May 1936)"
+      },
+      {
+        "name": "Ki-10-II ",
+        "description": "Ki-10-II  (Army Fighter Type 95–2): Improved production version (280 built June 1937 - December 1938)"
+      },
+      {
+        "name": "Ki-10-I KAI",
+        "description": "Ki-10-I KAI : Prototype Ki-10-I with modifications to engine and radiator (1 built October 1936)"
+      },
+      {
+        "name": "Ki-10-II KAI",
+        "description": "Ki-10-II KAI : Prototype - Aerodynamic modification of Ki-10-II, now designated Ki-10-I-KAI, with 634 kW (850 hp) Kawasaki Ha9-IIb engine (2 built November 1937)"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi F1M Type 0 Observation Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Mitsubishi_F1M",
+    "allied_code": "Pete",
+    "first_flown": 1936,
+    "number_built": 1118,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "5c9677a4dce9d7a648d98600a7570936",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_F1M",
+    "title": "Mitsubishi F1M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/F1m_00637_2g.jpg/300px-F1m_00637_2g.jpg",
+    "image_local_name": "5c9677a4dce9d7a648d98600a7570936.jpg",
+    "variants": [
+      {
+        "name": "F1M1",
+        "description": "Prototypes. Four built."
+      },
+      {
+        "name": "F1M2",
+        "description": "Two-seat reconnaissance floatplane for the Imperial Japanese Navy."
+      },
+      {
+        "name": "F1M2-K",
+        "description": "Two-seat training version."
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi Ki-46 Type 100 Command Reconnaissance Aircraft",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Mitsubishi_Ki-46",
+    "allied_code": "Dinah",
+    "first_flown": 1941,
+    "number_built": 1742,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "8c7fd7e579132b387970f64da6f8a742",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
+    "title": "Mitsubishi Ki-46",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ki-46_100sitei.jpg/300px-Ki-46_100sitei.jpg",
+    "image_local_name": "8c7fd7e579132b387970f64da6f8a742.jpg",
+    "variants": [
+      {
+        "name": "Army Type 100 Command Reconnaissance Plane",
+        "description": "The Shiki designation for the Ki-46 Command Reconnaissance Plane"
+      },
+      {
+        "name": "Army Type 100 Air Defence Fighter",
+        "description": "The Shiki designation for the Ki-46 Interceptor Fighter"
+      },
+      {
+        "name": "Army Type 100 Assault Plane",
+        "description": "The Shiki designation for the Ki-46 Assault Plane"
+      },
+      {
+        "name": "Ki-46",
+        "description": "Prototype."
+      },
+      {
+        "name": "Ki-46 I",
+        "description": "Reconnaissance version of the Ki-46."
+      },
+      {
+        "name": "Ki-46 II",
+        "description": "The first operational model of the series."
+      },
+      {
+        "name": "Ki-46 II KAI",
+        "description": "Three-seat training version of the Ki-46. Used for radio and navigation training, with a redesigned cabin, dorsal en echelon extension. Conversions of the Ki-46 II."
+      },
+      {
+        "name": "Ki-46 III",
+        "description": "\"Traditional\" stepped windshield replaced with a smooth, curved, glazed panel extended over the pilot's seat giving a more aerodynamic nose profile. Engine power increased to 1,500 hp (Ha-112-II), extra fuel tank added in the nose."
+      },
+      {
+        "name": "Ki-46 III-KAI",
+        "description": "Defense interceptor/night fighter version of the Ki-46. Equipped with two 20 mm cannon in the nose and one 37 mm (1.46 in) cannon in the \"Schräge Musik\"-style upwards-aimed dorsal frontal position."
+      },
+      {
+        "name": "Ki-46 III",
+        "description": "Land strike version of the Ki-46, without 37 mm (1.46 in) cannon armament."
+      },
+      {
+        "name": "Ki-46 IIIb",
+        "description": "Ground-attack version."
+      },
+      {
+        "name": "Ki-46 IIIc",
+        "description": "Unbuilt design project."
+      },
+      {
+        "name": "Ki-46 IV",
+        "description": "Prototype, equipped with two turbocharged 1,119 kW (1,500 hp) Mitsubishi Ha-112-IIru engines, and more fuel capacity."
+      },
+      {
+        "name": "Ki-46 IVa/b",
+        "description": "Series models of reconnaissance/fighter aircraft, unbuilt design projects"
+      }
+    ]
+  },
+  {
+    "name": "Nakajima C6N Saiun Navy Carrier Reconnaissance Plane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Nakajima_C6N",
+    "allied_code": "Myrt",
+    "first_flown": 1943,
+    "number_built": 463,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "f736600d743c6ded14ccec07c358facc",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_C6N",
+    "title": "Nakajima C6N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/NakajimaC6N.JPG/300px-NakajimaC6N.JPG",
+    "image_local_name": "f736600d743c6ded14ccec07c358facc.jpg",
+    "variants": [
+      {
+        "name": "C6N1 Experimental Type 17 carrier reconnaissance plane (17試艦上偵察機, 17-Shi Kanjō Teisatsuki)",
+        "description": "Three prototypes and sixteen supplementary prototypes produced, four-blade propeller; latter batch were equipped three-blade propeller, mounted Nakajima NK9K-L Homare 22 engine, No. 6 was mounted Nakajima NK9H Homare 21 engine. Renamed Test production Saiun (試製彩雲, Shisei Saiun) in July 1943."
+      },
+      {
+        "name": "C6N1 Saiun Model 11 (彩雲11型, Saiun 11-gata)",
+        "description": "General production model. Three-blade propeller, mounted Nakajima NK9H Homare 21 engine.\nC6N1-B Saiun Model 21 (彩雲21型, Saiun 21-gata)\nProposed torpedo bomber version. Only a project.\nC6N1 Saiun Model 11 night fighter variant (彩雲11型改造夜戦, Saiun 11-gata Kaizō yasen)\nTemporary rebuilt two-seat night fighter version; this was not a regulation naval aircraft. Development code C6N1-S was not discovered in the IJN official documents. One model with a single 30 mm Type 2 cannon was built in June 1945,[8] and at least five models with ×2 20 mm Type 99-1 cannon were converted from standard C6N1 models. One surviving example of the ×2 20mm cannon variant is stored in the Paul E. Garber Preservation, Restoration, and Storage Facility. The 30 mm version was only used to attack B-29s once, on August 1, 1945. The destructive power of the Type 2 cannon extended to twisting the skin of the Saiun's lightweight fuselage.[8]"
+      },
+      {
+        "name": "C6N2 Test production Saiun Kai/Saiun Model 12 (試製彩雲改/彩雲12型, Shisei Saiun Kai/Saiun 12-gata)",
+        "description": "Fitted with four-blade propeller, 1,980 PS (1,456 kW) Nakajima NK9L-L Homare 24-Ru turbocharged engine. The Hitachi 92 turbocharger was fitted with the aim of improving high altitude performance; target speed was 345 kn (639 km/h; 397 mph) at 8,500 m (27,900 ft). One prototype (コ–C6T1) was converted from a regular C6N1 in February 1945 and first flew in July of that year. The installation of an oil cooler and an intercooler necessitated a sizable cowling to be installed beneath the engine.[9]"
+      },
+      {
+        "name": "C6N3 Test production Saiun Kai 1 (試製彩雲改1, Shisei Saiun Kai 1)",
+        "description": "Proposed high-altitude night fighter version of the C6N2. Dual 20 mm cannons were installed. Only a project."
+      },
+      {
+        "name": "C6N4 Test production Saiun Kai 2 (試製彩雲改2, Shisei Saiun Kai 2)",
+        "description": "Fitted 2,200-hp Mitsubishi MK9A Ha 43-11 Ru turbocharged engine, one prototype was converted from C6N1, incomplete."
+      },
+      {
+        "name": "C6N5 Test production Saiun Kai 3 (試製彩雲改3, Shisei Saiun Kai 3)",
+        "description": "Proposed torpedo bomber version. Only a project."
+      },
+      {
+        "name": "C6N6 Test production Saiun Kai 4 (試製彩雲改4, Shisei Saiun Kai 4)",
+        "description": "Wooden aircraft model. Only a project."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima E8N Navy Type 95 Reconnaissance Seaplane Model 1",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Nakajima_E8N",
+    "allied_code": "Dave",
+    "first_flown": 1934,
+    "number_built": 755,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "9485ab021626a90953417a7911d0bcdc",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_E8N",
+    "title": "Nakajima E8N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/95siki-suitei_1929.jpg/300px-95siki-suitei_1929.jpg",
+    "image_local_name": "9485ab021626a90953417a7911d0bcdc.jpg",
+    "variants": [
+      {
+        "name": "E8N1",
+        "description": "Initial production type, powered by 433 kW (580 hp) Nakajima Kotobuki 2 Kai 1 radial engine."
+      },
+      {
+        "name": "E8N2",
+        "description": "Improved production type, with more powerful (470 kW/630 hp) Nakajima Kotobuki Kai 2 engine."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima J1N Gekkou Navy Type 2 Reconnaissance Plane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Nakajima_J1N",
+    "allied_code": "Irving",
+    "first_flown": 1942,
+    "number_built": 479,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "439faabb9cbb57ad9a597ee4aea90f03",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
+    "title": "Nakajima J1N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/J1N-7s.jpg/300px-J1N-7s.jpg",
+    "image_local_name": "439faabb9cbb57ad9a597ee4aea90f03.jpg",
+    "variants": [
+      {
+        "name": "J1N1",
+        "description": "J1N1 : Three seaters long-range fighter. Two of prototypes and seven of supplementary prototypes."
+      },
+      {
+        "name": "J1N1 KAI",
+        "description": "J1N1 KAI : Night Fighter converted from J1N1."
+      },
+      {
+        "name": "J1N1-CJ1N1-R",
+        "description": "J1N1-C : Long-range reconnaissance aircraft. Later re-designated J1N1-R."
+      },
+      {
+        "name": "J1N1-C KAI",
+        "description": "J1N1-C KAI : Night Fighter converted from J1N1-C."
+      },
+      {
+        "name": "J1N1-R",
+        "description": "J1N1-R : Long-range reconnaissance aircraft."
+      },
+      {
+        "name": "J1N1-F",
+        "description": "J1N1-F : Observation aircraft. A little number of prototypes only. Equipped G5N2 turret or G4M2 turret."
+      },
+      {
+        "name": "J1N1-S",
+        "description": "J1N1-S : Night fighter aircraft. Armed with 2 × 20 mm forward up-firing Type 99 cannons and 2 × 20 mm forward under-firing Type 99 cannons."
+      },
+      {
+        "name": "J1N1-Sa",
+        "description": "J1N1-Sa : Night Fighter same as above, armed with 3 × 20 mm forward up-firing Type 99 cannons."
+      }
+    ]
+  },
+  {
+    "name": "Watanabe E9W Navy Type 96 Small Reconnaissance Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Watanabe_E9W",
+    "allied_code": "Slim",
+    "first_flown": 1935,
+    "number_built": 35,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "ab905d490acf6ffcec33cea49b21e96b",
+    "url": "https://en.wikipedia.org/wiki/Watanabe_E9W",
+    "title": "Watanabe E9W",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Watanabe_E9W1.jpg/300px-Watanabe_E9W1.jpg",
+    "image_local_name": "ab905d490acf6ffcec33cea49b21e96b.jpg"
+  },
+  {
+    "name": "Yokosuka E14Y Type 0 Small Reconnaissance Seaplane",
+    "category": "Reconnaissance aircraft",
+    "path": "/wiki/Yokosuka_E14Y",
+    "allied_code": "Glen",
+    "first_flown": 1939,
+    "number_built": 126,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "53fd9aa5673a64d43fbd09feac616b96",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_E14Y",
+    "title": "Yokosuka E14Y",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Yokosuka_E14Y_in_flight.jpg/300px-Yokosuka_E14Y_in_flight.jpg",
+    "image_local_name": "53fd9aa5673a64d43fbd09feac616b96.jpg"
+  },
+  {
+    "name": "Kawasaki Ki-56 Army Type 1 Freight Transport & Tachikawa Navy Type LO",
+    "category": "Transports",
+    "path": "/wiki/Kawasaki_Ki-56",
+    "allied_code": "Thalia/Thelma",
+    "first_flown": 1940,
+    "number_built": 121,
+    "services": [
+      "IJA",
+      "IJN"
+    ],
+    "uuid": "21e4c6e5822fe16b639c19b342757c2a",
+    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-56",
+    "title": "Kawasaki Ki-56",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kawasaki_Ki-56.jpg/300px-Kawasaki_Ki-56.jpg",
+    "image_local_name": "21e4c6e5822fe16b639c19b342757c2a.jpg"
+  },
+  {
+    "name": "Mitsubishi Ki-57 Army Type 100 Transport",
+    "category": "Transports",
+    "path": "/wiki/Mitsubishi_Ki-57",
+    "allied_code": "Topsy",
+    "first_flown": 1940,
+    "number_built": 406,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "9ef9792550e9a93d4f43d3aa8c84a4ac",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-57",
+    "title": "Mitsubishi Ki-57",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mitsubishi_Ki-57.jpg/300px-Mitsubishi_Ki-57.jpg",
+    "image_local_name": "9ef9792550e9a93d4f43d3aa8c84a4ac.jpg",
+    "variants": [
+      {
+        "name": "",
+        "description": "Ki-57-I Army Type 100 Transport Model 1: Powered by two 708 kW (949 hp) Nakajima Ha5 KAI radial engines and a redesigned fuselage to accommodate 11 passengers. About 100 aircraft of this type were built including the civil version."
+      },
+      {
+        "name": "",
+        "description": "MC-20-I: Same as above but built for civil use with Imperial Japanese Airways (Dai Nippon Koku KK)."
+      },
+      {
+        "name": "",
+        "description": "Ki-57-II Army Type 100 Transport Model 2:Powered by two 805 kW (1,080 hp) Mitsubishi Ha-102 Zuisei 14-cylinder radial engines installed in redesigned nacelles. Minor equipment and detail refinements were also incorporated. 306 aircraft of this type were produced before the end of production in January 1945."
+      },
+      {
+        "name": "",
+        "description": "MC-20-II: Same as above but built for civil use with Imperial Japanese Airways (Dai Nippon Koku KK)."
+      },
+      {
+        "name": "",
+        "description": "L4M1: A small number of Ki-57-Is were transferred for test by the Japanese navy as transports and were redesignated L4M1."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima Ki-34 Army Type 97 Transport & Nakajima L1N Navy Type AT-2 Transport",
+    "category": "Transports",
+    "path": "/wiki/Nakajima_Ki-34",
+    "allied_code": "Thora",
+    "first_flown": 1936,
+    "number_built": 351,
+    "services": [
+      "IJA",
+      "IJN"
+    ],
+    "uuid": "a09dedeca1979e5ad68450e09ce17bb2",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-34",
+    "title": "Nakajima Ki-34",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Nakajima_AT-2.jpg/300px-Nakajima_AT-2.jpg",
+    "image_local_name": "a09dedeca1979e5ad68450e09ce17bb2.jpg"
+  },
+  {
+    "name": "Showa/Nakajima L2D Navy Type 0 Transport",
+    "category": "Transports",
+    "path": "/wiki/Showa/Nakajima_L2D",
+    "allied_code": "Tabby",
+    "first_flown": 1939,
+    "number_built": 487,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "380cb4fe0510f19c4b0da699e38464f2",
+    "url": "https://en.wikipedia.org/wiki/Showa/Nakajima_L2D",
+    "title": "Showa/Nakajima L2D",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Showa_L2D.jpg/300px-Showa_L2D.jpg",
+    "image_local_name": "380cb4fe0510f19c4b0da699e38464f2.jpg",
+    "variants": [
+      {
+        "name": "L2D1 Navy D1 Transport (海軍D一号輸送機 Kaigun D1-Gō Yusōki)",
+        "description": "Knock down production two DC-3s supplied for evaluation by the Imperial Japanese Navy Air Service."
+      },
+      {
+        "name": "L2D2 Type 0 Transport Model 11 (零式輸送機11型 Reishiki Yusōki 11-gata)",
+        "description": "Personnel transports with Mitsubishi Kinsei 43 radials. Initial named Navy D2 Transport (海軍D二号輸送機 Kaigun D2-Gō Yusōki)."
+      },
+      {
+        "name": "L2D2-L Type 0 Freighter Model 11 (零式荷物輸送機11型 Reishiki Nimotsu-Yusōki 11-gata)",
+        "description": "Cargo version of the L2D2 with enlarged cargo door."
+      },
+      {
+        "name": "L2D3 Type 0 Transport Model 22 (零式輸送機22型 Reishiki Yusōki 22-gata)",
+        "description": "L2D2 re-engined with Mitsubishi Kinsei 51, Kinsei 52 or Kinsei 53 engines, each at 1,300 hp (957 kW)–1,325 hp (975 kW). Increased side cockpit glass."
+      },
+      {
+        "name": "L2D3-L Type 0 Freighter Model 22 (零式荷物輸送機22型 Reishiki Nimotsu-Yusōki 22-gata)",
+        "description": "Cargo version of the L2D3."
+      },
+      {
+        "name": "L2D3a Type 0 Transport Model 22A (零式輸送機22甲型 Reishiki Yusōki 22 Kō-gata)",
+        "description": "Armed versions L2D3 with a 13 mm machine gun in a dorsal turret and two 7.7 mm machine guns in the left and right fuselage hatches."
+      },
+      {
+        "name": "L2D3a-L Type 0 Freighter Model 22A (零式荷物輸送機22甲型 Reishiki Nimotsu-Yusōki 22 Kō-gata)",
+        "description": "Armed version of the L2D3-L, armaments were same as L2D3a."
+      },
+      {
+        "name": "L2D4 Type 0 Transport Model 23 (零式輸送機23型 Reishiki Yusōki 23-gata)",
+        "description": "L2D3 re-engined with Mitsubishi Kinsei 62 engines, each at 1,590 hp (1,170 kW)."
+      },
+      {
+        "name": "L2D4-L Provisional name Type 0 Freighter Model 23 (仮称零式荷物輸送機23型 Kashō Reishiki Nimotsu-Yusōki 23-gata)",
+        "description": "Cargo version of the L2D4, prototype only."
+      },
+      {
+        "name": "L2D5 Provisional name Type 0 Transport Model 33 (仮称零式輸送機33型 Kashō Reishiki Yusōki 33-gata)",
+        "description": "Wooden version, replacement of steel components with wood; used two Mitsubishi Kinsei 62 engines, incomplete."
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi Hinazuru-type Passenger Transport",
+    "category": "Transports",
+    "path": "/wiki/Airspeed_Envoy#Variants",
+    "allied_code": "n/a",
+    "first_flown": 1936,
+    "number_built": 11,
+    "services": [
+      "IJN"
+    ],
+    "uuid": "3d7668c49dd53fc000fae43fb96fc29c",
+    "url": "https://en.wikipedia.org/wiki/Airspeed_Envoy#Variants",
+    "title": "Airspeed Envoy",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg/300px-Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg",
+    "image_local_name": "3d7668c49dd53fc000fae43fb96fc29c.jpg",
+    "variants": [
+
+    ]
+  },
+  {
+    "name": "Kyushu J7W Shinden",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Kyushu_J7W_Shinden",
+    "allied_code": "n/a",
+    "first_flown": 3,
+    "number_built": 2,
+    "services": [
+
+    ],
+    "uuid": "25e6f490b1c1a844ebc4391de5c32f23",
+    "url": "https://en.wikipedia.org/wiki/Kyushu_J7W_Shinden",
+    "title": "Kyushu J7W Shinden",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/A_prototype_of_J7W_Shinden.jpg/300px-A_prototype_of_J7W_Shinden.jpg",
+    "image_local_name": "25e6f490b1c1a844ebc4391de5c32f23.jpg"
+  },
+  {
+    "name": "Mitsubishi Ki-83",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Mitsubishi_Ki-83",
+    "allied_code": "n/a",
+    "first_flown": 1944,
+    "number_built": 4,
+    "services": [
+
+    ],
+    "uuid": "47171b62ddca0c0f679fbb1971d2bff4",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-83",
+    "title": "Mitsubishi Ki-83",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ki-83-6s.jpg/300px-Ki-83-6s.jpg",
+    "image_local_name": "47171b62ddca0c0f679fbb1971d2bff4.jpg",
+    "variants": [
+      {
+        "name": "Ki-83",
+        "description": "Ki-83 experimental long-range heavy fighter, four prototypes built."
+      },
+      {
+        "name": "Ki-95",
+        "description": "Ki-95 projected reconnaissance version, none built.[6]"
+      },
+      {
+        "name": "Ki-103",
+        "description": "Ki-103 projected development, none built.[6]"
+      }
+    ]
+  },
+  {
+    "name": "Mitsubishi J8M",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Mitsubishi_J8M",
+    "allied_code": "n/a",
+    "first_flown": 1944,
+    "number_built": 7,
+    "services": [
+
+    ],
+    "uuid": "de041d095242f256140ae59e7c9f5c04",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_J8M",
+    "title": "Mitsubishi J8M",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/J8M_Shusui_Sword_Stroke_Komet_J8M-10.jpg/300px-J8M_Shusui_Sword_Stroke_Komet_J8M-10.jpg",
+    "image_local_name": "de041d095242f256140ae59e7c9f5c04.jpg",
+    "variants": [
+
+    ]
+  },
+  {
+    "name": "Nakajima G8N",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Nakajima_G8N",
+    "allied_code": "Rita",
+    "first_flown": 1944,
+    "number_built": 4,
+    "services": [
+
+    ],
+    "uuid": "ea06fcb4f2580f4ff8f77d46203f1ada",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_G8N",
+    "title": "Nakajima G8N",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nakajima_G8N1.jpg/300px-Nakajima_G8N1.jpg",
+    "image_local_name": "ea06fcb4f2580f4ff8f77d46203f1ada.jpg",
+    "variants": [
+      {
+        "name": "G8N1",
+        "description": "G8N1 : Four-engine heavy bomber. Production version."
+      },
+      {
+        "name": "G8N2",
+        "description": "G8N2 : Modified to carry Ohka Type 33 Special Attack Bomber. Four Mitsubishi MK9A radial engines."
+      },
+      {
+        "name": "G8N3",
+        "description": "G8N3 : All-steel airframe."
+      }
+    ]
+  },
+  {
+    "name": "Nakajima Ki-87",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Nakajima_Ki-87",
+    "allied_code": "n/a",
+    "first_flown": 1945,
+    "number_built": 1,
+    "services": [
+
+    ],
+    "uuid": "a889ae98a41cb973c8121bab02300ff7",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-87",
+    "title": "Nakajima Ki-87",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nakajima_Ki-87.jpg/300px-Nakajima_Ki-87.jpg",
+    "image_local_name": "a889ae98a41cb973c8121bab02300ff7.jpg"
+  },
+  {
+    "name": "Tachikawa Ki-94-I",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Tachikawa_Ki-94",
+    "allied_code": "n/a",
+    "first_flown": null,
+    "number_built": 0,
+    "services": [
+
+    ],
+    "uuid": "5afc98ea6e5a36f6fc83acd74baee3f2",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
+    "title": "Tachikawa Ki-94"
+  },
+  {
+    "name": "Tachikawa Ki-94-II",
+    "category": "Experimental aircraft",
+    "path": "/wiki/Tachikawa_Ki-94",
+    "allied_code": "n/a",
+    "first_flown": null,
+    "number_built": 2,
+    "services": [
+
+    ],
+    "uuid": "01b6d07320c3dd305e3f43c8cef9edd8",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
+    "title": "Tachikawa Ki-94"
+  }
+]

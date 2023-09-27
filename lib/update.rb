@@ -5,7 +5,6 @@ require 'json'
 require 'nokogiri'
 require 'open-uri'
 require 'digest'
-require 'byebug'
 
 class Catalog
   attr_accessor :content
@@ -17,7 +16,6 @@ class Catalog
       FileUtils.mkdir_p File.dirname(file_path)
       {}
     end
-    content['planes'] = []
     self
   end
 
@@ -25,16 +23,24 @@ class Catalog
     File.write(file_path, JSON.pretty_generate(content))
   end
 
+  def export_data_table
+    File.write(data_table_path, JSON.pretty_generate(planes))
+  end
+
   def base_folder
-    @base_folder ||= Pathname.new(File.dirname(__FILE__)).join('..', 'data')
+    @base_folder ||= Pathname.new(File.dirname(__FILE__)).join('..', 'cache')
   end
 
   def cache_folder
-    @cache_folder ||= base_folder.join('cache')
+    @cache_folder ||= base_folder.join('snapshots')
   end
 
   def file_path
     @file_path ||= base_folder.join('catalog.json')
+  end
+
+  def data_table_path
+    base_folder.join('data.json')
   end
 
   def image_folder
@@ -73,6 +79,7 @@ class Scraper
 
   def save
     catalog.save
+    catalog.export_data_table
   end
 
   def load_planes(refresh: false)
@@ -109,6 +116,9 @@ class Scraper
     local_file = catalog.cache_folder.join("#{plane['uuid']}.html")
     plane_doc = get_page(plane['url'], message: "GET #{plane['name']}", local_file: local_file)
 
+    page_title = plane_doc.css('.mw-page-title-main').first
+    plane['title'] = page_title.text if page_title
+
     image_link = plane_doc.css('.infobox img.mw-file-element').last
     if image_link
       image_url = image_link.attr('src')
@@ -129,7 +139,6 @@ class Scraper
           if dt_nodes.count > 0 && dt_nodes.count == dd_nodes.count
             puts "scanning variant element #{current_element.name}"
             dt_nodes.each_with_index do |dt, index|
-              # byebug if dd_nodes[index].text == 'Rebuilt from H8K1 prototype. Fitted augment exhausts. Up to 41 passengers.'
               variant = {
                 'name' => dt.text,
                 'description' => dd_nodes[index].text
@@ -212,18 +221,32 @@ class Scraper
   def log(category, message)
     warn "[#{category}][#{Time.now}] #{message}"
   end
+
+  def show_categories
+    categories = catalog.planes.each_with_object({}) do |plane, memo|
+      category = plane['category'] || ''
+      memo[category] ||= 0
+      memo[category] += 1
+    end
+    categories.keys.sort.each do |category|
+      puts "#{category}: #{categories[category]} planes"
+    end
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
   operation = ARGV.shift
   scraper = Scraper.new
   case operation
+  when 'show_categories'
+    scraper.show_categories
   when 'all'
     scraper.ensure_cache_complete
   else
     warn <<-HELP
       Usage:
         ruby #{$PROGRAM_NAME} all                      # update product metadata, product items and ensures the image cache is complete
+        ruby #{$PROGRAM_NAME} show_categories          # show all categories used by current records in the database
         ruby #{$PROGRAM_NAME} (help)                   # this help
 
       Environment settings:
