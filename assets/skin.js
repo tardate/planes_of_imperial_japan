@@ -88,17 +88,30 @@
           var scalemates_url = 'https://www.scalemates.com/search.php?fkSECTION[]=Kits&q=' + product_search_term;
           var google_url = 'https://www.google.com/search?q=' + product_search_term;
 
+          var info_fragment = '';
+          var services_fragment = '';
+
+          for (var i = 0; i < data.services.length; i++) {
+            services_fragment = services_fragment + ' \
+              <span class="label label-success">' + data.services[i] + '</span>';
+          }
+
+          info_fragment += '<dl> \
+            <dt>Number built</dt> \
+            <dd>' + data.number_built + '</dd> \
+            </dl>';
+
           description_cell = '<div class="row"> \
-            <div class="col-md-4 product-media"> \
+            <div class="col-sm-4 product-media"> \
               <a href="' + url + '" target="_blank"> \
                 <img class="media-object" src="' + local_image_url + '" alt=""> \
               </a> \
             </div> \
-            <div class="col-md-8"> \
+            <div class="col-sm-8"> \
               <h4 class="media-heading">' + data.name + '</h4> \
-              <div class="text-muted">' + data.description + '</div> \
+              <div class="text-muted">' + info_fragment + '</div> \
               <div> \
-                <span class="label label-success">' + data.services + '</span> \
+                ' + services_fragment + ' \
                 <span class="label label-primary">' + data.category + '</span> \
               </div>  \
               <br/> \
