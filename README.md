@@ -1,7 +1,7 @@
 # Planes of Imperial Japan
 
 A fast and simple skin for a database of planes usde by the IJA and IJN, using some nokogiri magic.
-Currently available to [browse online here](https://planes_of_imperial_japan.tardate.com/).
+Currently available to [browse online here](https://planes-of-imperial-japan.tardate.com/).
 
 ## Notes
 
