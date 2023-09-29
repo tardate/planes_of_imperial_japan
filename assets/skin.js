@@ -8,8 +8,6 @@
       this.catalog_table = catalog_table;
       this.loadCatalog();
       this.hookActions();
-      this.external_base_url = 'http://www.trumpeter-china.com';
-      this.brand_name = 'Trumpeter';
     }
 
     CatalogController.prototype.clearFilter = function() {
@@ -70,6 +68,8 @@
             data: 'services', visible: false
           }, {
             data: 'category', visible: false
+          },{
+            data: 'description', visible: false
           },
         ],
         dom: "<'row'<'col-sm-6'l><'col-sm-6'p>>" +
