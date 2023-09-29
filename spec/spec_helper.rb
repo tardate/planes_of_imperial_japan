@@ -1,13 +1,7 @@
-put "add lib: #{File.expand_path('../lib', __FILE__)}"
-$LOAD_PATH.unshift File.expand_path('../lib', __FILE__)
-# require 'freedom_api-client-zabbix'
-require 'vcr'
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 
-VCR.configure do |c|
-  c.cassette_library_dir = "spec/fixtures/cassettes"
-  c.hook_into :webmock
-  c.configure_rspec_metadata!
-end
+require 'byebug'
+require 'poij'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.

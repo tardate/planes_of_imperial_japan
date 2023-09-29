@@ -1,0 +1,46 @@
+{
+  "planes": {
+    "c82a2d7f8a2cab40073b04bf25de0dc8": {
+      "name": "Kawasaki Ki-100 Goshikisen Army Type 5 Fighter",
+      "category": "Fighters",
+      "path": "/wiki/Kawasaki_Ki-100",
+      "allied_code": "n/a",
+      "first_flown": 1945,
+      "number_built": 395,
+      "services": [
+        "IJA"
+      ],
+      "uuid": "c82a2d7f8a2cab40073b04bf25de0dc8",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-100",
+      "title": "Kawasaki Ki-100",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ki-100-RAF-side.jpg/300px-Ki-100-RAF-side.jpg",
+      "image_local_name": "c82a2d7f8a2cab40073b04bf25de0dc8.jpg",
+      "variants": [
+        {
+          "name": "Ki-100",
+          "description": "Ki-100 (prototypes): Kawasaki Ki-61 II KAI modified with a radial engine. 3 converted from Ki-61s."
+        },
+        {
+          "name": "Ki-100-I-Ko",
+          "description": "Ki-100-I-Ko: initial production variant, modified from Ki-61 II KAI. 271 converted from Ki-61s."
+        },
+        {
+          "name": "Ki-100-I-Otsu",
+          "description": "Ki-100-I-Otsu: improved canopy and cut down rear fuselage. 118 built."
+        },
+        {
+          "name": "Ki-100-II",
+          "description": "Ki-100-II (prototypes): powered with a 1,120 kW (1,500 hp) Mitsubishi Ha-112-II Ru fitted with a turbocharger. 3 built."
+        },
+        {
+          "name": "Army Fighter Type 5 Mark Ia",
+          "description": "Army Fighter Type 5 Mark Ia: IJA designation for Ki-100-I-Ko"
+        },
+        {
+          "name": "Army Fighter Type 5 Mark Ib",
+          "description": "Army Fighter Type 5 Mark Ib: IJA designation for Ki-100-I-Otsu"
+        }
+      ]
+    }
+  }
+}

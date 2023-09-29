@@ -1,80 +1,44 @@
-#! /usr/bin/env ruby
-require 'fileutils'
-require 'pathname'
-require 'json'
-require 'nokogiri'
-require 'open-uri'
-require 'digest'
-
-class Catalog
-  attr_accessor :content
-
-  def load
-    self.content = if File.exist?(file_path)
-      JSON.load file_path
-    else
-      FileUtils.mkdir_p File.dirname(file_path)
-      {}
-    end
-    self
-  end
-
-  def save
-    File.write(file_path, JSON.pretty_generate(content))
-  end
-
-  def export_data_table
-    File.write(data_table_path, JSON.pretty_generate(planes))
-  end
-
-  def base_folder
-    @base_folder ||= Pathname.new(File.dirname(__FILE__)).join('..', 'cache')
-  end
-
-  def cache_folder
-    @cache_folder ||= base_folder.join('snapshots')
-  end
-
-  def file_path
-    @file_path ||= base_folder.join('catalog.json')
-  end
-
-  def data_table_path
-    base_folder.join('data.json')
-  end
-
-  def image_folder
-    @image_folder ||= begin
-      path = base_folder.join('images')
-      FileUtils.mkdir_p(path) unless File.exist?(path)
-      path
-    end
-  end
-
-  def image_path(local_name)
-    image_folder.join(local_name)
-  end
-
-  def planes
-    content['planes'] ||= []
-  end
-end
-
 class Scraper
   BACKOFF_SECONDS = ENV.fetch('BACKOFF_SECONDS', 0.3).to_f
   BASE_URL = 'https://en.wikipedia.org'.freeze
   INDEX_PATH = '/wiki/List_of_aircraft_of_Japan_during_World_War_II'.freeze
 
-  def ensure_cache_complete
-    index_doc
-    load_planes
+  def run!
+    operation = ARGV.shift
+    case operation
+    when 'show_categories'
+      show_categories
+    when 'all'
+      ensure_cache_complete refresh: true
+    when 'cache'
+      ensure_cache_complete
+    else
+      warn <<-HELP
+        Usage:
+          bin/update.rb all                      # reload plane data and ensures the image cache is complete
+          bin/update.rb cache                    # ensures the data and image cache is complete
+          bin/update.rb show_categories          # show all categories used by current records in the database
+          bin/update.rb (help)                   # this help
 
+        Environment settings:
+          BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
+
+      HELP
+    end
+  end
+
+  def ensure_cache_complete(refresh: false)
+    load_planes refresh: refresh
     save
     cache_plane_images
   end
 
   def catalog
     @catalog ||= Catalog.new.load
+  end
+
+  def catalog=(value)
+    @catalog = value
   end
 
   def save
@@ -85,6 +49,7 @@ class Scraper
   def load_planes(refresh: false)
     return unless refresh || catalog.planes.empty?
 
+    catalog.planes = {}
     index_doc.css('#bodyContent h2').each do |header|
       category = header.css('.mw-headline').text
       table = header.next_element
@@ -101,20 +66,27 @@ class Scraper
           'number_built' => cells[3].text.chomp.to_i,
           'services' => as_service_list(cells[4]&.text)
         }
-        # plane['uuid'] = Digest::SHA1.hexdigest(plane['name'])
         plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
         plane['url'] = BASE_URL + plane['path']
         load_plane plane
-        catalog.planes << plane
+        catalog.planes[plane['uuid']] = plane
       end
     end
   end
 
-  def load_plane(plane)
-    puts "loading #{plane['name']} .."
+  def append_plane_description(plane, plane_doc)
+    paras =  plane_doc.css('.mw-body-content p').map do |para|
+      content = para.text.chomp
+      content unless content.empty?
+    end
+    paras.compact!
 
-    local_file = catalog.cache_folder.join("#{plane['uuid']}.html")
-    plane_doc = get_page(plane['url'], message: "GET #{plane['name']}", local_file: local_file)
+    plane['description'] = paras.first if paras.size > 0
+  end
+
+  def load_plane(plane)
+    log 'load_plane', "loading #{plane['name']} .."
+    plane_doc = load_plane_doc plane
 
     page_title = plane_doc.css('.mw-page-title-main').first
     plane['title'] = page_title.text if page_title
@@ -127,6 +99,11 @@ class Scraper
       plane['image_local_name'] = [plane['uuid'], image_url.split('.').last.downcase].join('.')
     end
 
+    append_plane_description(plane, plane_doc)
+
+    title_ja = plane_doc.css('.mw-body-content span[title="Japanese-language text"] span').first
+    plane['title_ja'] = title_ja.text if title_ja
+
     variants = plane_doc.css('h2 span#Variants').first
     if variants
       plane['variants'] = []
@@ -137,7 +114,7 @@ class Scraper
           dt_nodes = current_element.children.collect { |node| node.name == 'dt' ? node : nil }.compact #css('dt')
           dd_nodes = current_element.children.collect { |node| node.name == 'dd' ? node : nil }.compact #css('dd')
           if dt_nodes.count > 0 && dt_nodes.count == dd_nodes.count
-            puts "scanning variant element #{current_element.name}"
+            log 'load_plane', "scanning variant element #{current_element.name}"
             dt_nodes.each_with_index do |dt, index|
               variant = {
                 'name' => dt.text,
@@ -146,10 +123,10 @@ class Scraper
               plane['variants'] << variant
             end
           else
-            puts "ignoring variant element #{current_element.name} dt_nodes.count: #{dt_nodes.count}, dd_nodes.count: #{dd_nodes.count} current_element: #{current_element.inspect}"
+            log 'load_plane', "ignoring variant element #{current_element.name} dt_nodes.count: #{dt_nodes.count}, dd_nodes.count: #{dd_nodes.count} current_element: #{current_element.inspect}"
           end
         when 'ul'
-          puts "scanning variant element #{current_element.name}"
+          log 'load_plane', "scanning variant element #{current_element.name}"
           current_element.css('li').each do |item|
             variant = {
               'name' => item.css('b').text,
@@ -158,7 +135,7 @@ class Scraper
             plane['variants'] << variant
           end
         else
-          puts "ignoring variant element #{current_element.name}"
+          log 'load_plane', "ignoring variant element #{current_element.name}"
         end
         current_element = current_element.next_element
       end
@@ -166,7 +143,7 @@ class Scraper
   end
 
   def cache_plane_images
-    catalog.planes.each do |plane|
+    catalog.planes.values.each do |plane|
       next unless plane['image_url']
 
       get_image(plane['image_local_name'], plane['image_url'])
@@ -188,9 +165,14 @@ class Scraper
 
   def index_doc
     @index_doc ||= begin
-      local_file = catalog.cache_folder.join('index.html')
+      local_file = catalog.snapshots_folder.join('index.html')
       get_page(BASE_URL + INDEX_PATH, message: 'GET main page (en)', local_file: local_file)
     end
+  end
+
+  def load_plane_doc(plane)
+    local_file = catalog.snapshots_folder.join("#{plane['uuid']}.html")
+    get_page(plane['url'], message: "GET #{plane['name']}", local_file: local_file)
   end
 
   def get_page(url, message: nil, local_file: nil)
@@ -231,26 +213,5 @@ class Scraper
     categories.keys.sort.each do |category|
       puts "#{category}: #{categories[category]} planes"
     end
-  end
-end
-
-if __FILE__ == $PROGRAM_NAME
-  operation = ARGV.shift
-  scraper = Scraper.new
-  case operation
-  when 'show_categories'
-    scraper.show_categories
-  when 'all'
-    scraper.ensure_cache_complete
-  else
-    warn <<-HELP
-      Usage:
-        ruby #{$PROGRAM_NAME} all                      # update product metadata, product items and ensures the image cache is complete
-        ruby #{$PROGRAM_NAME} show_categories          # show all categories used by current records in the database
-        ruby #{$PROGRAM_NAME} (help)                   # this help
-
-      Environment settings:
-        BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
-    HELP
   end
 end

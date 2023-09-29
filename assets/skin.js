@@ -65,7 +65,7 @@
           {
             data: 'name'
           }, {
-            data: 'first_flown'
+            data: 'first_flown', visible: false
           }, {
             data: 'services', visible: false
           }, {
@@ -101,14 +101,18 @@
             <dd>' + data.number_built + '</dd> \
             </dl>';
 
+          var name = data.name;
+
+          if (data.title_ja) name += ' <span>(' + data.title_ja + ')</span>';
+
           description_cell = '<div class="row"> \
             <div class="col-sm-4 product-media"> \
               <a href="' + url + '" target="_blank"> \
-                <img class="media-object" src="' + local_image_url + '" alt=""> \
+                <img class="media-object" src="' + local_image_url + '" alt="' + data.title + '"> \
               </a> \
             </div> \
             <div class="col-sm-8"> \
-              <h4 class="media-heading">' + data.name + '</h4> \
+              <h4 class="media-heading">' + name + '</h4> \
               <div class="text-muted">' + info_fragment + '</div> \
               <div> \
                 ' + services_fragment + ' \

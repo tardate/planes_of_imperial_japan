@@ -5,11 +5,12 @@ Currently available to [browse online here](https://planes-of-imperial-japan.tar
 
 ## Notes
 
-This is a simple parsing, re-organisation and presentation of information from the
-[List of aircraft of Japan during World War II](https://en.wikipedia.org/wiki/List_of_aircraft_of_Japan_during_World_War_II)
-wikipedia page.
-
 This is a little project made while waiting for a plane at Haneda Airport;-)
+
+It is a simple parsing, re-organisation and presentation of information from the
+[List of aircraft of Japan during World War II](https://en.wikipedia.org/wiki/List_of_aircraft_of_Japan_during_World_War_II)
+wikipedia page, available under the
+[Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
 ## Setup
 
@@ -20,28 +21,30 @@ Dependencies can be installed with bundler in the usual way, then you are good t
 bundle install
 ```
 
-## Caching the Catalog
+## Building the Plane Database
 
-The `lib/update.rb` script builds a local cache of the catalog.
+The `bin/update.rb` script builds a local cache of the plane database.
 NB: this is sensitive to major changes in the wikipedia pages, but for now works fine.
 
 Options:
 
 ```bash
-$ lib/update.rb
-      Usage:
-        ruby lib/update.rb all                      # update product metadata, product items and ensures the image cache is complete
-        ruby lib/update.rb show_categories          # show all categories used by current records in the database
-        ruby lib/update.rb (help)                   # this help
+$ bin/update.rb
+        Usage:
+          bin/update.rb all                      # reload plane data and ensures the image cache is complete
+          bin/update.rb cache                    # ensures the data and image cache is complete
+          bin/update.rb show_categories          # show all categories used by current records in the database
+          bin/update.rb (help)                   # this help
 
-      Environment settings:
-        BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
+        Environment settings:
+          BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
+
 ```
 
-## Running the Catalog
+## Running the Site
 
-After updating the cache, the `index.html` presents a very snappy searchable and filterable listing
-of the catalog. It's a simple web page using some basic Bootstrap and Datatables features with a little custom javascript.
+After updating the cache, the `index.html` presents a very snappy searchable and filterable listing of the plane database.
+It's a simple web page using some basic Bootstrap and Datatables features with a little custom javascript.
 
 Here's an example, with a simple search applied.
 Each entry has links to the main Wikipedia page as well as search links for the plane on Scalemates and Google.
