@@ -27,5 +27,14 @@ describe Scraper do
         expect { subject }.to change { plane['variants']&.count }.to(18)
       end
     end
+
+    context 'for Tachikawa Ki-94-I' do
+      let(:uuid) { '5afc98ea6e5a36f6fc83acd74baee3f2' }
+      it 'parses the page correctly' do
+        expect { subject }.to change { plane.keys.sort }.to(%w[uuid title description].sort)
+        expect(plane['title']).to eql('Tachikawa Ki-94')
+        expect(plane['description']).to include('The Tachikawa Ki-94 was a single-seat fighter-Interceptor')
+      end
+    end
   end
 end

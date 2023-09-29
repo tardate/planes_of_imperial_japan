@@ -83,47 +83,69 @@
         rowCallback: function(row, data, index) {
           var cell, main_cell, description_cell;
           var url = data.url;
-          var local_image_url = 'cache/images/' + data.image_local_name;
+          var local_image_url = 'cache/images/' + (data.image_local_name || 'undefined.jpg');
           var product_search_term = data.title.replace(' ', '+');
           var scalemates_url = 'https://www.scalemates.com/search.php?fkSECTION[]=Kits&q=' + product_search_term;
           var google_url = 'https://www.google.com/search?q=' + product_search_term;
 
-          var info_fragment = '';
+          var services_styles = '';
           var services_fragment = '';
 
           for (var i = 0; i < data.services.length; i++) {
-            services_fragment = services_fragment + ' \
-              <span class="label label-success">' + data.services[i] + '</span>';
+            services_styles += ' service-' + data.services[i].toLowerCase();
+            services_fragment += ' <span class="label label-success">' + data.services[i] + '</span>';
           }
 
-          info_fragment += '<dl> \
-            <dt>Number built</dt> \
-            <dd>' + data.number_built + '</dd> \
-            </dl>';
+          var allied_code_fragment = '';
+          if (data.allied_code) {
+            allied_code_fragment += '<li class="list-group-item"> \
+                <span class="badge">' + data.allied_code + '</span> \
+                Allied Code \
+              </li>'
+          }
+
+          var info_fragment = '<ul class="list-group"> \
+              <li class="list-group-item"> \
+                ' + services_fragment + ' \
+                <span class="label label-primary">' + data.category + '</span> \
+              </li> \
+              ' + allied_code_fragment + ' \
+              <li class="list-group-item"> \
+                <span class="badge">' + data.first_flown + '</span> \
+                First Flown \
+              </li> \
+              <li class="list-group-item"> \
+                <span class="badge">' + data.number_built + '</span> \
+                Number Built \
+              </li> \
+            </ul>';
 
           var name = data.name;
-
           if (data.title_ja) name += ' <span>(' + data.title_ja + ')</span>';
 
-          description_cell = '<div class="row"> \
-            <div class="col-sm-4 product-media"> \
+          description_cell = '<div class="media' + services_styles + '" data-uuid="' + data.uuid + '"> \
+            <div class="media-left plane-media"> \
               <a href="' + url + '" target="_blank"> \
                 <img class="media-object" src="' + local_image_url + '" alt="' + data.title + '"> \
               </a> \
             </div> \
-            <div class="col-sm-8"> \
-              <h4 class="media-heading">' + name + '</h4> \
-              <div class="text-muted">' + info_fragment + '</div> \
-              <div> \
-                ' + services_fragment + ' \
-                <span class="label label-primary">' + data.category + '</span> \
-              </div>  \
-              <br/> \
-              <div class="btn-group btn-group-sm" role="group" aria-label="..."> \
-                <a href="' + url + '" target="_blank" class="btn btn-default"><i class="fa fa-link" aria-hidden="true"></i></a> \
-                <a href="' + scalemates_url + '" target="_blank" type="button" class="btn btn-default">Scalemates</a> \
-                <a href="' + google_url + '" target="_blank" type="button" class="btn btn-default">Google</a> \
-              </div> \
+            <div class="media-body"> \
+              <row> \
+                <div class="col-md-8"> \
+                  <h4 class="media-heading">' + name + '</h4> \
+                  <p class="description">' + data.description + '</p> \
+                  <div class="btn-group btn-group-sm" role="group"> \
+                    <div class="btn"><strong>More info:</strong></div> \
+                    <a href="' + url + '" target="_blank" class="btn btn-default"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a> \
+                    <a href="' + google_url + '" target="_blank" type="button" class="btn btn-default">Google</a> \
+                    <a href="' + scalemates_url + '" target="_blank" type="button" class="btn btn-default">Scalemates</a> \
+                  </div> \
+                  <br/><br/> \
+                </div> \
+                <div class="col-md-4"> \
+                  ' + info_fragment + ' \
+                </div> \
+              </row> \
             </div> \
           </div>';
 

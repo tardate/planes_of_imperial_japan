@@ -74,16 +74,6 @@ class Scraper
     end
   end
 
-  def append_plane_description(plane, plane_doc)
-    paras =  plane_doc.css('.mw-body-content p').map do |para|
-      content = para.text.chomp
-      content unless content.empty?
-    end
-    paras.compact!
-
-    plane['description'] = paras.first if paras.size > 0
-  end
-
   def load_plane(plane)
     log 'load_plane', "loading #{plane['name']} .."
     plane_doc = load_plane_doc plane
@@ -161,6 +151,16 @@ class Scraper
       result << key if value && value.include?(key)
     end
     result
+  end
+
+  def append_plane_description(plane, plane_doc)
+    paras =  plane_doc.css('.mw-body-content p').map do |para|
+      content = para.text.chomp
+      content unless content.empty?
+    end
+    paras.compact!
+
+    plane['description'] = paras.first if paras.size > 0
   end
 
   def index_doc

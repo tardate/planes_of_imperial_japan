@@ -6,14 +6,13 @@ body { padding-top: 70px; }
 }
 
 .navbar-default .navbar-text {
-  font-family: 'Russo One', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   color: #232c60;
   font-weight: 400;
   font-size: x-large;
   margin-top: 7px;
   margin-bottom: 0px;
 }
-
 
 .navbar-brand > img {
   height: 50px;
@@ -23,6 +22,6 @@ body { padding-top: 70px; }
   background-color: #fff;
 }
 
-.product-media img {
-  max-width: 100%;
+.dataTable th {
+  display: none;
 }
