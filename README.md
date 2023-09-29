@@ -3,6 +3,8 @@
 A fast and simple skin for a database of planes usde by the IJA and IJN, using some nokogiri magic.
 Currently available to [browse online here](https://planes-of-imperial-japan.tardate.com/).
 
+![workflow-status](https://github.com/tardate/planes_of_imperial_japan/actions/workflows/rspec.yml/badge.svg)
+
 ## Notes
 
 This is a little project made while waiting for a plane at Haneda Airport;-)
