@@ -81,7 +81,6 @@
           instance.applyFilter();
         },
         rowCallback: function(row, data, index) {
-          var cell, main_cell, description_cell;
           var url = data.url;
           var local_image_url = 'cache/images/' + (data.image_local_name || 'undefined.jpg');
           var product_search_term = data.title.replace(' ', '+');
@@ -89,11 +88,9 @@
           var google_url = 'https://www.google.com/search?q=' + product_search_term;
 
           var services_styles = '';
-          var services_fragment = '';
 
           for (var i = 0; i < data.services.length; i++) {
             services_styles += ' service-' + data.services[i].toLowerCase();
-            services_fragment += ' <span class="label label-success">' + data.services[i] + '</span>';
           }
 
           var allied_code_fragment = '';
@@ -106,7 +103,16 @@
 
           var info_fragment = '<ul class="list-group"> \
               <li class="list-group-item"> \
-                ' + services_fragment + ' \
+                <span class="display-ija" style="display: none;"> \
+                  <img src="assets/flag_ija.png" alt="IJA"/> \
+                  <span class="service-name">IJA</span> \
+                </span> \
+                <span class="display-ijn" style="display: none;"> \
+                  <img src="assets/flag_ijn.png" alt="IJN"/> \
+                  <span class="service-name">IJN</span> \
+                </span> \
+              </li> \
+              <li class="list-group-item"> \
                 <span class="label label-primary">' + data.category + '</span> \
               </li> \
               ' + allied_code_fragment + ' \
@@ -123,24 +129,26 @@
           var name = data.name;
           if (data.title_ja) name += ' <span>(' + data.title_ja + ')</span>';
 
-          description_cell = '<div class="media' + services_styles + '" data-uuid="' + data.uuid + '"> \
+          var main_description = '<p class="description">' + data.description + '</p> \
+            <div class="btn-group btn-group-sm" role="group"> \
+              <div class="btn"><strong>More info:</strong></div> \
+              <a href="' + url + '" target="_blank" class="btn btn-default"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a> \
+              <a href="' + google_url + '" target="_blank" type="button" class="btn btn-default">Google</a> \
+              <a href="' + scalemates_url + '" target="_blank" type="button" class="btn btn-default">Scalemates</a> \
+            </div> \
+            <br/><br/>';
+
+          var description_cell = '<div class="media' + services_styles + '" data-uuid="' + data.uuid + '"> \
             <div class="media-left plane-media"> \
               <a href="' + url + '" target="_blank"> \
-                <img class="media-object" src="' + local_image_url + '" alt="' + data.title + '"> \
+                <img class="media-object" src="' + local_image_url + '" alt="' + data.title + '"/> \
               </a> \
             </div> \
             <div class="media-body"> \
               <row> \
                 <div class="col-md-8"> \
                   <h4 class="media-heading">' + name + '</h4> \
-                  <p class="description">' + data.description + '</p> \
-                  <div class="btn-group btn-group-sm" role="group"> \
-                    <div class="btn"><strong>More info:</strong></div> \
-                    <a href="' + url + '" target="_blank" class="btn btn-default"><i class="fa fa-wikipedia-w" aria-hidden="true"></i></a> \
-                    <a href="' + google_url + '" target="_blank" type="button" class="btn btn-default">Google</a> \
-                    <a href="' + scalemates_url + '" target="_blank" type="button" class="btn btn-default">Scalemates</a> \
-                  </div> \
-                  <br/><br/> \
+                  ' + main_description + ' \
                 </div> \
                 <div class="col-md-4"> \
                   ' + info_fragment + ' \
@@ -149,7 +157,7 @@
             </div> \
           </div>';
 
-          cell = $('td:eq(0)', row)
+          var cell = $('td:eq(0)', row)
           cell.attr('data-url', url)
           cell.html(description_cell);
           return cell

@@ -17,9 +17,7 @@ wikipedia page, available under the
 The catalog runs locally and needs a working ruby installation - I'm currently using Ruby 2.7.2 but the code is not version-sensitive.
 Dependencies can be installed with bundler in the usual way, then you are good to go:
 
-```bash
-bundle install
-```
+    bundle install
 
 ## Building the Plane Database
 
@@ -28,18 +26,29 @@ NB: this is sensitive to major changes in the wikipedia pages, but for now works
 
 Options:
 
-```bash
-$ bin/update.rb
-        Usage:
-          bin/update.rb all                      # reload plane data and ensures the image cache is complete
-          bin/update.rb cache                    # ensures the data and image cache is complete
-          bin/update.rb show_categories          # show all categories used by current records in the database
-          bin/update.rb (help)                   # this help
+    $ bin/update.rb
+            Usage:
+              bin/update.rb all                      # reload plane data and ensures the image cache is complete
+              bin/update.rb cache                    # ensures the data and image cache is complete
+              bin/update.rb show_categories          # show all categories used by current records in the database
+              bin/update.rb (help)                   # this help
 
-        Environment settings:
-          BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
+            Environment settings:
+              BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
 
-```
+## Testing the Loader Code
+
+The code has rspec coverage:
+
+    bundle exec rspec
+
+Or with rake
+
+    bundle exec rake spec
+
+Or with guard
+
+    bundle exec guard
 
 ## Running the Site
 
