@@ -1,7 +1,13 @@
 class Scraper
+  attr_accessor :snapshots_enabled
+
   BACKOFF_SECONDS = ENV.fetch('BACKOFF_SECONDS', 0.3).to_f
   BASE_URL = 'https://en.wikipedia.org'.freeze
   INDEX_PATH = '/wiki/List_of_aircraft_of_Japan_during_World_War_II'.freeze
+
+  def initialize
+    self.snapshots_enabled = true
+  end
 
   def run!
     operation = ARGV.shift
@@ -78,8 +84,11 @@ class Scraper
     log 'load_plane', "loading #{plane['name']} .."
     plane_doc = load_plane_doc plane
 
-    page_title = plane_doc.css('.mw-page-title-main').first
-    plane['title'] = page_title.text if page_title
+    plane['title'] = plane_doc.css('.mw-page-title-main').first&.text
+    plane['title'] ||= plane_doc.css('.mw-first-heading').first&.text
+
+    title_ja = plane_doc.css('.mw-body-content span[title="Japanese-language text"] span').first
+    plane['title_ja'] = title_ja.text if title_ja
 
     image_link = plane_doc.css('.infobox img.mw-file-element').last
     if image_link
@@ -90,9 +99,6 @@ class Scraper
     end
 
     append_plane_description(plane, plane_doc)
-
-    title_ja = plane_doc.css('.mw-body-content span[title="Japanese-language text"] span').first
-    plane['title_ja'] = title_ja.text if title_ja
 
     variants = plane_doc.css('h2 span#Variants').first
     if variants
@@ -154,13 +160,14 @@ class Scraper
   end
 
   def append_plane_description(plane, plane_doc)
-    paras =  plane_doc.css('.mw-body-content p').map do |para|
-      content = para.text.chomp
-      content unless content.empty?
+    plane_doc.css('.mw-body-content p').detect do |item|
+      text = item.text.chomp
+      unless text.empty?
+        plane['description'] = text
+        return
+      end
     end
-    paras.compact!
-
-    plane['description'] = paras.first if paras.size > 0
+    nil
   end
 
   def index_doc
@@ -176,12 +183,12 @@ class Scraper
   end
 
   def get_page(url, message: nil, local_file: nil)
-    if local_file && File.exist?(local_file)
+    if snapshots_enabled && local_file && File.exist?(local_file)
       html = local_file
     else
       log message, "loading #{url} with a #{BACKOFF_SECONDS} second grace period delay"
       html = URI.open(URI.parse(url))
-      File.write(local_file, File.read(html)) if local_file
+      File.write(local_file, File.read(html)) if snapshots_enabled && local_file
       sleep BACKOFF_SECONDS
     end
     result = Nokogiri::HTML(html)
