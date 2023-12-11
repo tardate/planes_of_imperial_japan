@@ -86,17 +86,6 @@ class Scrapers::WikiList < Scrapers::Base
     end
   end
 
-  def append_plane_description(plane, plane_doc)
-    plane_doc.css('.mw-body-content p').detect do |item|
-      text = item.text.chomp
-      unless text.empty?
-        plane['description'] = text
-        return
-      end
-    end
-    nil
-  end
-
   def load_plane_doc(plane)
     local_file = snapshots_folder.join("#{plane['uuid']}.html")
     get_page(plane['url'], message: "GET #{plane['name']}", local_file: local_file)
