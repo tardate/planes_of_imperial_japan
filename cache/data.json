@@ -2792,5 +2792,22 @@
     "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
     "title": "Tachikawa Ki-94",
     "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
+  },
+  {
+    "name": "Tachikawa Ki-54",
+    "title": "Tachikawa Ki-54",
+    "path": "/wiki/Tachikawa_Ki-54",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
+    "category": "Trainers",
+    "allied_code": "Hickory",
+    "first_flown": 1941,
+    "number_built": 1368,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "727a97f8e20ed1600935feca47fbcad2",
+    "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
+    "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
   }
 ]

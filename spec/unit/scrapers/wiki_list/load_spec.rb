@@ -1,15 +1,14 @@
 require 'spec_helper'
 
-describe Scraper do
-  let(:component) { described_class.new }
+describe Scrapers::WikiList do
+  let(:component) { described_class.new(given_catalog) }
   let(:given_catalog) { Catalog.new }
 
-  vcr_base = 'scraper/load_planes'
+  vcr_base = 'scrapers/wiki_list/load'
 
-  describe '#load_planes' do
-    subject { component.load_planes }
+  describe '#load!' do
+    subject { component.load! }
     before do
-      component.catalog = given_catalog
       allow(component).to receive(:load_plane)
       allow(component).to receive(:log)
     end
@@ -23,9 +22,9 @@ describe Scraper do
 
     context 'with cached snapshot' do
       before do
-        allow(component).to receive(:index_doc).and_return(snapshot)
+        allow(component).to receive(:main_doc).and_return(snapshot)
       end
-      let(:snapshot) { get_html_snapshot('index.html') }
+      let(:snapshot) { get_html_snapshot('wiki_list.html') }
 
       it 'parses the index.html to catalog correctly' do
         expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(65)

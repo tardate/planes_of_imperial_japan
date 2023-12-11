@@ -1,62 +1,10 @@
-class Scraper
-  attr_accessor :snapshots_enabled
-
-  BACKOFF_SECONDS = ENV.fetch('BACKOFF_SECONDS', 0.3).to_f
-  BASE_URL = 'https://en.wikipedia.org'.freeze
-  INDEX_PATH = '/wiki/List_of_aircraft_of_Japan_during_World_War_II'.freeze
-
-  def initialize
-    self.snapshots_enabled = true
+class Scrapers::WikiList < Scrapers::Base
+  def main_path
+    '/wiki/List_of_aircraft_of_Japan_during_World_War_II'
   end
 
-  def run!
-    operation = ARGV.shift
-    case operation
-    when 'show_categories'
-      show_categories
-    when 'all'
-      ensure_cache_complete refresh: true
-    when 'cache'
-      ensure_cache_complete
-    else
-      warn <<-HELP
-        Usage:
-          bin/update.rb all                      # reload plane data and ensures the image cache is complete
-          bin/update.rb cache                    # ensures the data and image cache is complete
-          bin/update.rb show_categories          # show all categories used by current records in the database
-          bin/update.rb (help)                   # this help
-
-        Environment settings:
-          BACKOFF_SECONDS # override the default backoff delay 0.3 seconds
-
-      HELP
-    end
-  end
-
-  def ensure_cache_complete(refresh: false)
-    load_planes refresh: refresh
-    save
-    cache_plane_images
-  end
-
-  def catalog
-    @catalog ||= Catalog.new.load
-  end
-
-  def catalog=(value)
-    @catalog = value
-  end
-
-  def save
-    catalog.save
-    catalog.export_data_table
-  end
-
-  def load_planes(refresh: false)
-    return unless refresh || catalog.planes.empty?
-
-    catalog.planes = {}
-    index_doc.css('#bodyContent h2').each do |header|
+  def load!
+    main_doc.css('#bodyContent h2').each do |header|
       category = header.css('.mw-headline').text
       table = header.next_element
       table.css('tbody tr').each do |row|
@@ -73,7 +21,7 @@ class Scraper
           'services' => as_service_list(cells[4]&.text)
         }
         plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
-        plane['url'] = BASE_URL + plane['path']
+        plane['url'] = base_url + plane['path']
         load_plane plane
         catalog.planes[plane['uuid']] = plane
       end
@@ -138,27 +86,6 @@ class Scraper
     end
   end
 
-  def cache_plane_images
-    catalog.planes.values.each do |plane|
-      next unless plane['image_url']
-
-      get_image(plane['image_local_name'], plane['image_url'])
-    end
-  end
-
-  def as_first_flown(value)
-    result = value.chomp.to_i
-    result if result > 0
-  end
-
-  def as_service_list(value)
-    result = []
-    %w[IJA IJN].each do |key|
-      result << key if value && value.include?(key)
-    end
-    result
-  end
-
   def append_plane_description(plane, plane_doc)
     plane_doc.css('.mw-body-content p').detect do |item|
       text = item.text.chomp
@@ -170,55 +97,8 @@ class Scraper
     nil
   end
 
-  def index_doc
-    @index_doc ||= begin
-      local_file = catalog.snapshots_folder.join('index.html')
-      get_page(BASE_URL + INDEX_PATH, message: 'GET main page (en)', local_file: local_file)
-    end
-  end
-
   def load_plane_doc(plane)
-    local_file = catalog.snapshots_folder.join("#{plane['uuid']}.html")
+    local_file = snapshots_folder.join("#{plane['uuid']}.html")
     get_page(plane['url'], message: "GET #{plane['name']}", local_file: local_file)
-  end
-
-  def get_page(url, message: nil, local_file: nil)
-    if snapshots_enabled && local_file && File.exist?(local_file)
-      html = local_file
-    else
-      log message, "loading #{url} with a #{BACKOFF_SECONDS} second grace period delay"
-      html = URI.open(URI.parse(url))
-      File.write(local_file, File.read(html)) if snapshots_enabled && local_file
-      sleep BACKOFF_SECONDS
-    end
-    result = Nokogiri::HTML(html)
-    result
-  end
-
-  def get_image(local_name, image_url)
-    filename = catalog.image_path(local_name)
-    log 'Load Product Image', "loading #{filename} with a #{BACKOFF_SECONDS} second grace period delay"
-
-    unless File.exist?(filename)
-      open(filename, 'wb') do |file|
-        file << URI.open(URI.parse(image_url)).read
-      end
-      sleep BACKOFF_SECONDS
-    end
-  end
-
-  def log(category, message)
-    warn "[#{category}][#{Time.now}] #{message}"
-  end
-
-  def show_categories
-    categories = catalog.planes.each_with_object({}) do |plane, memo|
-      category = plane['category'] || ''
-      memo[category] ||= 0
-      memo[category] += 1
-    end
-    categories.keys.sort.each do |category|
-      puts "#{category}: #{categories[category]} planes"
-    end
   end
 end

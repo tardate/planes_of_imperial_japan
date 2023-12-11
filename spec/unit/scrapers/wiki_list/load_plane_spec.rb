@@ -1,16 +1,15 @@
 require 'spec_helper'
 
-describe Scraper do
-  let(:component) { described_class.new }
+describe Scrapers::WikiList do
+  let(:component) { described_class.new(given_catalog) }
   let(:given_catalog) { Catalog.new }
 
-  vcr_base = 'scraper/load_plane'
+  vcr_base = 'scrapers/wiki_list/load_plane'
 
   describe '#load_plane' do
     subject { component.load_plane(plane) }
     before do
       component.snapshots_enabled = false
-      component.catalog = given_catalog
       allow(component).to receive(:log)
     end
     let(:base_keys) { %w[uuid category name path url] }
