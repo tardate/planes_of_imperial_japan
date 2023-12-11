@@ -35,17 +35,8 @@ class Scrapers::WikiList < Scrapers::Base
     plane['title'] = plane_doc.css('.mw-page-title-main').first&.text
     plane['title'] ||= plane_doc.css('.mw-first-heading').first&.text
 
-    title_ja = plane_doc.css('.mw-body-content span[title="Japanese-language text"] span').first
-    plane['title_ja'] = title_ja.text if title_ja
-
-    image_link = plane_doc.css('.infobox img.mw-file-element').last
-    if image_link
-      image_url = image_link.attr('src')
-      image_url = "https:#{image_url}" if image_url[0] = '/'
-      plane['image_url'] = image_url
-      plane['image_local_name'] = [plane['uuid'], image_url.split('.').last.downcase].join('.')
-    end
-
+    append_title_ja(plane, plane_doc)
+    append_image(plane, plane_doc)
     append_plane_description(plane, plane_doc)
 
     variants = plane_doc.css('h2 span#Variants').first

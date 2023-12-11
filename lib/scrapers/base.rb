@@ -41,8 +41,14 @@ class Scrapers::Base
     result
   end
 
-  def append_plane_description(plane, plane_doc)
-    plane_doc.css('.mw-body-content p').detect do |item|
+  def append_title_ja(plane, doc, default: nil)
+    title_ja = doc.css('.mw-body-content span[title="Japanese-language text"] span').first
+    plane['title_ja'] = title_ja.text if title_ja
+    plane['title_ja'] ||= default if default
+  end
+
+  def append_plane_description(plane, doc)
+    doc.css('.mw-body-content p').detect do |item|
       text = item.text.chomp
       unless text.empty?
         plane['description'] = text
@@ -50,6 +56,16 @@ class Scrapers::Base
       end
     end
     nil
+  end
+
+  def append_image(plane, doc)
+    image_link = doc.css('.infobox img.mw-file-element').last
+    if image_link
+      image_url = image_link.attr('src')
+      image_url = "https:#{image_url}" if image_url[0] = '/'
+      plane['image_url'] = image_url
+      plane['image_local_name'] = [plane['uuid'], image_url.split('.').last.downcase].join('.')
+    end
   end
 
   def get_page(url, message: nil, local_file: nil)
