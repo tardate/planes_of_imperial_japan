@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe Scrapers::Ki54 do
+describe Scrapers::Ku7 do
   let(:component) { described_class.new(given_catalog) }
   let(:given_catalog) { Catalog.new }
 
-  vcr_base = 'scrapers/ki54/load'
+  vcr_base = 'scrapers/Ku7/load'
 
   describe '#load!' do
     subject { component.load! }
@@ -21,17 +21,6 @@ describe Scrapers::Ki54 do
       ]
     end
 
-    context 'with cached snapshot' do
-      before do
-        allow(component).to receive(:main_doc).and_return(snapshot)
-      end
-      let(:snapshot) { get_html_snapshot('ki54.html') }
-
-      it 'parses the imain page to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(1)
-      end
-    end
-
     context 'with index.html load', vcr: { cassette_name: "#{vcr_base}/index", match_requests_on: [:path] } do
       before do
         component.snapshots_enabled = false
@@ -40,15 +29,15 @@ describe Scrapers::Ki54 do
       it 'parses the index.html to catalog correctly' do
         expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(1)
         plane = component.catalog.planes.values.first
-        expect(plane['uuid']).to eql('727a97f8e20ed1600935feca47fbcad2')
-        expect(plane['name']).to eql('Tachikawa Ki-54')
-        expect(plane['title']).to eql('Tachikawa Ki-54')
-        expect(plane['title_ja']).to be_nil
-        expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Tachikawa_Ki-54')
-        expect(plane['category']).to eql('Trainers')
-        expect(plane['allied_code']).to eql('Hickory')
-        expect(plane['first_flown']).to eql(1941)
-        expect(plane['number_built']).to eql(1368)
+        expect(plane['uuid']).to eql('9e69f0ae7f0a6ca5caa7120bf230343d')
+        expect(plane['name']).to eql('Kokusai Ku-7')
+        expect(plane['title']).to eql('Kokusai Ku-7')
+        expect(plane['title_ja']).to eql('真鶴')
+        expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kokusai_Ku-7')
+        expect(plane['category']).to eql('Experimental aircraft')
+        expect(plane['allied_code']).to eql('Buzzard')
+        expect(plane['first_flown']).to eql(1942)
+        expect(plane['number_built']).to eql(2)
         expect(plane['services']).to match_array(%w[IJA])
       end
     end

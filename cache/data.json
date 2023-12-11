@@ -2809,5 +2809,23 @@
     "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
     "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
+  },
+  {
+    "name": "Kokusai Ku-7",
+    "title": "Kokusai Ku-7",
+    "path": "/wiki/Kokusai_Ku-7",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
+    "category": "Experimental aircraft",
+    "allied_code": "Buzzard",
+    "first_flown": 1942,
+    "number_built": 2,
+    "services": [
+      "IJA"
+    ],
+    "uuid": "9e69f0ae7f0a6ca5caa7120bf230343d",
+    "title_ja": "真鶴",
+    "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
+    "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
   }
 ]

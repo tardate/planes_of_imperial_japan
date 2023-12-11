@@ -26,13 +26,21 @@ class Builder
   def ensure_cache_complete(refresh: false)
     if refresh || catalog.planes.empty?
       catalog.planes = {}
-      Scrapers::WikiList.new(catalog).load!
-      Scrapers::Ki54.new(catalog).load!
+      all_scrapers.each do |scraper|
+        scraper.new(catalog).load!
+      end
     end
     save
     cache_plane_images
   end
 
+  def all_scrapers
+    [
+      Scrapers::WikiList,
+      Scrapers::Ki54,
+      Scrapers::Ku7
+    ]
+  end
 
   def catalog
     @catalog ||= Catalog.new.load
