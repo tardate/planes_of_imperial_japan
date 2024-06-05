@@ -170,9 +170,6 @@
 
   jQuery(function() {
     root.catalog = new root.CatalogController($('#catalog-table'));
-    $('[data-action="info"]').on("click", function() {
-      $('.alert').toggle();
-    });
     $('[data-action="reset"]').on("click", function() {
       root.catalog.clearFilter();
     });
