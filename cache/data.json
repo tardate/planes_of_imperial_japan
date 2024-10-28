@@ -2831,6 +2831,7 @@
   {
     "name": "Nakajima E2N",
     "title": "Nakajima E2N",
+    "title_ja": "一五式水上偵察機",
     "path": "/wiki/Nakajima_E2N",
     "url": "https://en.wikipedia.org/wiki/Nakajima_E2N",
     "category": "Reconnaissance aircraft",
@@ -2841,8 +2842,18 @@
       "IJN"
     ],
     "uuid": "df900f7276252bc52bd2c0c6bedfcda3",
-    "description": "The Nakajima E2N was a Japanese reconnaissance aircraft of the inter-war years. It was a single-engine, two-seat, sesquiplane seaplane with twin main floats.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nakajima_E2N.jpg/300px-Nakajima_E2N.jpg",
-    "image_local_name": "df900f7276252bc52bd2c0c6bedfcda3.jpg"
+    "image_local_name": "df900f7276252bc52bd2c0c6bedfcda3.jpg",
+    "description": "The Nakajima E2N was a Japanese reconnaissance seaplane of the 1920s. It was a two-seat, single-engine biplane with a central float and underwing stabilizing floats. The E2N served with the Navy as the Nakajima Navy Type 15 Reconnaissance Floatplane (一五式水上偵察機) from 1927 to 1936.",
+    "variants": [
+      {
+        "name": "E2N1 (Type 15-1 Reconnaissance Seaplane)",
+        "description": "Short-range reconnaissance aircraft."
+      },
+      {
+        "name": "E2N2 (Type 15-2 Reconnaissance Seaplane)",
+        "description": "Trainer version with dual controls."
+      }
+    ]
   }
 ]
