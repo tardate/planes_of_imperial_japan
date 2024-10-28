@@ -1054,8 +1054,7 @@
       "first_flown": 1936,
       "number_built": 500,
       "services": [
-        "IJA",
-        "IJN"
+        "IJA"
       ],
       "uuid": "0b78a524c0822a3db0c5738d92935131",
       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-15",
@@ -2829,6 +2828,23 @@
       "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
       "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
+    },
+    "df900f7276252bc52bd2c0c6bedfcda3": {
+      "name": "Nakajima E2N",
+      "title": "Nakajima E2N",
+      "path": "/wiki/Nakajima_E2N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_E2N",
+      "category": "Reconnaissance aircraft",
+      "allied_code": null,
+      "first_flown": 1927,
+      "number_built": 80,
+      "services": [
+        "IJN"
+      ],
+      "uuid": "df900f7276252bc52bd2c0c6bedfcda3",
+      "description": "The Nakajima E2N was a Japanese reconnaissance aircraft of the inter-war years. It was a single-engine, two-seat, sesquiplane seaplane with twin main floats.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nakajima_E2N.jpg/300px-Nakajima_E2N.jpg",
+      "image_local_name": "df900f7276252bc52bd2c0c6bedfcda3.jpg"
     }
   }
 }
