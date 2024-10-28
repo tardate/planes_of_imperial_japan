@@ -68,6 +68,45 @@ class Scrapers::Base
     end
   end
 
+  def append_variants(plane, doc, selector='h2 span#Variants')
+    variants = doc.css(selector).first
+    return unless variants
+
+    plane['variants'] = []
+    current_element = variants.parent.next_element
+    while current_element && !%w[h2 h3].include?(current_element.name) do
+      case current_element.name
+      when 'dl'
+        dt_nodes = current_element.children.collect { |node| node.name == 'dt' ? node : nil }.compact #css('dt')
+        dd_nodes = current_element.children.collect { |node| node.name == 'dd' ? node : nil }.compact #css('dd')
+        if dt_nodes.count > 0 && dt_nodes.count == dd_nodes.count
+          log 'load_plane', "scanning variant element #{current_element.name}"
+          dt_nodes.each_with_index do |dt, index|
+            variant = {
+              'name' => dt.text,
+              'description' => dd_nodes[index].text
+            }
+            plane['variants'] << variant
+          end
+        else
+          log 'load_plane', "ignoring variant element #{current_element.name} dt_nodes.count: #{dt_nodes.count}, dd_nodes.count: #{dd_nodes.count} current_element: #{current_element.inspect}"
+        end
+      when 'ul'
+        log 'load_plane', "scanning variant element #{current_element.name}"
+        current_element.css('li').each do |item|
+          variant = {
+            'name' => item.css('b').text,
+            'description' => item.text
+          }
+          plane['variants'] << variant
+        end
+      else
+        log 'load_plane', "ignoring variant element #{current_element.name}"
+      end
+      current_element = current_element.next_element
+    end
+  end
+
   def get_page(url, message: nil, local_file: nil)
     if snapshots_enabled && local_file && File.exist?(local_file)
       html = local_file
