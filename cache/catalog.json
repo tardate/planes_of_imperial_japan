@@ -1054,7 +1054,8 @@
       "first_flown": 1936,
       "number_built": 500,
       "services": [
-        "IJA"
+        "IJA",
+        "IJN"
       ],
       "uuid": "0b78a524c0822a3db0c5738d92935131",
       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-15",
