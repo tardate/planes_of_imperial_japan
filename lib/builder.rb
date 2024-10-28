@@ -38,7 +38,8 @@ class Builder
     [
       Scrapers::WikiList,
       Scrapers::Ki54,
-      Scrapers::Ku7
+      Scrapers::Ku7,
+      Scrapers::E2n
     ]
   end
 
