@@ -3030,6 +3030,24 @@
     "image_local_name": "0ba7342c85d74c7e553decb3f7096c12.jpg"
   },
   {
+    "path": "/wiki/Tachikawa_Ki-9",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-9",
+    "category": "Trainers",
+    "allied_code": "Spruce",
+    "first_flown": 1935,
+    "number_built": 2618,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-9",
+    "name": "Tachikawa Ki-9",
+    "uuid": "14db53d4bb7567aac30b377f130c81d5",
+    "title_ja": "九五式一型練習機",
+    "description": "The Tachikawa Ki-9 (九五式一型練習機, Kyūgo-shiki ichigata renshuki) was an intermediate training aircraft of the Imperial Japanese Army Air Force built by Tachikawa Aircraft Company Ltd in the 1930s. It was known to the Allies under the nickname of \"Spruce\" during World War II. This aircraft was mistakenly identified as a Tatchikawa by the British.[3]",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tachikawa_Ki-9_-_Aircraft.jpg/300px-Tachikawa_Ki-9_-_Aircraft.jpg",
+    "image_local_name": "14db53d4bb7567aac30b377f130c81d5.jpg"
+  },
+  {
     "path": "/wiki/Kokusai_Ku-7",
     "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
     "category": "Experimental aircraft",
