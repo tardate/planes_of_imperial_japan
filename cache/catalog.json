@@ -2942,6 +2942,23 @@
       "description": "The Aichi E10A was a Japanese night reconnaissance flying boat of the 1930s.  A single-engined biplane, 15 were built for the Imperial Japanese Navy as the Type 96 Night Reconnaissance Seaplane, serving from 1936 but were retired in 1941 before the Attack on Pearl Harbor.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aichi_E10A_-_Type_96.jpg/300px-Aichi_E10A_-_Type_96.jpg",
       "image_local_name": "f3d004494d37558684d5d84a54bc5ece.jpg"
+    },
+    "df7ac11604c0afb10f707778555491eb": {
+      "path": "/wiki/Tachikawa_Ki-55",
+      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-55",
+      "category": "Trainers",
+      "allied_code": "Ida",
+      "first_flown": 1939,
+      "number_built": 1389,
+      "services": [
+        "IJA"
+      ],
+      "title": "Tachikawa Ki-55",
+      "name": "Tachikawa Ki-55",
+      "uuid": "df7ac11604c0afb10f707778555491eb",
+      "description": "The Tachikawa Ki-55 was a Japanese advanced trainer.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tachikawa_Ki-55.jpg/300px-Tachikawa_Ki-55.jpg",
+      "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg"
     }
   }
 }

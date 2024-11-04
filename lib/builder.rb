@@ -44,7 +44,8 @@ class Builder
       Scrapers::H3k,
       Scrapers::H5y,
       Scrapers::Ki70,
-      Scrapers::E10a
+      Scrapers::E10a,
+      Scrapers::Ki55
     ]
   end
 
