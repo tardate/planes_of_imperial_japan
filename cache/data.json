@@ -2961,6 +2961,24 @@
     "image_local_name": "8afb0ea1f873c83ff9883716619646fa.jpg"
   },
   {
+    "path": "/wiki/Yokosuka_K5Y",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_K5Y",
+    "category": "Trainers",
+    "allied_code": "Willow",
+    "first_flown": 1933,
+    "number_built": 5770,
+    "services": [
+      "IJN"
+    ],
+    "title": "Yokosuka K5Y",
+    "name": "Yokosuka K5Y",
+    "uuid": "738a2e1e58fcd7bcdf28d078b4ee53cc",
+    "title_ja": "九三式中間練習機",
+    "description": "The Yokosuka K5Y (九三式中間練習機, Kyūsanshikichūkanrenshūki, Type 93 Intermediate Training Aircraft, Allied reporting name: \"Willow\") was a two-seat unequal-span biplane trainer that served in the Imperial Japanese Navy during World War II. Due to its bright orange paint scheme (applied to all Japanese military trainers for visibility), it earned the nickname \"aka-tombo\", or \"red dragonfly\", after a type of insect common throughout Japan.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/K5Y-93-2.jpg/300px-K5Y-93-2.jpg",
+    "image_local_name": "738a2e1e58fcd7bcdf28d078b4ee53cc.jpg"
+  },
+  {
     "path": "/wiki/Mitsubishi_Ki-2",
     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-2",
     "category": "Bombers",

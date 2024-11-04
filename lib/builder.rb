@@ -46,6 +46,7 @@ class Builder
       Scrapers::H5y,
       Scrapers::K10w,
       Scrapers::K3m,
+      Scrapers::K5y,
       Scrapers::Ki2,
       Scrapers::Ki54,
       Scrapers::Ki55,
