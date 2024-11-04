@@ -2907,5 +2907,22 @@
     "description": "The Yokosuka H5Y (short designation) or Yokosuka Navy Type 99 Flying Boat Model 11 (九九式飛行艇, 99shiki hikōtei) (long designation), given the allied code name Cherry, was an IJNAS flying boat in service from 1938.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/H5Y-2.jpg/300px-H5Y-2.jpg",
     "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
+  },
+  {
+    "path": "/wiki/Tachikawa_Ki-70",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-70",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Clara",
+    "first_flown": 1943,
+    "number_built": 3,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-70",
+    "name": "Tachikawa Ki-70",
+    "uuid": "0754e25c6ef22495d0ca122431501de8",
+    "description": "The Tachikawa Ki-70 \"Clara\" was a high speed photo reconnaissance aircraft that was tested for the Japanese Air Force in prototype form but never entered production. The Ki-70 was the intended successor to the Mitsubishi Ki-46 but was difficult to handle and was slower than the Mitsubishi Ki-46. The Ki-70 was first flown in 1943 but was found unsatisfactory and the program was terminated. Three aircraft were built.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/One_Ki-70_prototype.jpg/300px-One_Ki-70_prototype.jpg",
+    "image_local_name": "0754e25c6ef22495d0ca122431501de8.jpg"
   }
 ]

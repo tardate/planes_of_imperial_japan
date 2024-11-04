@@ -42,7 +42,8 @@ class Builder
       Scrapers::Ku8,
       Scrapers::E2n,
       Scrapers::H3k,
-      Scrapers::H5y
+      Scrapers::H5y,
+      Scrapers::Ki70
     ]
   end
 
