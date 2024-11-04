@@ -93,6 +93,7 @@ avoiding the browser limitations with loading the JSON data file. Run it with:
 ## Credits and References
 
 * [List of aircraft of Japan during World War II](https://en.wikipedia.org/wiki/List_of_aircraft_of_Japan_during_World_War_II)
+* [World War II Allied names for Japanese aircraft](https://en.wikipedia.org/wiki/World_War_II_Allied_names_for_Japanese_aircraft)
 * [Datatables](https://datatables.net/)
 * [Bootstrap](https://getbootstrap.com/docs/3.4/)
 * [Sinatra Docs](http://sinatrarb.com/)
