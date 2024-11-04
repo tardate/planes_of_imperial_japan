@@ -2926,6 +2926,24 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kyushu_K10W1_side.jpeg/300px-Kyushu_K10W1_side.jpeg",
       "image_local_name": "ffd163fe6045138648b66de9ca8281c8.jpeg"
     },
+    "8afb0ea1f873c83ff9883716619646fa": {
+      "path": "/wiki/Mitsubishi_K3M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_K3M",
+      "category": "Trainers",
+      "allied_code": "Pine",
+      "first_flown": 1930,
+      "number_built": 625,
+      "services": [
+        "IJN"
+      ],
+      "title": "Mitsubishi K3M",
+      "name": "Mitsubishi K3M",
+      "uuid": "8afb0ea1f873c83ff9883716619646fa",
+      "title_ja": "九〇式機上作業練習機",
+      "description": "The Mitsubishi K3M (九〇式機上作業練習機, Kyūrei-shiki kijō sagyō renshūki) was a trainer built by Mitsubishi which was used by the Imperial Japanese Navy in an extremely wide variety of roles, including light transport, liaison aircraft, utility aircraft and occasionally light bomber. Its Allied reporting name was Pine.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mitsubishi_K3M.jpg/300px-Mitsubishi_K3M.jpg",
+      "image_local_name": "8afb0ea1f873c83ff9883716619646fa.jpg"
+    },
     "55f64f45bf00ef0b8ce665ca468ea94d": {
       "path": "/wiki/Mitsubishi_Ki-2",
       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-2",
