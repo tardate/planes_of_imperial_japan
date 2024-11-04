@@ -4,10 +4,7 @@ class Scrapers::Ku7 < Scrapers::Base
   end
 
   def load!
-    name = main_doc.css('.mw-page-title-main').text
     plane = {
-      'name' => name,
-      'title' => name,
       'path' => main_path,
       'url' => base_url + main_path,
       'category' => 'Experimental aircraft',
@@ -16,6 +13,7 @@ class Scrapers::Ku7 < Scrapers::Base
       'number_built' => 2,
       'services' => %w[IJA]
     }
+    plane['name'] = append_title(plane, main_doc)
     plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
 
     append_title_ja(plane, main_doc, default: '真鶴')

@@ -37,9 +37,27 @@ class Builder
   def all_scrapers
     [
       Scrapers::WikiList,
+      Scrapers::D1a,
+      Scrapers::E2n,
+      Scrapers::E10a,
+      Scrapers::E11a,
+      Scrapers::G5n,
+      Scrapers::H3k,
+      Scrapers::H5y,
+      Scrapers::K10w,
+      Scrapers::K3m,
+      Scrapers::K5y,
+      Scrapers::Ki2,
       Scrapers::Ki54,
+      Scrapers::Ki55,
+      Scrapers::Ki59,
+      Scrapers::Ki70,
+      Scrapers::Ki74,
+      Scrapers::Ki76,
+      Scrapers::Ki9,
       Scrapers::Ku7,
-      Scrapers::E2n
+      Scrapers::Ku8,
+      Scrapers::Q1w
     ]
   end
 

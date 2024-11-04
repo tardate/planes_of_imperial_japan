@@ -41,6 +41,11 @@ class Scrapers::Base
     result
   end
 
+  def append_title(plane, doc)
+    plane['title'] = doc.css('.mw-page-title-main').first&.text
+    plane['title'] ||= doc.css('.mw-first-heading').first&.text
+  end
+
   def append_title_ja(plane, doc, default: nil)
     title_ja = doc.css('.mw-body-content span[title="Japanese-language text"] span').first
     plane['title_ja'] = title_ja.text if title_ja

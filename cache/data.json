@@ -2794,53 +2794,35 @@
     "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
   },
   {
-    "name": "Tachikawa Ki-54",
-    "title": "Tachikawa Ki-54",
-    "path": "/wiki/Tachikawa_Ki-54",
-    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
-    "category": "Trainers",
-    "allied_code": "Hickory",
-    "first_flown": 1941,
-    "number_built": 1368,
+    "path": "/wiki/Aichi_D1A",
+    "url": "https://en.wikipedia.org/wiki/Aichi_D1A",
+    "category": "Bombers",
+    "allied_code": "Susie",
+    "first_flown": 1934,
+    "number_built": 590,
     "services": [
-      "IJA"
+      "IJN"
     ],
-    "uuid": "727a97f8e20ed1600935feca47fbcad2",
-    "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
-    "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
+    "title": "Aichi D1A",
+    "name": "Aichi D1A",
+    "uuid": "ab705f484bf3e4959da7af329fc73b13",
+    "description": "The Aichi D1A or Navy Type 94/96 Carrier Bomber (Allied reporting name \"Susie\"[3]) was a Japanese carrier-based dive bomber of the 1930s. A single-engine, two-seat biplane based on the Heinkel He 50, the D1A was produced by Aichi for the Imperial Japanese Navy, remaining in service as a trainer at the time of the attack on Pearl Harbor. The D1A was produced in two variants, the D1A1 (Navy Type 94 Carrier Bomber), and the D1A2 (Navy Type 96 Carrier Bomber, sometimes referred to as the D2A).",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Aichi_D1A2.jpg/300px-Aichi_D1A2.jpg",
+    "image_local_name": "ab705f484bf3e4959da7af329fc73b13.jpg"
   },
   {
-    "name": "Kokusai Ku-7",
-    "title": "Kokusai Ku-7",
-    "path": "/wiki/Kokusai_Ku-7",
-    "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
-    "category": "Experimental aircraft",
-    "allied_code": "Buzzard",
-    "first_flown": 1942,
-    "number_built": 2,
-    "services": [
-      "IJA"
-    ],
-    "uuid": "9e69f0ae7f0a6ca5caa7120bf230343d",
-    "title_ja": "真鶴",
-    "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
-    "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
-  },
-  {
-    "name": "Nakajima E2N",
-    "title": "Nakajima E2N",
     "title_ja": "一五式水上偵察機",
     "path": "/wiki/Nakajima_E2N",
     "url": "https://en.wikipedia.org/wiki/Nakajima_E2N",
     "category": "Reconnaissance aircraft",
-    "allied_code": null,
+    "allied_code": "Bob",
     "first_flown": 1927,
     "number_built": 80,
     "services": [
       "IJN"
     ],
+    "title": "Nakajima E2N",
+    "name": "Nakajima E2N",
     "uuid": "df900f7276252bc52bd2c0c6bedfcda3",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nakajima_E2N.jpg/300px-Nakajima_E2N.jpg",
     "image_local_name": "df900f7276252bc52bd2c0c6bedfcda3.jpg",
@@ -2855,5 +2837,339 @@
         "description": "Trainer version with dual controls."
       }
     ]
+  },
+  {
+    "path": "/wiki/Aichi_E10A",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E10A",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Hank",
+    "first_flown": 1934,
+    "number_built": 15,
+    "services": [
+      "IJN"
+    ],
+    "title": "Aichi E10A",
+    "name": "Aichi E10A",
+    "uuid": "f3d004494d37558684d5d84a54bc5ece",
+    "description": "The Aichi E10A was a Japanese night reconnaissance flying boat of the 1930s.  A single-engined biplane, 15 were built for the Imperial Japanese Navy as the Type 96 Night Reconnaissance Seaplane, serving from 1936 but were retired in 1941 before the Attack on Pearl Harbor.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aichi_E10A_-_Type_96.jpg/300px-Aichi_E10A_-_Type_96.jpg",
+    "image_local_name": "f3d004494d37558684d5d84a54bc5ece.jpg"
+  },
+  {
+    "path": "/wiki/Aichi_E11A",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E11A",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Laura",
+    "first_flown": 1937,
+    "number_built": 17,
+    "services": [
+      "IJA"
+    ],
+    "title": "Aichi E11A",
+    "name": "Aichi E11A",
+    "uuid": "316880560c7f8b18319f48c2447b3556",
+    "title_ja": "九八夜偵",
+    "description": "The Aichi E11A (九八夜偵, Kyū-hachi Yatei) was an Imperial Japanese Navy flying boat used during the first year of World War II for maritime patrol duties. The Allied reporting name for the type was \"Laura\"; the Japanese Navy designation was \"Type 98 Reconnaissance Seaplane\". The Type 98 was quite similar to the earlier E10A Type 96, whose allied name was \"Hank\". \"Lauras\" were rare - only 17 were built. It was designed to be launched from cruisers or battleships in order to spot their shellfire at night. The Type 98s were soon diverted to communications and transport duties.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg/300px-E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg",
+    "image_local_name": "316880560c7f8b18319f48c2447b3556.jpg"
+  },
+  {
+    "path": "/wiki/Nakajima_G5N",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_G5N",
+    "category": "Bombers",
+    "allied_code": "Liz",
+    "first_flown": 1941,
+    "number_built": 6,
+    "services": [
+      "IJN"
+    ],
+    "title": "Nakajima G5N",
+    "name": "Nakajima G5N",
+    "uuid": "0e119196dd333a966cf2032d48847caa",
+    "title_ja": "深山",
+    "description": "The Nakajima G5N Shinzan (深山, \"Deep Mountain\") was a four-engined long-range heavy bomber designed and built for the Imperial Japanese Navy prior to World War II. The Navy designation was \"Experimental 13-Shi Attack Bomber\"; the Allied code name was \"Liz\".",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/G5N.jpg/300px-G5N.jpg",
+    "image_local_name": "0e119196dd333a966cf2032d48847caa.jpg"
+  },
+  {
+    "path": "/wiki/Kawanishi_H3K",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_H3K",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Belle",
+    "first_flown": 1930,
+    "number_built": 5,
+    "services": [
+      "IJN"
+    ],
+    "title": "Kawanishi H3K",
+    "name": "Kawanishi H3K",
+    "uuid": "ddde4e5a488a776c3e285a0af739ff2e",
+    "title_ja": "九〇式二号飛行艇",
+    "description": "The Kawanishi H3K, also known as Navy Type 90-2 Flying Boat (九〇式二号飛行艇), was a Japanese biplane military flying boat from the interwar period. The H3K was a development of the Short S.8/8 Rangoon. The first of the H3Ks was built by Short Brothers and the remaining four by Kawanishi in Japan."
+  },
+  {
+    "path": "/wiki/Yokosuka_H5Y",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_H5Y",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Cherry",
+    "first_flown": 1936,
+    "number_built": 20,
+    "services": [
+      "IJN"
+    ],
+    "title": "Yokosuka H5Y",
+    "name": "Yokosuka H5Y",
+    "uuid": "4d67529969bc1c632374afc790a06140",
+    "title_ja": "九九式飛行艇",
+    "description": "The Yokosuka H5Y (short designation) or Yokosuka Navy Type 99 Flying Boat Model 11 (九九式飛行艇, 99shiki hikōtei) (long designation), given the allied code name Cherry, was an IJNAS flying boat in service from 1938.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/H5Y-2.jpg/300px-H5Y-2.jpg",
+    "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
+  },
+  {
+    "path": "/wiki/Kyushu_K10W",
+    "url": "https://en.wikipedia.org/wiki/Kyushu_K10W",
+    "category": "Trainers",
+    "allied_code": "Oak",
+    "first_flown": 1941,
+    "number_built": 176,
+    "services": [
+      "IJN"
+    ],
+    "title": "Kyushu K10W",
+    "name": "Kyushu K10W",
+    "uuid": "ffd163fe6045138648b66de9ca8281c8",
+    "description": "The Kyushu K10W Type 2 Land based intermediate trainer (Allied reporting name \"Oak\") was a single engine low wing fixed undercarriage monoplane training aircraft which served in the Imperial Japanese Navy Air Service in the latter part of World War II.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kyushu_K10W1_side.jpeg/300px-Kyushu_K10W1_side.jpeg",
+    "image_local_name": "ffd163fe6045138648b66de9ca8281c8.jpeg"
+  },
+  {
+    "path": "/wiki/Mitsubishi_K3M",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_K3M",
+    "category": "Trainers",
+    "allied_code": "Pine",
+    "first_flown": 1930,
+    "number_built": 625,
+    "services": [
+      "IJN"
+    ],
+    "title": "Mitsubishi K3M",
+    "name": "Mitsubishi K3M",
+    "uuid": "8afb0ea1f873c83ff9883716619646fa",
+    "title_ja": "九〇式機上作業練習機",
+    "description": "The Mitsubishi K3M (九〇式機上作業練習機, Kyūrei-shiki kijō sagyō renshūki) was a trainer built by Mitsubishi which was used by the Imperial Japanese Navy in an extremely wide variety of roles, including light transport, liaison aircraft, utility aircraft and occasionally light bomber. Its Allied reporting name was Pine.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mitsubishi_K3M.jpg/300px-Mitsubishi_K3M.jpg",
+    "image_local_name": "8afb0ea1f873c83ff9883716619646fa.jpg"
+  },
+  {
+    "path": "/wiki/Yokosuka_K5Y",
+    "url": "https://en.wikipedia.org/wiki/Yokosuka_K5Y",
+    "category": "Trainers",
+    "allied_code": "Willow",
+    "first_flown": 1933,
+    "number_built": 5770,
+    "services": [
+      "IJN"
+    ],
+    "title": "Yokosuka K5Y",
+    "name": "Yokosuka K5Y",
+    "uuid": "738a2e1e58fcd7bcdf28d078b4ee53cc",
+    "title_ja": "九三式中間練習機",
+    "description": "The Yokosuka K5Y (九三式中間練習機, Kyūsanshikichūkanrenshūki, Type 93 Intermediate Training Aircraft, Allied reporting name: \"Willow\") was a two-seat unequal-span biplane trainer that served in the Imperial Japanese Navy during World War II. Due to its bright orange paint scheme (applied to all Japanese military trainers for visibility), it earned the nickname \"aka-tombo\", or \"red dragonfly\", after a type of insect common throughout Japan.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/K5Y-93-2.jpg/300px-K5Y-93-2.jpg",
+    "image_local_name": "738a2e1e58fcd7bcdf28d078b4ee53cc.jpg"
+  },
+  {
+    "path": "/wiki/Mitsubishi_Ki-2",
+    "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-2",
+    "category": "Bombers",
+    "allied_code": "Louise",
+    "first_flown": 1933,
+    "number_built": 187,
+    "services": [
+      "IJA"
+    ],
+    "title": "Mitsubishi Ki-2",
+    "name": "Mitsubishi Ki-2",
+    "uuid": "55f64f45bf00ef0b8ce665ca468ea94d",
+    "title_ja": "九三式双軽爆撃機",
+    "description": "The Mitsubishi Ki-2 (九三式双軽爆撃機, Kyūsan-shiki sōkei bakugekiki, \"Army Type 93 Twin-engine Light Bomber\") was a light bomber built by Mitsubishi for the Imperial Japanese Army Air Service (IJAAS) in the 1930s. Its Allied nickname was \"Louise\". Despite its antiquated appearance, the Ki-2 was successfully used in Manchukuo and in North China during the early stages of the Second Sino-Japanese War, in areas where danger from enemy fighter aircraft was minimal. It was later used in a training role.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ki-2_93siki-soukei.jpg/300px-Ki-2_93siki-soukei.jpg",
+    "image_local_name": "55f64f45bf00ef0b8ce665ca468ea94d.jpg"
+  },
+  {
+    "path": "/wiki/Tachikawa_Ki-54",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
+    "category": "Trainers",
+    "allied_code": "Hickory",
+    "first_flown": 1941,
+    "number_built": 1368,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-54",
+    "name": "Tachikawa Ki-54",
+    "uuid": "727a97f8e20ed1600935feca47fbcad2",
+    "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
+    "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
+  },
+  {
+    "path": "/wiki/Tachikawa_Ki-55",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-55",
+    "category": "Trainers",
+    "allied_code": "Ida",
+    "first_flown": 1939,
+    "number_built": 1389,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-55",
+    "name": "Tachikawa Ki-55",
+    "uuid": "df7ac11604c0afb10f707778555491eb",
+    "description": "The Tachikawa Ki-55 was a Japanese advanced trainer.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tachikawa_Ki-55.jpg/300px-Tachikawa_Ki-55.jpg",
+    "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg"
+  },
+  {
+    "path": "/wiki/Kokusai_Ki-59",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ki-59",
+    "category": "Transports",
+    "allied_code": "Theresa",
+    "first_flown": 1941,
+    "number_built": 59,
+    "services": [
+      "IJA"
+    ],
+    "title": "Kokusai Ki-59",
+    "name": "Kokusai Ki-59",
+    "uuid": "662f70cf84bf2abd62db71a72006b3df",
+    "title_ja": "一式輸送機",
+    "description": "The Kokusai Ki-59 (一式輸送機, Isshiki-yusōki) was an early 1940s light transport monoplane built by Nippon Kokusai Koku Kogyo K.K for the Imperial Japanese Army as a development of the Teradako-ken TK-3 which had first flown in 1938.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kokusai_Ki-59.jpg/300px-Kokusai_Ki-59.jpg",
+    "image_local_name": "662f70cf84bf2abd62db71a72006b3df.jpg"
+  },
+  {
+    "path": "/wiki/Tachikawa_Ki-70",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-70",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Clara",
+    "first_flown": 1943,
+    "number_built": 3,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-70",
+    "name": "Tachikawa Ki-70",
+    "uuid": "0754e25c6ef22495d0ca122431501de8",
+    "description": "The Tachikawa Ki-70 \"Clara\" was a high speed photo reconnaissance aircraft that was tested for the Japanese Air Force in prototype form but never entered production. The Ki-70 was the intended successor to the Mitsubishi Ki-46 but was difficult to handle and was slower than the Mitsubishi Ki-46. The Ki-70 was first flown in 1943 but was found unsatisfactory and the program was terminated. Three aircraft were built.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/One_Ki-70_prototype.jpg/300px-One_Ki-70_prototype.jpg",
+    "image_local_name": "0754e25c6ef22495d0ca122431501de8.jpg"
+  },
+  {
+    "path": "/wiki/Tachikawa_Ki-74",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-74",
+    "category": "Bombers",
+    "allied_code": "Patsy",
+    "first_flown": 1944,
+    "number_built": 16,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-74",
+    "name": "Tachikawa Ki-74",
+    "uuid": "0ba7342c85d74c7e553decb3f7096c12",
+    "description": "The Tachikawa Ki-74 (Allied reporting name \"Patsy\") was a Japanese experimental long-range reconnaissance bomber of World War II. A twin-engine, mid-wing monoplane, it was developed for the Imperial Japanese Army Air Service but never deployed in combat. The Ki-74 was designed for high altitude operation with a pressurized cabin for its crew.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ki-74-1s.jpg/300px-Ki-74-1s.jpg",
+    "image_local_name": "0ba7342c85d74c7e553decb3f7096c12.jpg"
+  },
+  {
+    "path": "/wiki/Kokusai_Ki-76",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ki-76",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Stella",
+    "first_flown": 1941,
+    "number_built": 937,
+    "services": [
+      "IJA"
+    ],
+    "title": "Kokusai Ki-76",
+    "name": "Kokusai Ki-76",
+    "uuid": "addbd13e8b7b545529e3f6238ba3215b",
+    "title_ja": "三式指揮連絡機",
+    "description": "The Kokusai Ki-76, or Liaison Aircraft Type 3 (in Japanese: 三式指揮連絡機), was a Japanese high-wing monoplane artillery spotter and liaison aircraft that served in World War II. The Allied reporting name was \"Stella\".",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kokusai_Ki-76.jpg/300px-Kokusai_Ki-76.jpg",
+    "image_local_name": "addbd13e8b7b545529e3f6238ba3215b.jpg"
+  },
+  {
+    "path": "/wiki/Tachikawa_Ki-9",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-9",
+    "category": "Trainers",
+    "allied_code": "Spruce",
+    "first_flown": 1935,
+    "number_built": 2618,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-9",
+    "name": "Tachikawa Ki-9",
+    "uuid": "14db53d4bb7567aac30b377f130c81d5",
+    "title_ja": "九五式一型練習機",
+    "description": "The Tachikawa Ki-9 (九五式一型練習機, Kyūgo-shiki ichigata renshuki) was an intermediate training aircraft of the Imperial Japanese Army Air Force built by Tachikawa Aircraft Company Ltd in the 1930s. It was known to the Allies under the nickname of \"Spruce\" during World War II. This aircraft was mistakenly identified as a Tatchikawa by the British.[3]",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tachikawa_Ki-9_-_Aircraft.jpg/300px-Tachikawa_Ki-9_-_Aircraft.jpg",
+    "image_local_name": "14db53d4bb7567aac30b377f130c81d5.jpg"
+  },
+  {
+    "path": "/wiki/Kokusai_Ku-7",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
+    "category": "Experimental aircraft",
+    "allied_code": "Buzzard",
+    "first_flown": 1942,
+    "number_built": 2,
+    "services": [
+      "IJA"
+    ],
+    "title": "Kokusai Ku-7",
+    "name": "Kokusai Ku-7",
+    "uuid": "9e69f0ae7f0a6ca5caa7120bf230343d",
+    "title_ja": "真鶴",
+    "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
+    "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
+  },
+  {
+    "path": "/wiki/Kokusai_Ku-8",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-8",
+    "category": "Transports",
+    "allied_code": "Gander",
+    "first_flown": 1943,
+    "number_built": 700,
+    "services": [
+      "IJA"
+    ],
+    "title": "Kokusai Ku-8",
+    "name": "Kokusai Ku-8",
+    "uuid": "09ca41f346c5f72e5533a84ca2306556",
+    "title_ja": "国際 ク8 四式特殊輸送機",
+    "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider[1]) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
+    "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
+  },
+  {
+    "path": "/wiki/Kyushu_Q1W",
+    "url": "https://en.wikipedia.org/wiki/Kyushu_Q1W",
+    "category": "Bombers",
+    "allied_code": "Lorna",
+    "first_flown": 1943,
+    "number_built": 153,
+    "services": [
+      "IJN"
+    ],
+    "title": "Kyushu Q1W",
+    "name": "Kyushu Q1W",
+    "uuid": "8511d3979da63a09c9a1c5b283e06d29",
+    "title_ja": "東海",
+    "description": "The Kyūshū Q1W Tōkai (東海 \"Eastern Sea\") was a land-based anti-submarine patrol bomber aircraft developed for the Imperial Japanese Navy in World War II. The Allied reporting name was Lorna. Although similar in appearance to the German Junkers Ju 88 medium bomber, the Q1W was a much smaller aircraft with significantly different design details.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Q1W.jpg/300px-Q1W.jpg",
+    "image_local_name": "8511d3979da63a09c9a1c5b283e06d29.jpg"
   }
 ]

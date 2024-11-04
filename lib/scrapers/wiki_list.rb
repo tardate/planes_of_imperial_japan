@@ -31,10 +31,7 @@ class Scrapers::WikiList < Scrapers::Base
   def load_plane(plane)
     log 'load_plane', "loading #{plane['name']} .."
     plane_doc = load_plane_doc plane
-
-    plane['title'] = plane_doc.css('.mw-page-title-main').first&.text
-    plane['title'] ||= plane_doc.css('.mw-first-heading').first&.text
-
+    append_title(plane, plane_doc)
     append_title_ja(plane, plane_doc)
     append_image(plane, plane_doc)
     append_plane_description(plane, plane_doc)

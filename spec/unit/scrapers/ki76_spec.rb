@@ -1,10 +1,10 @@
 require 'spec_helper'
 
-describe Scrapers::E2n do
+describe Scrapers::Ki76 do
   let(:component) { described_class.new(given_catalog) }
   let(:given_catalog) { Catalog.new }
 
-  vcr_base = 'scrapers/e2n/load'
+  vcr_base = 'scrapers/ki76/load'
 
   describe '#load!' do
     subject { component.load! }
@@ -21,17 +21,6 @@ describe Scrapers::E2n do
       ]
     end
 
-    context 'with cached snapshot' do
-      before do
-        allow(component).to receive(:main_doc).and_return(snapshot)
-      end
-      let(:snapshot) { get_html_snapshot('e2n.html') }
-
-      it 'parses the imain page to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(1)
-      end
-    end
-
     context 'with index.html load', vcr: { cassette_name: "#{vcr_base}/index", match_requests_on: [:path] } do
       before do
         component.snapshots_enabled = false
@@ -40,16 +29,16 @@ describe Scrapers::E2n do
       it 'parses the index.html to catalog correctly' do
         expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(1)
         plane = component.catalog.planes.values.first
-        expect(plane['uuid']).to eql('df900f7276252bc52bd2c0c6bedfcda3')
-        expect(plane['name']).to eql('Nakajima E2N')
-        expect(plane['title']).to eql('Nakajima E2N')
-        expect(plane['title_ja']).to eql('一五式水上偵察機')
-        expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Nakajima_E2N')
+        expect(plane['uuid']).to eql('addbd13e8b7b545529e3f6238ba3215b')
+        expect(plane['name']).to eql('Kokusai Ki-76')
+        expect(plane['title']).to eql('Kokusai Ki-76')
+        expect(plane['title_ja']).to eql('三式指揮連絡機')
+        expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kokusai_Ki-76')
         expect(plane['category']).to eql('Reconnaissance aircraft')
-        expect(plane['allied_code']).to be_nil
-        expect(plane['first_flown']).to eql(1927)
-        expect(plane['number_built']).to eql(80)
-        expect(plane['services']).to match_array(%w[IJN])
+        expect(plane['allied_code']).to eql('Stella')
+        expect(plane['first_flown']).to eql(1941)
+        expect(plane['number_built']).to eql(937)
+        expect(plane['services']).to match_array(%w[IJA])
       end
     end
   end
