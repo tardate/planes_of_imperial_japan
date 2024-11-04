@@ -2909,6 +2909,23 @@
     "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
   },
   {
+    "path": "/wiki/Kyushu_K10W",
+    "url": "https://en.wikipedia.org/wiki/Kyushu_K10W",
+    "category": "Trainers",
+    "allied_code": "Oak",
+    "first_flown": 1941,
+    "number_built": 176,
+    "services": [
+      "IJN"
+    ],
+    "title": "Kyushu K10W",
+    "name": "Kyushu K10W",
+    "uuid": "ffd163fe6045138648b66de9ca8281c8",
+    "description": "The Kyushu K10W Type 2 Land based intermediate trainer (Allied reporting name \"Oak\") was a single engine low wing fixed undercarriage monoplane training aircraft which served in the Imperial Japanese Navy Air Service in the latter part of World War II.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Kyushu_K10W1_side.jpeg/300px-Kyushu_K10W1_side.jpeg",
+    "image_local_name": "ffd163fe6045138648b66de9ca8281c8.jpeg"
+  },
+  {
     "path": "/wiki/Mitsubishi_Ki-2",
     "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-2",
     "category": "Bombers",
