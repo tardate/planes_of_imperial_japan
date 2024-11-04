@@ -38,15 +38,16 @@ class Builder
     [
       Scrapers::WikiList,
       Scrapers::E2n,
+      Scrapers::E10a,
+      Scrapers::E11a,
+      Scrapers::G5n,
       Scrapers::H3k,
       Scrapers::H5y,
       Scrapers::Ki54,
       Scrapers::Ki55,
       Scrapers::Ki70,
       Scrapers::Ku7,
-      Scrapers::Ku8,
-      Scrapers::E10a,
-      Scrapers::E11a
+      Scrapers::Ku8
     ]
   end
 

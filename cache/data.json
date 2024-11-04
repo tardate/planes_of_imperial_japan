@@ -2822,6 +2822,59 @@
     ]
   },
   {
+    "path": "/wiki/Aichi_E10A",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E10A",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Hank",
+    "first_flown": 1934,
+    "number_built": 15,
+    "services": [
+      "IJN"
+    ],
+    "title": "Aichi E10A",
+    "name": "Aichi E10A",
+    "uuid": "f3d004494d37558684d5d84a54bc5ece",
+    "description": "The Aichi E10A was a Japanese night reconnaissance flying boat of the 1930s.  A single-engined biplane, 15 were built for the Imperial Japanese Navy as the Type 96 Night Reconnaissance Seaplane, serving from 1936 but were retired in 1941 before the Attack on Pearl Harbor.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aichi_E10A_-_Type_96.jpg/300px-Aichi_E10A_-_Type_96.jpg",
+    "image_local_name": "f3d004494d37558684d5d84a54bc5ece.jpg"
+  },
+  {
+    "path": "/wiki/Aichi_E11A",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E11A",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Laura",
+    "first_flown": 1937,
+    "number_built": 17,
+    "services": [
+      "IJA"
+    ],
+    "title": "Aichi E11A",
+    "name": "Aichi E11A",
+    "uuid": "316880560c7f8b18319f48c2447b3556",
+    "title_ja": "九八夜偵",
+    "description": "The Aichi E11A (九八夜偵, Kyū-hachi Yatei) was an Imperial Japanese Navy flying boat used during the first year of World War II for maritime patrol duties. The Allied reporting name for the type was \"Laura\"; the Japanese Navy designation was \"Type 98 Reconnaissance Seaplane\". The Type 98 was quite similar to the earlier E10A Type 96, whose allied name was \"Hank\". \"Lauras\" were rare - only 17 were built. It was designed to be launched from cruisers or battleships in order to spot their shellfire at night. The Type 98s were soon diverted to communications and transport duties.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg/300px-E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg",
+    "image_local_name": "316880560c7f8b18319f48c2447b3556.jpg"
+  },
+  {
+    "path": "/wiki/Nakajima_G5N",
+    "url": "https://en.wikipedia.org/wiki/Nakajima_G5N",
+    "category": "Bombers",
+    "allied_code": "Liz",
+    "first_flown": 1941,
+    "number_built": 6,
+    "services": [
+      "IJN"
+    ],
+    "title": "Nakajima G5N",
+    "name": "Nakajima G5N",
+    "uuid": "0e119196dd333a966cf2032d48847caa",
+    "title_ja": "深山",
+    "description": "The Nakajima G5N Shinzan (深山, \"Deep Mountain\") was a four-engined long-range heavy bomber designed and built for the Imperial Japanese Navy prior to World War II. The Navy designation was \"Experimental 13-Shi Attack Bomber\"; the Allied code name was \"Liz\".",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/G5N.jpg/300px-G5N.jpg",
+    "image_local_name": "0e119196dd333a966cf2032d48847caa.jpg"
+  },
+  {
     "path": "/wiki/Kawanishi_H3K",
     "url": "https://en.wikipedia.org/wiki/Kawanishi_H3K",
     "category": "Reconnaissance aircraft",
@@ -2941,40 +2994,5 @@
     "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider[1]) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
     "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
-  },
-  {
-    "path": "/wiki/Aichi_E10A",
-    "url": "https://en.wikipedia.org/wiki/Aichi_E10A",
-    "category": "Reconnaissance aircraft",
-    "allied_code": "Hank",
-    "first_flown": 1934,
-    "number_built": 15,
-    "services": [
-      "IJN"
-    ],
-    "title": "Aichi E10A",
-    "name": "Aichi E10A",
-    "uuid": "f3d004494d37558684d5d84a54bc5ece",
-    "description": "The Aichi E10A was a Japanese night reconnaissance flying boat of the 1930s.  A single-engined biplane, 15 were built for the Imperial Japanese Navy as the Type 96 Night Reconnaissance Seaplane, serving from 1936 but were retired in 1941 before the Attack on Pearl Harbor.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aichi_E10A_-_Type_96.jpg/300px-Aichi_E10A_-_Type_96.jpg",
-    "image_local_name": "f3d004494d37558684d5d84a54bc5ece.jpg"
-  },
-  {
-    "path": "/wiki/Aichi_E11A",
-    "url": "https://en.wikipedia.org/wiki/Aichi_E11A",
-    "category": "Reconnaissance aircraft",
-    "allied_code": "Laura",
-    "first_flown": 1937,
-    "number_built": 17,
-    "services": [
-      "IJA"
-    ],
-    "title": "Aichi E11A",
-    "name": "Aichi E11A",
-    "uuid": "316880560c7f8b18319f48c2447b3556",
-    "title_ja": "九八夜偵",
-    "description": "The Aichi E11A (九八夜偵, Kyū-hachi Yatei) was an Imperial Japanese Navy flying boat used during the first year of World War II for maritime patrol duties. The Allied reporting name for the type was \"Laura\"; the Japanese Navy designation was \"Type 98 Reconnaissance Seaplane\". The Type 98 was quite similar to the earlier E10A Type 96, whose allied name was \"Hank\". \"Lauras\" were rare - only 17 were built. It was designed to be launched from cruisers or battleships in order to spot their shellfire at night. The Type 98s were soon diverted to communications and transport duties.",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg/300px-E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg",
-    "image_local_name": "316880560c7f8b18319f48c2447b3556.jpg"
   }
 ]
