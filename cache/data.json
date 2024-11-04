@@ -3030,6 +3030,24 @@
     "image_local_name": "0ba7342c85d74c7e553decb3f7096c12.jpg"
   },
   {
+    "path": "/wiki/Kokusai_Ki-76",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ki-76",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Stella",
+    "first_flown": 1941,
+    "number_built": 937,
+    "services": [
+      "IJA"
+    ],
+    "title": "Kokusai Ki-76",
+    "name": "Kokusai Ki-76",
+    "uuid": "addbd13e8b7b545529e3f6238ba3215b",
+    "title_ja": "三式指揮連絡機",
+    "description": "The Kokusai Ki-76, or Liaison Aircraft Type 3 (in Japanese: 三式指揮連絡機), was a Japanese high-wing monoplane artillery spotter and liaison aircraft that served in World War II. The Allied reporting name was \"Stella\".",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kokusai_Ki-76.jpg/300px-Kokusai_Ki-76.jpg",
+    "image_local_name": "addbd13e8b7b545529e3f6238ba3215b.jpg"
+  },
+  {
     "path": "/wiki/Tachikawa_Ki-9",
     "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-9",
     "category": "Trainers",
