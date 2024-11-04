@@ -2890,6 +2890,24 @@
       "uuid": "ddde4e5a488a776c3e285a0af739ff2e",
       "title_ja": "九〇式二号飛行艇",
       "description": "The Kawanishi H3K, also known as Navy Type 90-2 Flying Boat (九〇式二号飛行艇), was a Japanese biplane military flying boat from the interwar period. The H3K was a development of the Short S.8/8 Rangoon. The first of the H3Ks was built by Short Brothers and the remaining four by Kawanishi in Japan."
+    },
+    "4d67529969bc1c632374afc790a06140": {
+      "path": "/wiki/Yokosuka_H5Y",
+      "url": "https://en.wikipedia.org/wiki/Yokosuka_H5Y",
+      "category": "Reconnaissance aircraft",
+      "allied_code": "Cherry",
+      "first_flown": 1936,
+      "number_built": 20,
+      "services": [
+        "IJN"
+      ],
+      "title": "Yokosuka H5Y",
+      "name": "Yokosuka H5Y",
+      "uuid": "4d67529969bc1c632374afc790a06140",
+      "title_ja": "九九式飛行艇",
+      "description": "The Yokosuka H5Y (short designation) or Yokosuka Navy Type 99 Flying Boat Model 11 (九九式飛行艇, 99shiki hikōtei) (long designation), given the allied code name Cherry, was an IJNAS flying boat in service from 1938.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/H5Y-2.jpg/300px-H5Y-2.jpg",
+      "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
     }
   }
 }
