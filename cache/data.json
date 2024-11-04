@@ -2873,5 +2873,21 @@
         "description": "Trainer version with dual controls."
       }
     ]
+  },
+  {
+    "path": "/wiki/Kawanishi_H3K",
+    "url": "https://en.wikipedia.org/wiki/Kawanishi_H3K",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Belle",
+    "first_flown": 1930,
+    "number_built": 5,
+    "services": [
+      "IJN"
+    ],
+    "title": "Kawanishi H3K",
+    "name": "Kawanishi H3K",
+    "uuid": "ddde4e5a488a776c3e285a0af739ff2e",
+    "title_ja": "九〇式二号飛行艇",
+    "description": "The Kawanishi H3K, also known as Navy Type 90-2 Flying Boat (九〇式二号飛行艇), was a Japanese biplane military flying boat from the interwar period. The H3K was a development of the Short S.8/8 Rangoon. The first of the H3Ks was built by Short Brothers and the remaining four by Kawanishi in Japan."
   }
 ]
