@@ -3013,6 +3013,24 @@
     "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg"
   },
   {
+    "path": "/wiki/Kokusai_Ki-59",
+    "url": "https://en.wikipedia.org/wiki/Kokusai_Ki-59",
+    "category": "Transports",
+    "allied_code": "Theresa",
+    "first_flown": 1941,
+    "number_built": 59,
+    "services": [
+      "IJA"
+    ],
+    "title": "Kokusai Ki-59",
+    "name": "Kokusai Ki-59",
+    "uuid": "662f70cf84bf2abd62db71a72006b3df",
+    "title_ja": "一式輸送機",
+    "description": "The Kokusai Ki-59 (一式輸送機, Isshiki-yusōki) was an early 1940s light transport monoplane built by Nippon Kokusai Koku Kogyo K.K for the Imperial Japanese Army as a development of the Teradako-ken TK-3 which had first flown in 1938.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kokusai_Ki-59.jpg/300px-Kokusai_Ki-59.jpg",
+    "image_local_name": "662f70cf84bf2abd62db71a72006b3df.jpg"
+  },
+  {
     "path": "/wiki/Tachikawa_Ki-70",
     "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-70",
     "category": "Reconnaissance aircraft",

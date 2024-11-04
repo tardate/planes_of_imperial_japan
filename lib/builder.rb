@@ -49,6 +49,7 @@ class Builder
       Scrapers::Ki2,
       Scrapers::Ki54,
       Scrapers::Ki55,
+      Scrapers::Ki59,
       Scrapers::Ki70,
       Scrapers::Ki74,
       Scrapers::Ki76,
