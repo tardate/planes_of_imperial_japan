@@ -12,7 +12,7 @@ class Scrapers::E2n < Scrapers::Base
       'path' => main_path,
       'url' => base_url + main_path,
       'category' => 'Reconnaissance aircraft',
-      'allied_code' => nil,
+      'allied_code' => 'Bob',
       'first_flown' => 1927,
       'number_built' => 80,
       'services' => %w[IJN]
