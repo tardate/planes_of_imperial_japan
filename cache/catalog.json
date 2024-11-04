@@ -2995,6 +2995,24 @@
       "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider[1]) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
       "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
+    },
+    "8511d3979da63a09c9a1c5b283e06d29": {
+      "path": "/wiki/Kyushu_Q1W",
+      "url": "https://en.wikipedia.org/wiki/Kyushu_Q1W",
+      "category": "Bombers",
+      "allied_code": "Lorna",
+      "first_flown": 1943,
+      "number_built": 153,
+      "services": [
+        "IJN"
+      ],
+      "title": "Kyushu Q1W",
+      "name": "Kyushu Q1W",
+      "uuid": "8511d3979da63a09c9a1c5b283e06d29",
+      "title_ja": "東海",
+      "description": "The Kyūshū Q1W Tōkai (東海 \"Eastern Sea\") was a land-based anti-submarine patrol bomber aircraft developed for the Imperial Japanese Navy in World War II. The Allied reporting name was Lorna. Although similar in appearance to the German Junkers Ju 88 medium bomber, the Q1W was a much smaller aircraft with significantly different design details.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Q1W.jpg/300px-Q1W.jpg",
+      "image_local_name": "8511d3979da63a09c9a1c5b283e06d29.jpg"
     }
   }
 }
