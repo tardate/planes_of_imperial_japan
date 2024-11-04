@@ -2909,6 +2909,24 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/H5Y-2.jpg/300px-H5Y-2.jpg",
       "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
     },
+    "55f64f45bf00ef0b8ce665ca468ea94d": {
+      "path": "/wiki/Mitsubishi_Ki-2",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-2",
+      "category": "Bombers",
+      "allied_code": "Louise",
+      "first_flown": 1933,
+      "number_built": 187,
+      "services": [
+        "IJA"
+      ],
+      "title": "Mitsubishi Ki-2",
+      "name": "Mitsubishi Ki-2",
+      "uuid": "55f64f45bf00ef0b8ce665ca468ea94d",
+      "title_ja": "九三式双軽爆撃機",
+      "description": "The Mitsubishi Ki-2 (九三式双軽爆撃機, Kyūsan-shiki sōkei bakugekiki, \"Army Type 93 Twin-engine Light Bomber\") was a light bomber built by Mitsubishi for the Imperial Japanese Army Air Service (IJAAS) in the 1930s. Its Allied nickname was \"Louise\". Despite its antiquated appearance, the Ki-2 was successfully used in Manchukuo and in North China during the early stages of the Second Sino-Japanese War, in areas where danger from enemy fighter aircraft was minimal. It was later used in a training role.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ki-2_93siki-soukei.jpg/300px-Ki-2_93siki-soukei.jpg",
+      "image_local_name": "55f64f45bf00ef0b8ce665ca468ea94d.jpg"
+    },
     "727a97f8e20ed1600935feca47fbcad2": {
       "path": "/wiki/Tachikawa_Ki-54",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",

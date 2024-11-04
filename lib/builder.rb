@@ -43,6 +43,7 @@ class Builder
       Scrapers::G5n,
       Scrapers::H3k,
       Scrapers::H5y,
+      Scrapers::Ki2,
       Scrapers::Ki54,
       Scrapers::Ki55,
       Scrapers::Ki70,
