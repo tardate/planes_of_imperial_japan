@@ -2995,6 +2995,23 @@
     "image_local_name": "0754e25c6ef22495d0ca122431501de8.jpg"
   },
   {
+    "path": "/wiki/Tachikawa_Ki-74",
+    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-74",
+    "category": "Bombers",
+    "allied_code": "Patsy",
+    "first_flown": 1944,
+    "number_built": 16,
+    "services": [
+      "IJA"
+    ],
+    "title": "Tachikawa Ki-74",
+    "name": "Tachikawa Ki-74",
+    "uuid": "0ba7342c85d74c7e553decb3f7096c12",
+    "description": "The Tachikawa Ki-74 (Allied reporting name \"Patsy\") was a Japanese experimental long-range reconnaissance bomber of World War II. A twin-engine, mid-wing monoplane, it was developed for the Imperial Japanese Army Air Service but never deployed in combat. The Ki-74 was designed for high altitude operation with a pressurized cabin for its crew.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Ki-74-1s.jpg/300px-Ki-74-1s.jpg",
+    "image_local_name": "0ba7342c85d74c7e553decb3f7096c12.jpg"
+  },
+  {
     "path": "/wiki/Kokusai_Ku-7",
     "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
     "category": "Experimental aircraft",
