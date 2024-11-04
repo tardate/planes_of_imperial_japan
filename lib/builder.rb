@@ -37,6 +37,7 @@ class Builder
   def all_scrapers
     [
       Scrapers::WikiList,
+      Scrapers::D1a,
       Scrapers::E2n,
       Scrapers::E10a,
       Scrapers::E11a,

@@ -2794,6 +2794,23 @@
       "title": "Tachikawa Ki-94",
       "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
     },
+    "ab705f484bf3e4959da7af329fc73b13": {
+      "path": "/wiki/Aichi_D1A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_D1A",
+      "category": "Bombers",
+      "allied_code": "Susie",
+      "first_flown": 1934,
+      "number_built": 590,
+      "services": [
+        "IJN"
+      ],
+      "title": "Aichi D1A",
+      "name": "Aichi D1A",
+      "uuid": "ab705f484bf3e4959da7af329fc73b13",
+      "description": "The Aichi D1A or Navy Type 94/96 Carrier Bomber (Allied reporting name \"Susie\"[3]) was a Japanese carrier-based dive bomber of the 1930s. A single-engine, two-seat biplane based on the Heinkel He 50, the D1A was produced by Aichi for the Imperial Japanese Navy, remaining in service as a trainer at the time of the attack on Pearl Harbor. The D1A was produced in two variants, the D1A1 (Navy Type 94 Carrier Bomber), and the D1A2 (Navy Type 96 Carrier Bomber, sometimes referred to as the D2A).",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Aichi_D1A2.jpg/300px-Aichi_D1A2.jpg",
+      "image_local_name": "ab705f484bf3e4959da7af329fc73b13.jpg"
+    },
     "df900f7276252bc52bd2c0c6bedfcda3": {
       "title_ja": "一五式水上偵察機",
       "path": "/wiki/Nakajima_E2N",
