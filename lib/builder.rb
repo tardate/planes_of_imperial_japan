@@ -43,7 +43,8 @@ class Builder
       Scrapers::E2n,
       Scrapers::H3k,
       Scrapers::H5y,
-      Scrapers::Ki70
+      Scrapers::Ki70,
+      Scrapers::E10a
     ]
   end
 

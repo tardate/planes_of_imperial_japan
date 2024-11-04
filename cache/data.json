@@ -2924,5 +2924,22 @@
     "description": "The Tachikawa Ki-70 \"Clara\" was a high speed photo reconnaissance aircraft that was tested for the Japanese Air Force in prototype form but never entered production. The Ki-70 was the intended successor to the Mitsubishi Ki-46 but was difficult to handle and was slower than the Mitsubishi Ki-46. The Ki-70 was first flown in 1943 but was found unsatisfactory and the program was terminated. Three aircraft were built.",
     "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/One_Ki-70_prototype.jpg/300px-One_Ki-70_prototype.jpg",
     "image_local_name": "0754e25c6ef22495d0ca122431501de8.jpg"
+  },
+  {
+    "path": "/wiki/Aichi_E10A",
+    "url": "https://en.wikipedia.org/wiki/Aichi_E10A",
+    "category": "Reconnaissance aircraft",
+    "allied_code": "Hank",
+    "first_flown": 1934,
+    "number_built": 15,
+    "services": [
+      "IJN"
+    ],
+    "title": "Aichi E10A",
+    "name": "Aichi E10A",
+    "uuid": "f3d004494d37558684d5d84a54bc5ece",
+    "description": "The Aichi E10A was a Japanese night reconnaissance flying boat of the 1930s.  A single-engined biplane, 15 were built for the Imperial Japanese Navy as the Type 96 Night Reconnaissance Seaplane, serving from 1936 but were retired in 1941 before the Attack on Pearl Harbor.",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aichi_E10A_-_Type_96.jpg/300px-Aichi_E10A_-_Type_96.jpg",
+    "image_local_name": "f3d004494d37558684d5d84a54bc5ece.jpg"
   }
 ]
