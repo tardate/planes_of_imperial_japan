@@ -4,10 +4,7 @@ class Scrapers::Ki54 < Scrapers::Base
   end
 
   def load!
-    name = main_doc.css('.mw-page-title-main').text
     plane = {
-      'name' => name,
-      'title' => name,
       'path' => main_path,
       'url' => base_url + main_path,
       'category' => 'Trainers',
@@ -16,6 +13,7 @@ class Scrapers::Ki54 < Scrapers::Base
       'number_built' => 1368,
       'services' => %w[IJA]
     }
+    plane['name'] = append_title(plane, main_doc)
     plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
 
     append_plane_description(plane, main_doc)

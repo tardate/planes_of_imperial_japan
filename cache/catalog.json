@@ -2795,8 +2795,6 @@
       "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
     },
     "727a97f8e20ed1600935feca47fbcad2": {
-      "name": "Tachikawa Ki-54",
-      "title": "Tachikawa Ki-54",
       "path": "/wiki/Tachikawa_Ki-54",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
       "category": "Trainers",
@@ -2806,14 +2804,14 @@
       "services": [
         "IJA"
       ],
+      "title": "Tachikawa Ki-54",
+      "name": "Tachikawa Ki-54",
       "uuid": "727a97f8e20ed1600935feca47fbcad2",
       "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
       "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
     },
     "9e69f0ae7f0a6ca5caa7120bf230343d": {
-      "name": "Kokusai Ku-7",
-      "title": "Kokusai Ku-7",
       "path": "/wiki/Kokusai_Ku-7",
       "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
       "category": "Experimental aircraft",
@@ -2823,15 +2821,33 @@
       "services": [
         "IJA"
       ],
+      "title": "Kokusai Ku-7",
+      "name": "Kokusai Ku-7",
       "uuid": "9e69f0ae7f0a6ca5caa7120bf230343d",
       "title_ja": "真鶴",
       "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
       "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
     },
+    "09ca41f346c5f72e5533a84ca2306556": {
+      "path": "/wiki/Kokusai_Ku-8",
+      "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-8",
+      "category": "Transports",
+      "allied_code": "Gander",
+      "first_flown": 1943,
+      "number_built": 700,
+      "services": [
+        "IJA"
+      ],
+      "title": "Kokusai Ku-8",
+      "name": "Kokusai Ku-8",
+      "uuid": "09ca41f346c5f72e5533a84ca2306556",
+      "title_ja": "国際 ク8 四式特殊輸送機",
+      "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider[1]) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
+      "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
+    },
     "df900f7276252bc52bd2c0c6bedfcda3": {
-      "name": "Nakajima E2N",
-      "title": "Nakajima E2N",
       "title_ja": "一五式水上偵察機",
       "path": "/wiki/Nakajima_E2N",
       "url": "https://en.wikipedia.org/wiki/Nakajima_E2N",
@@ -2842,6 +2858,8 @@
       "services": [
         "IJN"
       ],
+      "title": "Nakajima E2N",
+      "name": "Nakajima E2N",
       "uuid": "df900f7276252bc52bd2c0c6bedfcda3",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Nakajima_E2N.jpg/300px-Nakajima_E2N.jpg",
       "image_local_name": "df900f7276252bc52bd2c0c6bedfcda3.jpg",
