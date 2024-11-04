@@ -2794,59 +2794,6 @@
       "title": "Tachikawa Ki-94",
       "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
     },
-    "727a97f8e20ed1600935feca47fbcad2": {
-      "path": "/wiki/Tachikawa_Ki-54",
-      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
-      "category": "Trainers",
-      "allied_code": "Hickory",
-      "first_flown": 1941,
-      "number_built": 1368,
-      "services": [
-        "IJA"
-      ],
-      "title": "Tachikawa Ki-54",
-      "name": "Tachikawa Ki-54",
-      "uuid": "727a97f8e20ed1600935feca47fbcad2",
-      "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
-      "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
-    },
-    "9e69f0ae7f0a6ca5caa7120bf230343d": {
-      "path": "/wiki/Kokusai_Ku-7",
-      "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
-      "category": "Experimental aircraft",
-      "allied_code": "Buzzard",
-      "first_flown": 1942,
-      "number_built": 2,
-      "services": [
-        "IJA"
-      ],
-      "title": "Kokusai Ku-7",
-      "name": "Kokusai Ku-7",
-      "uuid": "9e69f0ae7f0a6ca5caa7120bf230343d",
-      "title_ja": "真鶴",
-      "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
-      "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
-    },
-    "09ca41f346c5f72e5533a84ca2306556": {
-      "path": "/wiki/Kokusai_Ku-8",
-      "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-8",
-      "category": "Transports",
-      "allied_code": "Gander",
-      "first_flown": 1943,
-      "number_built": 700,
-      "services": [
-        "IJA"
-      ],
-      "title": "Kokusai Ku-8",
-      "name": "Kokusai Ku-8",
-      "uuid": "09ca41f346c5f72e5533a84ca2306556",
-      "title_ja": "国際 ク8 四式特殊輸送機",
-      "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider[1]) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
-      "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
-    },
     "df900f7276252bc52bd2c0c6bedfcda3": {
       "title_ja": "一五式水上偵察機",
       "path": "/wiki/Nakajima_E2N",
@@ -2909,6 +2856,40 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/H5Y-2.jpg/300px-H5Y-2.jpg",
       "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
     },
+    "727a97f8e20ed1600935feca47fbcad2": {
+      "path": "/wiki/Tachikawa_Ki-54",
+      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
+      "category": "Trainers",
+      "allied_code": "Hickory",
+      "first_flown": 1941,
+      "number_built": 1368,
+      "services": [
+        "IJA"
+      ],
+      "title": "Tachikawa Ki-54",
+      "name": "Tachikawa Ki-54",
+      "uuid": "727a97f8e20ed1600935feca47fbcad2",
+      "description": "The Tachikawa Ki-54 was a Japanese twin-engine advanced trainer used during World War II. The aircraft was named Hickory by the Allies.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Tachikawa_Ki-54.jpg/300px-Tachikawa_Ki-54.jpg",
+      "image_local_name": "727a97f8e20ed1600935feca47fbcad2.jpg"
+    },
+    "df7ac11604c0afb10f707778555491eb": {
+      "path": "/wiki/Tachikawa_Ki-55",
+      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-55",
+      "category": "Trainers",
+      "allied_code": "Ida",
+      "first_flown": 1939,
+      "number_built": 1389,
+      "services": [
+        "IJA"
+      ],
+      "title": "Tachikawa Ki-55",
+      "name": "Tachikawa Ki-55",
+      "uuid": "df7ac11604c0afb10f707778555491eb",
+      "description": "The Tachikawa Ki-55 was a Japanese advanced trainer.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tachikawa_Ki-55.jpg/300px-Tachikawa_Ki-55.jpg",
+      "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg"
+    },
     "0754e25c6ef22495d0ca122431501de8": {
       "path": "/wiki/Tachikawa_Ki-70",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-70",
@@ -2925,6 +2906,42 @@
       "description": "The Tachikawa Ki-70 \"Clara\" was a high speed photo reconnaissance aircraft that was tested for the Japanese Air Force in prototype form but never entered production. The Ki-70 was the intended successor to the Mitsubishi Ki-46 but was difficult to handle and was slower than the Mitsubishi Ki-46. The Ki-70 was first flown in 1943 but was found unsatisfactory and the program was terminated. Three aircraft were built.",
       "image_url": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/One_Ki-70_prototype.jpg/300px-One_Ki-70_prototype.jpg",
       "image_local_name": "0754e25c6ef22495d0ca122431501de8.jpg"
+    },
+    "9e69f0ae7f0a6ca5caa7120bf230343d": {
+      "path": "/wiki/Kokusai_Ku-7",
+      "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
+      "category": "Experimental aircraft",
+      "allied_code": "Buzzard",
+      "first_flown": 1942,
+      "number_built": 2,
+      "services": [
+        "IJA"
+      ],
+      "title": "Kokusai Ku-7",
+      "name": "Kokusai Ku-7",
+      "uuid": "9e69f0ae7f0a6ca5caa7120bf230343d",
+      "title_ja": "真鶴",
+      "description": "The Kokusai Ku-7 Manazuru (真鶴 \"white-naped crane\"; Allied code-name Buzzard) was a large experimental twin boom Japanese military glider.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ku-7_glider.jpg/300px-Ku-7_glider.jpg",
+      "image_local_name": "9e69f0ae7f0a6ca5caa7120bf230343d.jpg"
+    },
+    "09ca41f346c5f72e5533a84ca2306556": {
+      "path": "/wiki/Kokusai_Ku-8",
+      "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-8",
+      "category": "Transports",
+      "allied_code": "Gander",
+      "first_flown": 1943,
+      "number_built": 700,
+      "services": [
+        "IJA"
+      ],
+      "title": "Kokusai Ku-8",
+      "name": "Kokusai Ku-8",
+      "uuid": "09ca41f346c5f72e5533a84ca2306556",
+      "title_ja": "国際 ク8 四式特殊輸送機",
+      "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider[1]) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
+      "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
     },
     "f3d004494d37558684d5d84a54bc5ece": {
       "path": "/wiki/Aichi_E10A",
@@ -2943,22 +2960,23 @@
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Aichi_E10A_-_Type_96.jpg/300px-Aichi_E10A_-_Type_96.jpg",
       "image_local_name": "f3d004494d37558684d5d84a54bc5ece.jpg"
     },
-    "df7ac11604c0afb10f707778555491eb": {
-      "path": "/wiki/Tachikawa_Ki-55",
-      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-55",
-      "category": "Trainers",
-      "allied_code": "Ida",
-      "first_flown": 1939,
-      "number_built": 1389,
+    "316880560c7f8b18319f48c2447b3556": {
+      "path": "/wiki/Aichi_E11A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_E11A",
+      "category": "Reconnaissance aircraft",
+      "allied_code": "Laura",
+      "first_flown": 1937,
+      "number_built": 17,
       "services": [
         "IJA"
       ],
-      "title": "Tachikawa Ki-55",
-      "name": "Tachikawa Ki-55",
-      "uuid": "df7ac11604c0afb10f707778555491eb",
-      "description": "The Tachikawa Ki-55 was a Japanese advanced trainer.",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tachikawa_Ki-55.jpg/300px-Tachikawa_Ki-55.jpg",
-      "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg"
+      "title": "Aichi E11A",
+      "name": "Aichi E11A",
+      "uuid": "316880560c7f8b18319f48c2447b3556",
+      "title_ja": "九八夜偵",
+      "description": "The Aichi E11A (九八夜偵, Kyū-hachi Yatei) was an Imperial Japanese Navy flying boat used during the first year of World War II for maritime patrol duties. The Allied reporting name for the type was \"Laura\"; the Japanese Navy designation was \"Type 98 Reconnaissance Seaplane\". The Type 98 was quite similar to the earlier E10A Type 96, whose allied name was \"Hank\". \"Lauras\" were rare - only 17 were built. It was designed to be launched from cruisers or battleships in order to spot their shellfire at night. The Type 98s were soon diverted to communications and transport duties.",
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg/300px-E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg",
+      "image_local_name": "316880560c7f8b18319f48c2447b3556.jpg"
     }
   }
 }
