@@ -990,7 +990,7 @@
       "title_ja": "流星",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Aichi_B7A_Ryusei.jpg/300px-Aichi_B7A_Ryusei.jpg",
       "image_local_name": "7c698e1440838dc1b20c18ad1b61d217.jpg",
-      "description": "\n\n",
+      "description": "The Aichi B7A Ryusei (流星, Ryūsei, \"Shooting Star\", Allied reporting name \"Grace\") was a large and powerful carrier-borne torpedo-dive bomber produced by Aichi Kokuki for the Imperial Japanese Navy Air Service during the Second World War. Built in only small numbers and deprived of the aircraft carriers it was intended to operate from, the type had little chance to distinguish itself in combat before the war ended in August 1945.",
       "variants": [
         {
           "name": "B7A1",
@@ -1148,7 +1148,7 @@
       "title": "Mitsubishi B5M",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B5M_Type_97_Carrier_Attack_Bomber_Mabel_B5M-11.jpg/300px-B5M_Type_97_Carrier_Attack_Bomber_Mabel_B5M-11.jpg",
       "image_local_name": "f9b5b41561fe7e4ec89dd56e6c1590f9.jpg",
-      "description": "The Mitsubishi B5M was an Imperial Japanese Navy Air Service (IJNAS) land-based attack aircraft, originally intended for carrier use. The B5M was also given the long formal designation Navy Type 97 No.2 Carrier Attack Bomber (Japanese: 九七式二号艦上攻撃機) and Allied reporting name of Mabel. ",
+      "description": "The Mitsubishi B5M was an Imperial Japanese Navy Air Service (IJNAS) land-based attack aircraft, originally intended for carrier use. The B5M was also given the long formal designation Navy Type 97 No.2 Carrier Attack Bomber (Japanese: 九七式二号艦上攻撃機) and Allied reporting name of Mabel.",
       "variants": [
         {
           "name": "B5M1",
@@ -2586,46 +2586,7 @@
       "image_local_name": "380cb4fe0510f19c4b0da699e38464f2.jpg",
       "description": "The Shōwa L2D and Nakajima L2D, given the designations Shōwa Navy Type 0 Transport and Nakajima Navy Type 0 Transport(零式輸送機), were license-built versions of the Douglas DC-3. The L2D series, numerically, was the most important Japanese transport in World War II. The L2D was given the Allied code name Tabby.",
       "variants": [
-        {
-          "name": "L2D1 Navy D1 Transport (海軍D一号輸送機 Kaigun D1-Gō Yusōki)",
-          "description": "Knock down production two DC-3s supplied for evaluation by the Imperial Japanese Navy Air Service."
-        },
-        {
-          "name": "L2D2 Type 0 Transport Model 11 (零式輸送機11型 Reishiki Yusōki 11-gata)",
-          "description": "Personnel transports with Mitsubishi Kinsei 43 radials. Initial named Navy D2 Transport (海軍D二号輸送機 Kaigun D2-Gō Yusōki)."
-        },
-        {
-          "name": "L2D2-L Type 0 Freighter Model 11 (零式荷物輸送機11型 Reishiki Nimotsu-Yusōki 11-gata)",
-          "description": "Cargo version of the L2D2 with enlarged cargo door."
-        },
-        {
-          "name": "L2D3 Type 0 Transport Model 22 (零式輸送機22型 Reishiki Yusōki 22-gata)",
-          "description": "L2D2 re-engined with Mitsubishi Kinsei 51, Kinsei 52 or Kinsei 53 engines, each at 1,300 hp (957 kW)–1,325 hp (975 kW). Increased side cockpit glass."
-        },
-        {
-          "name": "L2D3-L Type 0 Freighter Model 22 (零式荷物輸送機22型 Reishiki Nimotsu-Yusōki 22-gata)",
-          "description": "Cargo version of the L2D3."
-        },
-        {
-          "name": "L2D3a Type 0 Transport Model 22A (零式輸送機22甲型 Reishiki Yusōki 22 Kō-gata)",
-          "description": "Armed versions L2D3 with a 13 mm machine gun in a dorsal turret and two 7.7 mm machine guns in the left and right fuselage hatches."
-        },
-        {
-          "name": "L2D3a-L Type 0 Freighter Model 22A (零式荷物輸送機22甲型 Reishiki Nimotsu-Yusōki 22 Kō-gata)",
-          "description": "Armed version of the L2D3-L, armaments were same as L2D3a."
-        },
-        {
-          "name": "L2D4 Type 0 Transport Model 23 (零式輸送機23型 Reishiki Yusōki 23-gata)",
-          "description": "L2D3 re-engined with Mitsubishi Kinsei 62 engines, each at 1,590 hp (1,170 kW)."
-        },
-        {
-          "name": "L2D4-L Provisional name Type 0 Freighter Model 23 (仮称零式荷物輸送機23型 Kashō Reishiki Nimotsu-Yusōki 23-gata)",
-          "description": "Cargo version of the L2D4, prototype only."
-        },
-        {
-          "name": "L2D5 Provisional name Type 0 Transport Model 33 (仮称零式輸送機33型 Kashō Reishiki Yusōki 33-gata)",
-          "description": "Wooden version, replacement of steel components with wood; used two Mitsubishi Kinsei 62 engines, incomplete."
-        }
+
       ]
     },
     "3d7668c49dd53fc000fae43fb96fc29c": {
@@ -2643,7 +2604,7 @@
       "title": "Airspeed Envoy",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg/300px-Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg",
       "image_local_name": "3d7668c49dd53fc000fae43fb96fc29c.jpg",
-      "description": "\n",
+      "description": "The Airspeed AS.6 Envoy was a twin-engined light transport aircraft designed and produced by the British aircraft manufacturer Airspeed Ltd.",
       "variants": [
 
       ]
@@ -2809,7 +2770,21 @@
       "uuid": "ab705f484bf3e4959da7af329fc73b13",
       "description": "The Aichi D1A or Navy Type 94/96 Carrier Bomber (Allied reporting name \"Susie\") was a Japanese carrier-based dive bomber of the 1930s. A single-engine, two-seat biplane based on the Heinkel He 50, the D1A was produced by Aichi for the Imperial Japanese Navy, remaining in service as a trainer at the time of the attack on Pearl Harbor. The D1A was produced in two variants, the D1A1 (Navy Type 94 Carrier Bomber), and the D1A2 (Navy Type 96 Carrier Bomber, sometimes referred to as the D2A).",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Aichi_D1A2.jpg/300px-Aichi_D1A2.jpg",
-      "image_local_name": "ab705f484bf3e4959da7af329fc73b13.jpg"
+      "image_local_name": "ab705f484bf3e4959da7af329fc73b13.jpg",
+      "variants": [
+        {
+          "name": "D1A1 Type 94",
+          "description": "Powered by 433 kW (580 hp) Nakajima Kotobuki 2 Kai 1 or Kotobuki 3 radial engines; 162 built.[1]"
+        },
+        {
+          "name": "D1A2 Type 96 (Sometimes referred to as the D2A)",
+          "description": "Improved version fitted with spatted wheels and a higher powered Nakajima Hikari 1 engine; 428 built.[1]"
+        },
+        {
+          "name": "AB-11",
+          "description": "Proposed development with retractable undercarriage. Not built.[4]"
+        }
+      ]
     },
     "df900f7276252bc52bd2c0c6bedfcda3": {
       "title_ja": "一五式水上偵察機",
@@ -2872,7 +2847,13 @@
       "title_ja": "九八夜偵",
       "description": "The Aichi E11A (九八夜偵, Kyū-hachi Yatei) was an Imperial Japanese Navy flying boat used during the first year of World War II for maritime patrol duties. The Allied reporting name for the type was \"Laura\"; the Japanese Navy designation was \"Type 98 Reconnaissance Seaplane\". The Type 98 was quite similar to the earlier E10A Type 96, whose allied name was \"Hank\". \"Lauras\" were rare - only 17 were built. It was designed to be launched from cruisers or battleships in order to spot their shellfire at night. The Type 98s were soon diverted to communications and transport duties.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg/300px-E11A_Type_98_Reconnaissance_Seaplane_Laura_E11A-1.jpg",
-      "image_local_name": "316880560c7f8b18319f48c2447b3556.jpg"
+      "image_local_name": "316880560c7f8b18319f48c2447b3556.jpg",
+      "variants": [
+        {
+          "name": "E11A1",
+          "description": "E11A1 : Night reconnaissance flying boat for the Imperial Japanese Navy. Production version."
+        }
+      ]
     },
     "0e119196dd333a966cf2032d48847caa": {
       "path": "/wiki/Nakajima_G5N",
@@ -2890,7 +2871,29 @@
       "title_ja": "深山",
       "description": "The Nakajima G5N Shinzan (深山, \"Deep Mountain\") was a four-engined long-range heavy bomber designed and built for the Imperial Japanese Navy prior to World War II. The Navy designation was \"Experimental 13-Shi Attack Bomber\"; the Allied code name was \"Liz\".",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/G5N.jpg/300px-G5N.jpg",
-      "image_local_name": "0e119196dd333a966cf2032d48847caa.jpg"
+      "image_local_name": "0e119196dd333a966cf2032d48847caa.jpg",
+      "variants": [
+        {
+          "name": "G5N1 Experimental Type 13 Land-based Attack Bomber \"Shinzan\" (13試陸上攻撃機 深山 13-Shi Rikujō Kōgekiki \"Shinzan\")",
+          "description": "Prototype, two built. Initial named 'Experimental Type 13 Large-size land-based Attack Bomber' (13試大型陸上攻撃機 13-Shi Ōgata Rikujō Kōgekiki). Four-engined heavy bomber/torpedo bomber. Three-blade propeller, mounted four Mitsubishi MK4B Kasei 12 (1,530 hp) radial engines."
+        },
+        {
+          "name": "G5N2 Test production \"Shinzan Kai\" (試製深山改 Shisei \"Shinzan Kai\")",
+          "description": "Supplementary prototype, four built. Four-blade propeller, mounted four Nakajima NK7A Mamori 11 (1,870 hp) radial engines. All G5N2s were rebuilt to G5N2-L in 1943."
+        },
+        {
+          "name": "G5N2-L \"Shinzan Kai\" Freighter (深山改輸送機 \"Sinzan Kai\" Yusōki)",
+          "description": "Long-range Navy transport conversion. All G5N2-Ls were deployed to 1021st Kōkutai, Katori Air Base."
+        },
+        {
+          "name": "Nakajima Ki-68",
+          "description": "Proposed Army bomber prototype version of the G5N1. Engines were planned Mitsubishi Ha-101, Ha-104, Ha-107, Nakajima Ha-39 or Ha-103 engines. Discontinued in 1941."
+        },
+        {
+          "name": "Kawasaki Ki-85",
+          "description": "Proposed Army bomber version of the G5N1. Four Mitsubishi Ha-111M engines. Full-scale mock-up was built in 1942, discontinued in May 1943.[1][4]"
+        }
+      ]
     },
     "ddde4e5a488a776c3e285a0af739ff2e": {
       "path": "/wiki/Kawanishi_H3K",
@@ -2924,7 +2927,21 @@
       "title_ja": "九九式飛行艇",
       "description": "The Yokosuka H5Y (short designation) or Yokosuka Navy Type 99 Flying Boat Model 11 (九九式飛行艇, 99shiki hikōtei) (long designation), given the allied code name Cherry, was an IJNAS flying boat in service from 1938.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/H5Y-2.jpg/300px-H5Y-2.jpg",
-      "image_local_name": "4d67529969bc1c632374afc790a06140.jpg"
+      "image_local_name": "4d67529969bc1c632374afc790a06140.jpg",
+      "variants": [
+        {
+          "name": "H5Y",
+          "description": "2 Prototypes constructed at the Hiro Naval Arsenal"
+        },
+        {
+          "name": "H5Y1",
+          "description": "Production model, 18 built."
+        },
+        {
+          "name": "Yokosuka Navy Type 99 Flying Boat Model 11",
+          "description": "The long formal designation of the H5Y."
+        }
+      ]
     },
     "8afb0ea1f873c83ff9883716619646fa": {
       "path": "/wiki/Mitsubishi_K3M",
@@ -2942,7 +2959,33 @@
       "title_ja": "九〇式機上作業練習機",
       "description": "The Mitsubishi K3M (九〇式機上作業練習機, Kyūrei-shiki kijō sagyō renshūki) was a trainer built by Mitsubishi which was used by the Imperial Japanese Navy in an extremely wide variety of roles, including light transport, liaison aircraft, utility aircraft and occasionally light bomber. Its Allied reporting name was Pine.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Mitsubishi_K3M.jpg/300px-Mitsubishi_K3M.jpg",
-      "image_local_name": "8afb0ea1f873c83ff9883716619646fa.jpg"
+      "image_local_name": "8afb0ea1f873c83ff9883716619646fa.jpg",
+      "variants": [
+        {
+          "name": "Mitsubishi K3M1",
+          "description": "Initial version"
+        },
+        {
+          "name": "Mitsubishi K3M2 (Japanese Navy Type 90 Crew Training Aircraft)",
+          "description": "Initial production version for Imperial Japanese Navy"
+        },
+        {
+          "name": "Mitsubishi K3M3 (Japanese Navy Type 90 Crew Training Aircraft)",
+          "description": "Final production version for Imperial Japanese Navy"
+        },
+        {
+          "name": "Mitsubishi K3M3-L",
+          "description": "Military transport used by Imperial Japanese Navy"
+        },
+        {
+          "name": "Ki-7",
+          "description": "Version for Imperial Japanese Army, 2 built"
+        },
+        {
+          "name": "Mitsubishi MS-1",
+          "description": "Civil transport version"
+        }
+      ]
     },
     "738a2e1e58fcd7bcdf28d078b4ee53cc": {
       "path": "/wiki/Yokosuka_K5Y",
@@ -2960,7 +3003,49 @@
       "title_ja": "九三式中間練習機",
       "description": "The Yokosuka K5Y (九三式中間練習機, Kyūsanshikichūkanrenshūki, Type 93 Intermediate Training Aircraft, Allied reporting name: \"Willow\") was a two-seat unequal-span biplane trainer that served in the Imperial Japanese Navy during World War II. Due to its bright orange paint scheme (applied to all Japanese military trainers for visibility), it earned the nickname \"aka-tombo\", or \"red dragonfly\", after a type of insect common throughout Japan.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/K5Y-93-2.jpg/300px-K5Y-93-2.jpg",
-      "image_local_name": "738a2e1e58fcd7bcdf28d078b4ee53cc.jpg"
+      "image_local_name": "738a2e1e58fcd7bcdf28d078b4ee53cc.jpg",
+      "variants": [
+        {
+          "name": "K5Y1",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": "Two-seat intermediate trainer for the Imperial Japanese Navy."
+        },
+        {
+          "name": "K5Y2",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": "Floatplane version, with Amakaze 11 engine."
+        },
+        {
+          "name": "K5Y3",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": "Floatplane, with 384 kW (515 hp) Amakaze 21."
+        },
+        {
+          "name": "K5Y4",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": "Projected land-based version with 358 kW (480 hp) Amakaze 21A. Never built."
+        },
+        {
+          "name": "K5Y5",
+          "description": ""
+        },
+        {
+          "name": "",
+          "description": "Projected land-based version with 384 kW (515 hp) Amakaze 15. Never built."
+        }
+      ]
     },
     "ffd163fe6045138648b66de9ca8281c8": {
       "path": "/wiki/Kyushu_K10W",
@@ -2995,7 +3080,21 @@
       "title_ja": "九三式双軽爆撃機",
       "description": "The Mitsubishi Ki-2 (九三式双軽爆撃機, Kyūsan-shiki sōkei bakugekiki, \"Army Type 93 Twin-engine Light Bomber\") was a light bomber built by Mitsubishi for the Imperial Japanese Army Air Service (IJAAS) in the 1930s. Its Allied nickname was \"Louise\". Despite its antiquated appearance, the Ki-2 was successfully used in Manchukuo and in North China during the early stages of the Second Sino-Japanese War, in areas where danger from enemy fighter aircraft was minimal. It was later used in a training role.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Ki-2_93siki-soukei.jpg/300px-Ki-2_93siki-soukei.jpg",
-      "image_local_name": "55f64f45bf00ef0b8ce665ca468ea94d.jpg"
+      "image_local_name": "55f64f45bf00ef0b8ce665ca468ea94d.jpg",
+      "variants": [
+        {
+          "name": "Ki-2-I (Army Type 93-I Twin-engined Light Bomber)",
+          "description": "Initial production variant, powered by two 435 hp (324 kW) Nakajima Kotobuki radial engines; 126 built."
+        },
+        {
+          "name": "Ki-2-II (Army Type 93-II Twin-engined Light Bomber)",
+          "description": "Final production variant with nose turret and semi-retractable main landing gear, powered by two 559 hp (417 kW) Mitsubishi Ha-8 (Army Type 94 550hp Air Cooled Radial) engines; 61 built."
+        },
+        {
+          "name": "Mitsubishi Ohtori (大鳥, Ōtori, \"phoenix\", lit. \"large bird\")",
+          "description": "A de-militarized long-range record-breaking aircraft operated by Asahi Shimbun; 1 built. Was mistakenly given the Allied reporting name of Eva or Eve."
+        }
+      ]
     },
     "14db53d4bb7567aac30b377f130c81d5": {
       "path": "/wiki/Tachikawa_Ki-9",
@@ -3013,7 +3112,21 @@
       "title_ja": "九五式一型練習機",
       "description": "The Tachikawa Ki-9 (九五式一型練習機, Kyūgo-shiki ichigata renshuki) was an intermediate training aircraft of the Imperial Japanese Army Air Force built by Tachikawa Aircraft Company Ltd in the 1930s. It was known to the Allies under the nickname of \"Spruce\" during World War II. This aircraft was mistakenly identified as a Tatchikawa by the British.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Tachikawa_Ki-9_-_Aircraft.jpg/300px-Tachikawa_Ki-9_-_Aircraft.jpg",
-      "image_local_name": "14db53d4bb7567aac30b377f130c81d5.jpg"
+      "image_local_name": "14db53d4bb7567aac30b377f130c81d5.jpg",
+      "variants": [
+        {
+          "name": "Ki-9 (Army Type 95-1 Medium Grade Trainer Model A)",
+          "description": "Ki-9 (Army Type 95-1 Medium Grade Trainer Model A): Initial version two-seat intermediate trainer aircraft."
+        },
+        {
+          "name": "Ki-9-ko (Army Type 95-1 Medium Grade Trainer Model B)",
+          "description": "Ki-9-ko (Army Type 95-1 Medium Grade Trainer Model B): Improved version."
+        },
+        {
+          "name": "Ki-9-otsu (Army Type 95-1 Medium Grade Trainer Model C)",
+          "description": "Ki-9-otsu (Army Type 95-1 Medium Grade Trainer Model C): Standard production version."
+        }
+      ]
     },
     "a78d76768bb939641ecbf9d7315e9798": {
       "path": "/wiki/Tachikawa_Ki-17",
@@ -3065,7 +3178,17 @@
       "uuid": "df7ac11604c0afb10f707778555491eb",
       "description": "The Tachikawa Ki-55 was a Japanese advanced trainer.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tachikawa_Ki-55.jpg/300px-Tachikawa_Ki-55.jpg",
-      "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg"
+      "image_local_name": "df7ac11604c0afb10f707778555491eb.jpg",
+      "variants": [
+        {
+          "name": "Ki-36",
+          "description": "Army co-operation aircraft."
+        },
+        {
+          "name": "Ki-72",
+          "description": "An evolved version with a 447 kW (599 hp) Hitachi Ha38 engine and retractable undercarriage. Not built."
+        }
+      ]
     },
     "662f70cf84bf2abd62db71a72006b3df": {
       "path": "/wiki/Kokusai_Ki-59",
@@ -3083,7 +3206,25 @@
       "title_ja": "一式輸送機",
       "description": "The Kokusai Ki-59 (一式輸送機, Isshiki-yusōki) was an early 1940s light transport monoplane built by Nippon Kokusai Koku Kogyo K.K for the Imperial Japanese Army as a development of the Teradako-ken TK-3 which had first flown in 1938.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Kokusai_Ki-59.jpg/300px-Kokusai_Ki-59.jpg",
-      "image_local_name": "662f70cf84bf2abd62db71a72006b3df.jpg"
+      "image_local_name": "662f70cf84bf2abd62db71a72006b3df.jpg",
+      "variants": [
+        {
+          "name": "TK-3",
+          "description": "Prototype civil transport with two 640 hp (477 kW) Nakajima Kotobuki 3 radial engines, two built."
+        },
+        {
+          "name": "Ki-59 (Army Type 1 Transport) (\"Theresa\")",
+          "description": "Production military transport with two 450 hp (336 kW) Hitachi Ha-13a radial engines, 59 built."
+        },
+        {
+          "name": "Ku-8-I (Army Experimental Glider)",
+          "description": "Experimental conversion to glider configuration."
+        },
+        {
+          "name": "Ku-8-II (Army Type 4 Large Transport Glider) (\"Gander\")",
+          "description": "Assault-glider variant."
+        }
+      ]
     },
     "0754e25c6ef22495d0ca122431501de8": {
       "path": "/wiki/Tachikawa_Ki-70",
@@ -3171,7 +3312,17 @@
       "title_ja": "国際 ク8 四式特殊輸送機",
       "description": "The Kokusai Ku-8-II (国際 ク8 四式特殊輸送機, Kokusai ku 8 yonshiki tokushū yusōki) (Kokusai Army Type 4 Special Transport Glider) was a Japanese military glider used during the Second World War. They were usually towed by Mitsubishi G3M or Mitsubishi Ki-21 aircraft.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Kokusai_ku-8.jpg/300px-Kokusai_ku-8.jpg",
-      "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg"
+      "image_local_name": "09ca41f346c5f72e5533a84ca2306556.jpg",
+      "variants": [
+        {
+          "name": "Ku-8-I",
+          "description": "Ku-8-I:Prototypes."
+        },
+        {
+          "name": "Ku-8-II",
+          "description": "Ku-8-II:Military transport glider. Production version."
+        }
+      ]
     },
     "8511d3979da63a09c9a1c5b283e06d29": {
       "path": "/wiki/Kyushu_Q1W",
@@ -3189,7 +3340,25 @@
       "title_ja": "東海",
       "description": "The Kyūshū Q1W Tōkai (東海 \"Eastern Sea\") was a land-based anti-submarine patrol bomber aircraft developed for the Imperial Japanese Navy in World War II. The Allied reporting name was Lorna. Although similar in appearance to the German Junkers Ju 88 medium bomber, the Q1W was a much smaller aircraft with significantly different design details.",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Q1W.jpg/300px-Q1W.jpg",
-      "image_local_name": "8511d3979da63a09c9a1c5b283e06d29.jpg"
+      "image_local_name": "8511d3979da63a09c9a1c5b283e06d29.jpg",
+      "variants": [
+        {
+          "name": "Q1W1",
+          "description": "Q1W1 : one prototype."
+        },
+        {
+          "name": "Q1W1 Tokai Model 11",
+          "description": "Q1W1 Tokai Model 11: main production model."
+        },
+        {
+          "name": "Q1W2 Tokai Model 21",
+          "description": "Q1W2 Tokai Model 21: version with tail surfaces in wood, built in small numbers."
+        },
+        {
+          "name": "Q1W1-K Tokai-Ren",
+          "description": "Q1W1-K Tokai-Ren (Eastern Sea-Trainer): trainer with capacity for four, all-wood construction. One prototype built."
+        }
+      ]
     }
   }
 }
