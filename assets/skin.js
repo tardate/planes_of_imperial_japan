@@ -72,7 +72,7 @@
             data: 'description', visible: false
           },
         ],
-        dom: "<'row'<'col-sm-6'l><'col-sm-6'p>>" +
+        dom: "<'row'<'col-xs-4'l><'col-xs-8'p>>" +
           "<'row'<'col-sm-12'tr>>" +
           "<'row'<'col-sm-5'i><'col-sm-7'p>>",
         order: [[0, 'asc']],
@@ -139,7 +139,7 @@
             <br/><br/>';
 
           var description_cell = '<div class="media' + services_styles + '" data-uuid="' + data.uuid + '"> \
-            <div class="media-left plane-media"> \
+            <div class="media-left plane-media hidden-xs"> \
               <a href="' + url + '" target="_blank"> \
                 <img class="media-object" src="' + local_image_url + '" alt="' + data.title + '"/> \
               </a> \
@@ -148,6 +148,11 @@
               <row> \
                 <div class="col-md-8"> \
                   <h4 class="media-heading">' + name + '</h4> \
+                  <div class="plane-media visible-xs-block"> \
+                    <a href="' + url + '" target="_blank"> \
+                      <img class="media-object" src="' + local_image_url + '" alt="' + data.title + '"/> \
+                    </a> \
+                  </div> \
                   ' + main_description + ' \
                 </div> \
                 <div class="col-md-4"> \
