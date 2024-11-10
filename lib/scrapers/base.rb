@@ -65,7 +65,12 @@ class Scrapers::Base
   end
 
   def append_image(plane, doc)
-    image_link = doc.css('.infobox img.mw-file-element').last
+    case plane['uuid']
+    when '8db9bedd6990b3c01e31a80e6956a452'
+      image_link = doc.css('.mw-file-description[href="/wiki/File:N1K1_in_biwalake.jpg"] img').last
+    else
+      image_link = doc.css('.infobox img.mw-file-element').last
+    end
     if image_link
       image_url = image_link.attr('src')
       image_url = "https:#{image_url}" if image_url[0] = '/'
