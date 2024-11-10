@@ -40,6 +40,27 @@ describe Scrapers::WikiList do
       end
     end
 
+    context 'for Kawanishi_N1K-J', vcr: { cassette_name: "#{vcr_base}/Kawanishi_N1K-J", match_requests_on: [:path] } do
+      let(:plane) do
+        {
+          'uuid' => '8db9bedd6990b3c01e31a80e6956a452',
+          'category' => 'Fighters',
+          'name' => 'Kawanishi N1K Kyofu Navy Fighter Seaplane',
+          'path' => '/wiki/Kawanishi_N1K-J',
+          'url' => 'https://en.wikipedia.org/wiki/Kawanishi_N1K-J'
+        }
+      end
+      let(:added_keys) { %w[title title_ja image_url image_local_name description] }
+      it 'parses the page correctly' do
+        expect { subject }.to change { plane.keys.sort }.to(expected_keys)
+        expect(plane['title']).to eql('Kawanishi N1K')
+        expect(plane['title_ja']).to eql('強風')
+        expect(plane['description']).to include('The Kawanishi N1K is an Imperial Japanese Navy fighter aircraft')
+        expect(plane['image_url']).to eql('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/N1K1_in_biwalake.jpg/220px-N1K1_in_biwalake.jpg')
+        expect(plane['image_local_name']).to eql('8db9bedd6990b3c01e31a80e6956a452.jpg')
+      end
+    end
+
     context 'for Tachikawa Ki-94-I', vcr: { cassette_name: "#{vcr_base}/Tachikawa_Ki-94", match_requests_on: [:path] } do
       let(:plane) do
         {
