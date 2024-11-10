@@ -62,3 +62,12 @@
 .plane-media .media-object {
   width: 300px;
 }
+
+@media screen and (max-width: 767px) {
+  .navbar-right {
+    margin: 0px;
+  }
+  .plane-media .media-object {
+    width: 100%;
+  }
+}
