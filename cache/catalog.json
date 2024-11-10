@@ -608,7 +608,8 @@
       "path": "/wiki/Mitsubishi_Ki-46",
       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
       "categories": [
-        "Fighters"
+        "Fighters",
+        "Reconnaissance aircraft"
       ],
       "allied_code": "Dinah",
       "first_flown": 1941,
@@ -2304,84 +2305,6 @@
         {
           "name": "F1M2-K",
           "description": "Two-seat training version."
-        }
-      ]
-    },
-    "8c7fd7e579132b387970f64da6f8a742": {
-      "uuid": "8c7fd7e579132b387970f64da6f8a742",
-      "name": "Mitsubishi Ki-46 Type 100 Command Reconnaissance Aircraft",
-      "path": "/wiki/Mitsubishi_Ki-46",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
-      "categories": [
-        "Reconnaissance aircraft"
-      ],
-      "allied_code": "Dinah",
-      "first_flown": 1941,
-      "number_built": 1742,
-      "services": [
-        "IJA"
-      ],
-      "title": "Mitsubishi Ki-46",
-      "title_ja": "一〇〇式司令部偵察機",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ki-46_100sitei.jpg/300px-Ki-46_100sitei.jpg",
-      "image_local_name": "8c7fd7e579132b387970f64da6f8a742.jpg",
-      "description": "The Mitsubishi Ki-46 was a twin-engine reconnaissance aircraft used by the Imperial Japanese Army in World War II. Its Army Shiki designation was Type 100 Command Reconnaissance Aircraft (一〇〇式司令部偵察機); the Allied brevity code name was \"Dinah\".",
-      "variants": [
-        {
-          "name": "Army Type 100 Command Reconnaissance Plane",
-          "description": "The Shiki designation for the Ki-46 Command Reconnaissance Plane"
-        },
-        {
-          "name": "Army Type 100 Air Defence Fighter",
-          "description": "The Shiki designation for the Ki-46 Interceptor Fighter"
-        },
-        {
-          "name": "Army Type 100 Assault Plane",
-          "description": "The Shiki designation for the Ki-46 Assault Plane"
-        },
-        {
-          "name": "Ki-46",
-          "description": "Prototype."
-        },
-        {
-          "name": "Ki-46 I",
-          "description": "Reconnaissance version of the Ki-46."
-        },
-        {
-          "name": "Ki-46 II",
-          "description": "The first operational model of the series."
-        },
-        {
-          "name": "Ki-46 II KAI",
-          "description": "Three-seat training version of the Ki-46. Used for radio and navigation training, with a redesigned cabin, dorsal en echelon extension. Conversions of the Ki-46 II."
-        },
-        {
-          "name": "Ki-46 III",
-          "description": "\"Traditional\" stepped windshield replaced with a smooth, curved, glazed panel extended over the pilot's seat giving a more aerodynamic nose profile. Engine power increased to 1,500 hp (Ha-112-II), extra fuel tank added in the nose."
-        },
-        {
-          "name": "Ki-46 III-KAI",
-          "description": "Defense interceptor/night fighter version of the Ki-46. Equipped with two 20 mm cannon in the nose and one 37 mm (1.46 in) cannon in the \"Schräge Musik\"-style upwards-aimed dorsal frontal position."
-        },
-        {
-          "name": "Ki-46 III",
-          "description": "Land strike version of the Ki-46, without 37 mm (1.46 in) cannon armament."
-        },
-        {
-          "name": "Ki-46 IIIb",
-          "description": "Ground-attack version."
-        },
-        {
-          "name": "Ki-46 IIIc",
-          "description": "Unbuilt design project."
-        },
-        {
-          "name": "Ki-46 IV",
-          "description": "Prototype, equipped with two turbocharged 1,119 kW (1,500 hp) Mitsubishi Ha-112-IIru engines, and more fuel capacity."
-        },
-        {
-          "name": "Ki-46 IVa/b",
-          "description": "Series models of reconnaissance/fighter aircraft, unbuilt design projects"
         }
       ]
     },

@@ -16,10 +16,17 @@ class Scrapers::WikiList < Scrapers::Base
           'uuid' => Digest::MD5.hexdigest(name),
           'name' => name
         }
-        next if plane['uuid'] =='754bd2a4d1ec2c57c7f513c56c2ccd42' # ignore duplicate Kawasaki Ki-10 entry
+        case plane['uuid']
+        when '754bd2a4d1ec2c57c7f513c56c2ccd42' # ignore duplicate Kawasaki Ki-10 entry
+          next
+        when '8c7fd7e579132b387970f64da6f8a742' # ignore duplicate Mitsubishi Ki-46 entry
+          next
+        end
 
         categories = case plane['uuid']
         when '09fbf7e8284a52ac2daef4c61f404048' # customise Kawasaki Ki-10 entry
+          [category, 'Reconnaissance aircraft']
+        when '2e090e977e02b0b90915b7317b3c7d3f' # customise Mitsubishi Ki-46 entry
           [category, 'Reconnaissance aircraft']
         else
           Array(category)

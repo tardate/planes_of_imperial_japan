@@ -28,7 +28,7 @@ describe Scrapers::WikiList do
       let(:snapshot) { get_html_snapshot('wiki_list.html') }
 
       it 'parses the index.html to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(64)
+        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(63)
       end
     end
 
@@ -38,11 +38,11 @@ describe Scrapers::WikiList do
       end
 
       it 'parses the index.html to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(64)
+        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(63)
       end
 
       context 'for Kawasaki Ki-10' do
-        let(:expected_uuid) { '754bd2a4d1ec2c57c7f513c56c2ccd42' }
+        let(:expected_uuid) { '09fbf7e8284a52ac2daef4c61f404048' }
         let(:planes) { component.catalog.planes.collect { |_, v| v['path'] == '/wiki/Kawasaki_Ki-10' ? v : nil }.compact }
         let(:plane) { planes.first }
         it 'loads one entry only' do
@@ -51,6 +51,7 @@ describe Scrapers::WikiList do
         end
         it 'loads details correctly' do
           subject
+          expect(plane['uuid']).to eql expected_uuid
           expect(plane['name']).to eql('Kawasaki Ki-10 Army Type 95 Fighter')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kawasaki_Ki-10')
           expect(plane['categories']).to match_array(['Fighters', 'Reconnaissance aircraft'])
@@ -91,14 +92,20 @@ describe Scrapers::WikiList do
         end
       end
 
-      context 'for Mitsubishi_Ki-46' do
+      context 'for Mitsubishi Ki-46' do
         let(:expected_uuid) { '2e090e977e02b0b90915b7317b3c7d3f' }
+        let(:planes) { component.catalog.planes.collect { |_, v| v['path'] == '/wiki/Mitsubishi_Ki-46' ? v : nil }.compact }
+        let(:plane) { planes.first }
+        it 'loads one entry only' do
+          subject
+          expect(planes.count).to eql(1)
+        end
         it 'loads details correctly' do
-          expect { subject }.to change { component.catalog.planes[expected_uuid]&.keys }.from(nil).to(expected_keys)
-          plane = component.catalog.planes[expected_uuid]
+          subject
+          expect(plane['uuid']).to eql expected_uuid
           expect(plane['name']).to eql('Mitsubishi Ki-46-III-Kai Army Type 100 Air Defence Fighter')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Mitsubishi_Ki-46')
-          expect(plane['categories']).to match_array(%w[Fighters])
+          expect(plane['categories']).to match_array(['Fighters', 'Reconnaissance aircraft'])
           expect(plane['allied_code']).to eql('Dinah')
           expect(plane['first_flown']).to eql(1941)
           expect(plane['number_built']).to eql(1742)
