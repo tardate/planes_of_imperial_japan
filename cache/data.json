@@ -2183,50 +2183,6 @@
     ]
   },
   {
-    "name": "Kawasaki Ki-10 Army Type 95 Fighter (used for reconnaissance during WWII)",
-    "category": "Reconnaissance aircraft",
-    "path": "/wiki/Kawasaki_Ki-10",
-    "allied_code": "Perry",
-    "first_flown": 1935,
-    "number_built": 588,
-    "services": [
-      "IJA"
-    ],
-    "uuid": "754bd2a4d1ec2c57c7f513c56c2ccd42",
-    "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-10",
-    "title": "Kawasaki Ki-10",
-    "title_ja": "九五式戦闘機",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ki-10_Kumagaya.jpg/300px-Ki-10_Kumagaya.jpg",
-    "image_local_name": "754bd2a4d1ec2c57c7f513c56c2ccd42.jpg",
-    "description": "The Kawasaki Ki-10 (九五式戦闘機, Kyūgo-shiki sentōki, Army Type 95 Fighter) was the last biplane fighter used by the Imperial Japanese Army, entering service in 1935. Built by Kawasaki Kōkūki Kōgyō K.K. for the Imperial Japanese Army, it saw combat service in Manchukuo and in North China during the early stages of the Second Sino-Japanese War. Its reporting name given by the Allies was \"Perry\".",
-    "variants": [
-      {
-        "name": "Ki-10",
-        "description": "Ki-10 : Prototype for Imperial Japanese Army Air Force (4 built in early 1935)."
-      },
-      {
-        "name": "Ki-10-I",
-        "description": "Ki-10-I (Army Fighter Type 95-I): Initial production version (300 built December 1935 - October 1937)"
-      },
-      {
-        "name": "Ki-10-II",
-        "description": "Ki-10-II : Prototype of modified Mark I, increased in length (1 built May 1936)"
-      },
-      {
-        "name": "Ki-10-II ",
-        "description": "Ki-10-II  (Army Fighter Type 95–2): Improved production version (280 built June 1937 - December 1938)"
-      },
-      {
-        "name": "Ki-10-I KAI",
-        "description": "Ki-10-I KAI : Prototype Ki-10-I with modifications to engine and radiator (1 built October 1936)"
-      },
-      {
-        "name": "Ki-10-II KAI",
-        "description": "Ki-10-II KAI : Prototype - Aerodynamic modification of Ki-10-II, now designated Ki-10-I-KAI, with 634 kW (850 hp) Kawasaki Ha9-IIb engine (2 built November 1937)"
-      }
-    ]
-  },
-  {
     "name": "Mitsubishi F1M Type 0 Observation Seaplane",
     "category": "Reconnaissance aircraft",
     "path": "/wiki/Mitsubishi_F1M",

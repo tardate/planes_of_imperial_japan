@@ -27,7 +27,7 @@ describe Scrapers::WikiList do
       let(:snapshot) { get_html_snapshot('wiki_list.html') }
 
       it 'parses the index.html to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(65)
+        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(64)
       end
     end
 
@@ -37,7 +37,27 @@ describe Scrapers::WikiList do
       end
 
       it 'parses the index.html to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(65)
+        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(64)
+      end
+
+      context 'for Kawasaki Ki-10' do
+        let(:expected_uuid) { '754bd2a4d1ec2c57c7f513c56c2ccd42' }
+        let(:planes) { component.catalog.planes.collect { |_, v| v['path'] == '/wiki/Kawasaki_Ki-10' ? v : nil }.compact }
+        let(:plane) { planes.first }
+        it 'loads one entry only' do
+          subject
+          expect(planes.count).to eql(1)
+        end
+        it 'loads details correctly' do
+          subject
+          expect(plane['name']).to eql('Kawasaki Ki-10 Army Type 95 Fighter')
+          expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kawasaki_Ki-10')
+          expect(plane['category']).to eql('Fighters')
+          expect(plane['allied_code']).to eql('Perry')
+          expect(plane['first_flown']).to eql(1935)
+          expect(plane['number_built']).to eql(588)
+          expect(plane['services']).to match_array(%w[IJA])
+        end
       end
 
       context 'for Kawanishi_N1K' do

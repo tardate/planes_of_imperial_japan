@@ -21,6 +21,8 @@ class Scrapers::WikiList < Scrapers::Base
           'services' => as_service_list(cells[4]&.text)
         }
         plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
+        next if plane['uuid'] == '754bd2a4d1ec2c57c7f513c56c2ccd42' # ignore duplicate Kawasaki Ki-10 entry
+
         plane['url'] = base_url + plane['path']
         load_plane plane
         catalog.planes[plane['uuid']] = plane
