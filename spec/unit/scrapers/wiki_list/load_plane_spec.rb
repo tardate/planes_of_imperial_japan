@@ -88,16 +88,18 @@ describe Scrapers::WikiList do
       let(:plane) do
         {
           'uuid' => '5afc98ea6e5a36f6fc83acd74baee3f2',
-          'name' => 'Tachikawa Ki-94-I',
+          'name' => 'Tachikawa Ki-94',
           'path' => '/wiki/Tachikawa_Ki-94',
           'url' => 'https://en.wikipedia.org/wiki/Tachikawa_Ki-94'
         }
       end
-      let(:added_keys) { %w[title description] }
+      let(:added_keys) { %w[title description image_url image_local_name] }
       it 'parses the page correctly' do
         expect { subject }.to change { plane.keys.sort }.to(expected_keys)
         expect(plane['title']).to eql('Tachikawa Ki-94')
-        expect(plane['description']).to include('The Tachikawa Ki-94 was a single-seat fighter-Interceptor')
+        expect(plane['description']).to include('The Tachikawa Ki-94 was a single-seat')
+        expect(plane['image_url']).to eql('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ki-94II-1s.jpg/300px-Ki-94II-1s.jpg')
+        expect(plane['image_local_name']).to eql('5afc98ea6e5a36f6fc83acd74baee3f2.jpg')
       end
     end
 

@@ -6,7 +6,7 @@ describe Scrapers::WikiList do
 
   vcr_base = 'scrapers/wiki_list/load'
 
-  let(:expected_entries) { 62 }
+  let(:expected_entries) { 61 }
 
   describe '#load!' do
     subject { component.load! }
@@ -133,6 +133,27 @@ describe Scrapers::WikiList do
           expect(plane['first_flown']).to eql(1941)
           expect(plane['number_built']).to eql(479)
           expect(plane['services']).to match_array(%w[IJN])
+        end
+      end
+
+      context 'for Tachikawa Ki-94' do
+        let(:expected_uuid) { '5afc98ea6e5a36f6fc83acd74baee3f2' }
+        let(:planes) { component.catalog.planes.collect { |_, v| v['path'] == '/wiki/Tachikawa_Ki-94' ? v : nil }.compact }
+        let(:plane) { planes.first }
+        it 'loads one entry only' do
+          subject
+          expect(planes.count).to eql(1)
+        end
+        it 'loads details correctly' do
+          subject
+          expect(plane['uuid']).to eql expected_uuid
+          expect(plane['name']).to eql('Tachikawa Ki-94')
+          expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Tachikawa_Ki-94')
+          expect(plane['categories']).to match_array(['Experimental aircraft'])
+          expect(plane['allied_code']).to eql('n/a')
+          expect(plane['first_flown']).to be_nil
+          expect(plane['number_built']).to eql(2)
+          expect(plane['services']).to match_array(%w[IJA])
         end
       end
 

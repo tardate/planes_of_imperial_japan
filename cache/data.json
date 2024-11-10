@@ -2677,24 +2677,7 @@
   },
   {
     "uuid": "5afc98ea6e5a36f6fc83acd74baee3f2",
-    "name": "Tachikawa Ki-94-I",
-    "path": "/wiki/Tachikawa_Ki-94",
-    "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
-    "categories": [
-      "Experimental aircraft"
-    ],
-    "allied_code": "n/a",
-    "first_flown": null,
-    "number_built": 0,
-    "services": [
-
-    ],
-    "title": "Tachikawa Ki-94",
-    "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
-  },
-  {
-    "uuid": "01b6d07320c3dd305e3f43c8cef9edd8",
-    "name": "Tachikawa Ki-94-II",
+    "name": "Tachikawa Ki-94",
     "path": "/wiki/Tachikawa_Ki-94",
     "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
     "categories": [
@@ -2704,10 +2687,12 @@
     "first_flown": null,
     "number_built": 2,
     "services": [
-
+      "IJA"
     ],
     "title": "Tachikawa Ki-94",
-    "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ki-94II-1s.jpg/300px-Ki-94II-1s.jpg",
+    "image_local_name": "5afc98ea6e5a36f6fc83acd74baee3f2.jpg",
+    "description": "The Tachikawa Ki-94 was a single-seat fighter-interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
   },
   {
     "path": "/wiki/Aichi_D1A",

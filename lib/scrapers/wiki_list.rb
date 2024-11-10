@@ -17,6 +17,7 @@ class Scrapers::WikiList < Scrapers::Base
           'name' => name
         }
         next if [
+          '01b6d07320c3dd305e3f43c8cef9edd8', # duplicate Tachikawa Ki-94 entry
           '754bd2a4d1ec2c57c7f513c56c2ccd42', # duplicate Kawasaki Ki-10 entry
           '8c7fd7e579132b387970f64da6f8a742', # duplicate Mitsubishi Ki-46 entry
           'd946df437755f9151345f9f03efd9c49' # duplicate Nakajima J1N entry
@@ -41,6 +42,10 @@ class Scrapers::WikiList < Scrapers::Base
         when '439faabb9cbb57ad9a597ee4aea90f03' # customise Nakajima J1N entry
           plane['first_flown'] = 1941
           plane['categories'] = [category, 'Fighters'].sort
+        when '5afc98ea6e5a36f6fc83acd74baee3f2' # customise Tachikawa Ki-94 entry
+          plane['name'] = 'Tachikawa Ki-94'
+          plane['number_built'] = 2
+          plane['services'] = %w[IJA]
         end
 
         load_plane plane
