@@ -63,11 +63,12 @@
   width: 300px;
 }
 
+.plane-media.visible-sm-block .media-object {
+  width: 100%;
+}
+
 @media screen and (max-width: 767px) {
   .navbar-right {
     margin: 0px;
-  }
-  .plane-media .media-object {
-    width: 100%;
   }
 }
