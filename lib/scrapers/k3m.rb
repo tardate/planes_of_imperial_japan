@@ -7,7 +7,7 @@ class Scrapers::K3m < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Trainers',
+      'categories' => %w[Trainers],
       'allied_code' => 'Pine',
       'first_flown' => 1930,
       'number_built' => 625,

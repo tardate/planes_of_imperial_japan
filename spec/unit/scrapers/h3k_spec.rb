@@ -34,7 +34,7 @@ describe Scrapers::H3k do
         expect(plane['title']).to eql('Kawanishi H3K')
         expect(plane['title_ja']).to eql('九〇式二号飛行艇')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kawanishi_H3K')
-        expect(plane['category']).to eql('Reconnaissance aircraft')
+        expect(plane['categories']).to match_array(['Reconnaissance aircraft'])
         expect(plane['allied_code']).to eql('Belle')
         expect(plane['first_flown']).to eql(1930)
         expect(plane['number_built']).to eql(5)

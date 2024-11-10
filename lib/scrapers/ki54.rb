@@ -7,7 +7,7 @@ class Scrapers::Ki54 < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Trainers',
+      'categories' => %w[Trainers],
       'allied_code' => 'Hickory',
       'first_flown' => 1941,
       'number_built' => 1368,

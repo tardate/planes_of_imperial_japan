@@ -7,7 +7,7 @@ class Scrapers::K10w < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Trainers',
+      'categories' => %w[Trainers],
       'allied_code' => 'Oak',
       'first_flown' => 1941,
       'number_built' => 176,

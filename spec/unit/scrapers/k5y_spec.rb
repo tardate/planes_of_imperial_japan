@@ -34,7 +34,7 @@ describe Scrapers::K5y do
         expect(plane['title']).to eql('Yokosuka K5Y')
         expect(plane['title_ja']).to eql('九三式中間練習機')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Yokosuka_K5Y')
-        expect(plane['category']).to eql('Trainers')
+        expect(plane['categories']).to match_array(%w[Trainers])
         expect(plane['allied_code']).to eql('Willow')
         expect(plane['first_flown']).to eql(1933)
         expect(plane['number_built']).to eql(5770)

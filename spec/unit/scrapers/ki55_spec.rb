@@ -34,7 +34,7 @@ describe Scrapers::Ki55 do
         expect(plane['title']).to eql('Tachikawa Ki-55')
         expect(plane['title_ja']).to be_nil
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Tachikawa_Ki-55')
-        expect(plane['category']).to eql('Trainers')
+        expect(plane['categories']).to match_array(%w[Trainers])
         expect(plane['allied_code']).to eql('Ida')
         expect(plane['first_flown']).to eql(1939)
         expect(plane['number_built']).to eql(1389)

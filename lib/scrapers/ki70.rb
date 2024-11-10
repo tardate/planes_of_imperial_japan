@@ -7,7 +7,7 @@ class Scrapers::Ki70 < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Reconnaissance aircraft',
+      'categories' => ['Reconnaissance aircraft'],
       'allied_code' => 'Clara',
       'first_flown' => 1943,
       'number_built' => 3,

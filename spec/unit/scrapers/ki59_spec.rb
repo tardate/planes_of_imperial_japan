@@ -34,7 +34,7 @@ describe Scrapers::Ki59 do
         expect(plane['title']).to eql('Kokusai Ki-59')
         expect(plane['title_ja']).to eql('一式輸送機')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kokusai_Ki-59')
-        expect(plane['category']).to eql('Transports')
+        expect(plane['categories']).to match_array(%w[Transports])
         expect(plane['allied_code']).to eql('Theresa')
         expect(plane['first_flown']).to eql(1941)
         expect(plane['number_built']).to eql(59)

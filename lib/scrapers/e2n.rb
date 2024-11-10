@@ -9,7 +9,7 @@ class Scrapers::E2n < Scrapers::Base
       'title_ja' => '一五式水上偵察機',
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Reconnaissance aircraft',
+      'categories' => ['Reconnaissance aircraft'],
       'allied_code' => 'Bob',
       'first_flown' => 1927,
       'number_built' => 80,

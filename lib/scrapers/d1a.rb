@@ -7,7 +7,7 @@ class Scrapers::D1a < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Bombers',
+      'categories' => %w[Bombers],
       'allied_code' => 'Susie',
       'first_flown' => 1934,
       'number_built' => 590,

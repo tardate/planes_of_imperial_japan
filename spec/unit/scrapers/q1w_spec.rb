@@ -34,7 +34,7 @@ describe Scrapers::Q1w do
         expect(plane['title']).to eql('Kyushu Q1W')
         expect(plane['title_ja']).to eql('東海')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kyushu_Q1W')
-        expect(plane['category']).to eql('Bombers')
+        expect(plane['categories']).to match_array(%w[Bombers])
         expect(plane['allied_code']).to eql('Lorna')
         expect(plane['first_flown']).to eql(1943)
         expect(plane['number_built']).to eql(153)
