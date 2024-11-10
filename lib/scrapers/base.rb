@@ -54,7 +54,7 @@ class Scrapers::Base
 
   def append_plane_description(plane, doc)
     doc.css('.mw-body-content p').detect do |item|
-      text = item.text.chomp
+      text = item.text.strip
       unless text.empty?
         text.gsub!(/\[\d+\]/, '')
         plane['description'] = text
@@ -79,8 +79,11 @@ class Scrapers::Base
     end
   end
 
-  def append_variants(plane, doc, selector='h2 span#Variants')
-    variants = doc.css(selector).first
+  def append_variants(plane, doc, selectors = nil)
+    selectors ||= ['h2 span#Variants', 'h2#Variants']
+    variants = Array(selectors).map do |selector|
+      doc.css(selector).first
+    end.compact.first
     return unless variants
 
     plane['variants'] = []
@@ -111,6 +114,9 @@ class Scrapers::Base
           }
           plane['variants'] << variant
         end
+      when 'div'
+        log 'load_plane', 'ending scan for variants'
+        break
       else
         log 'load_plane', "ignoring variant element #{current_element.name}"
       end
