@@ -6,6 +6,8 @@ describe Scrapers::WikiList do
 
   vcr_base = 'scrapers/wiki_list/load'
 
+  let(:expected_entries) { 62 }
+
   describe '#load!' do
     subject { component.load! }
     before do
@@ -28,7 +30,7 @@ describe Scrapers::WikiList do
       let(:snapshot) { get_html_snapshot('wiki_list.html') }
 
       it 'parses the index.html to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(63)
+        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(expected_entries)
       end
     end
 
@@ -38,7 +40,7 @@ describe Scrapers::WikiList do
       end
 
       it 'parses the index.html to catalog correctly' do
-        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(63)
+        expect { subject }.to change { component.catalog.planes.keys.count }.from(0).to(expected_entries)
       end
 
       context 'for Kawasaki Ki-10' do
@@ -110,6 +112,27 @@ describe Scrapers::WikiList do
           expect(plane['first_flown']).to eql(1941)
           expect(plane['number_built']).to eql(1742)
           expect(plane['services']).to match_array(%w[IJA IJN])
+        end
+      end
+
+      context 'for Nakajima J1N' do
+        let(:expected_uuid) { '439faabb9cbb57ad9a597ee4aea90f03' }
+        let(:planes) { component.catalog.planes.collect { |_, v| v['path'] == '/wiki/Nakajima_J1N' ? v : nil }.compact }
+        let(:plane) { planes.first }
+        it 'loads one entry only' do
+          subject
+          expect(planes.count).to eql(1)
+        end
+        it 'loads details correctly' do
+          subject
+          expect(plane['uuid']).to eql expected_uuid
+          expect(plane['name']).to eql('Nakajima J1N Gekkou Navy Type 2 Reconnaissance Plane')
+          expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Nakajima_J1N')
+          expect(plane['categories']).to match_array(['Fighters', 'Reconnaissance aircraft'])
+          expect(plane['allied_code']).to eql('Irving')
+          expect(plane['first_flown']).to eql(1941)
+          expect(plane['number_built']).to eql(479)
+          expect(plane['services']).to match_array(%w[IJN])
         end
       end
 

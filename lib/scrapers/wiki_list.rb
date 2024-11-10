@@ -16,32 +16,32 @@ class Scrapers::WikiList < Scrapers::Base
           'uuid' => Digest::MD5.hexdigest(name),
           'name' => name
         }
-        case plane['uuid']
-        when '754bd2a4d1ec2c57c7f513c56c2ccd42' # ignore duplicate Kawasaki Ki-10 entry
-          next
-        when '8c7fd7e579132b387970f64da6f8a742' # ignore duplicate Mitsubishi Ki-46 entry
-          next
-        end
-
-        categories = case plane['uuid']
-        when '09fbf7e8284a52ac2daef4c61f404048' # customise Kawasaki Ki-10 entry
-          [category, 'Reconnaissance aircraft']
-        when '2e090e977e02b0b90915b7317b3c7d3f' # customise Mitsubishi Ki-46 entry
-          [category, 'Reconnaissance aircraft']
-        else
-          Array(category)
-        end
+        next if [
+          '754bd2a4d1ec2c57c7f513c56c2ccd42', # duplicate Kawasaki Ki-10 entry
+          '8c7fd7e579132b387970f64da6f8a742', # duplicate Mitsubishi Ki-46 entry
+          'd946df437755f9151345f9f03efd9c49' # duplicate Nakajima J1N entry
+        ].include? plane['uuid']
 
         path = cells[0].css('a').last.attr('href')
         plane.merge!(
           'path' => path,
           'url' => base_url + path,
-          'categories' => categories,
+          'categories' => Array(category),
           'allied_code' => cells[1].text.chomp,
           'first_flown' => as_first_flown(cells[2].text),
           'number_built' => cells[3].text.chomp.to_i,
           'services' => as_service_list(cells[4]&.text)
         )
+
+        case plane['uuid']
+        when '09fbf7e8284a52ac2daef4c61f404048' # customise Kawasaki Ki-10 entry
+          plane['categories'] = [category, 'Reconnaissance aircraft'].sort
+        when '2e090e977e02b0b90915b7317b3c7d3f' # customise Mitsubishi Ki-46 entry
+          plane['categories'] = [category, 'Reconnaissance aircraft'].sort
+        when '439faabb9cbb57ad9a597ee4aea90f03' # customise Nakajima J1N entry
+          plane['first_flown'] = 1941
+          plane['categories'] = [category, 'Fighters'].sort
+        end
 
         load_plane plane
         catalog.planes[plane['uuid']] = plane

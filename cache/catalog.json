@@ -701,60 +701,6 @@
       "image_local_name": "839cb0259dfd68e51445995a3136be94.jpg",
       "description": "The Nakajima A6M2-N (Navy Type 2 Interceptor/Fighter-Bomber) was a single-crew floatplane based on the Mitsubishi A6M Zero Model 11. The Allied reporting name for the aircraft was Rufe."
     },
-    "d946df437755f9151345f9f03efd9c49": {
-      "uuid": "d946df437755f9151345f9f03efd9c49",
-      "name": "Nakajima J1N1-S Gekko",
-      "path": "/wiki/Nakajima_J1N",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
-      "categories": [
-        "Fighters"
-      ],
-      "allied_code": "Irving",
-      "first_flown": 1941,
-      "number_built": 479,
-      "services": [
-        "IJN"
-      ],
-      "title": "Nakajima J1N",
-      "title_ja": "月光",
-      "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/J1N-7s.jpg/300px-J1N-7s.jpg",
-      "image_local_name": "d946df437755f9151345f9f03efd9c49.jpg",
-      "description": "The Nakajima J1N1 Gekkō (月光, \"Moonlight\") is a twin-engine aircraft used by the Japanese Imperial Navy during World War II and was used for reconnaissance, night fighter, and kamikaze missions. The first flight took place in May 1941. It was given the Allied reporting name \"Irving\", since the earlier reconnaissance version the J1N1-C, was mistaken for a fighter.",
-      "variants": [
-        {
-          "name": "J1N1",
-          "description": "J1N1 : Three seaters long-range fighter. Two of prototypes and seven of supplementary prototypes."
-        },
-        {
-          "name": "J1N1 KAI",
-          "description": "J1N1 KAI : Night Fighter converted from J1N1."
-        },
-        {
-          "name": "J1N1-CJ1N1-R",
-          "description": "J1N1-C : Long-range reconnaissance aircraft. Later re-designated J1N1-R."
-        },
-        {
-          "name": "J1N1-C KAI",
-          "description": "J1N1-C KAI : Night Fighter converted from J1N1-C."
-        },
-        {
-          "name": "J1N1-R",
-          "description": "J1N1-R : Long-range reconnaissance aircraft."
-        },
-        {
-          "name": "J1N1-F",
-          "description": "J1N1-F : Observation aircraft. A little number of prototypes only. Equipped G5N2 turret or G4M2 turret."
-        },
-        {
-          "name": "J1N1-S",
-          "description": "J1N1-S : Night fighter aircraft. Armed with 2 × 20 mm forward up-firing Type 99 cannons and 2 × 20 mm forward under-firing Type 99 cannons."
-        },
-        {
-          "name": "J1N1-Sa",
-          "description": "J1N1-Sa : Night Fighter same as above, armed with 3 × 20 mm forward up-firing Type 99 cannons."
-        }
-      ]
-    },
     "fdcb2fdac1b220cc4a5e522209b6732d": {
       "uuid": "fdcb2fdac1b220cc4a5e522209b6732d",
       "name": "Nakajima Ki-27 Army Type 97 Fighter",
@@ -2392,10 +2338,11 @@
       "path": "/wiki/Nakajima_J1N",
       "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
       "categories": [
+        "Fighters",
         "Reconnaissance aircraft"
       ],
       "allied_code": "Irving",
-      "first_flown": 1942,
+      "first_flown": 1941,
       "number_built": 479,
       "services": [
         "IJN"
