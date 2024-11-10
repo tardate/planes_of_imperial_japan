@@ -34,7 +34,7 @@ describe Scrapers::G5n do
         expect(plane['title']).to eql('Nakajima G5N')
         expect(plane['title_ja']).to eql('深山')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Nakajima_G5N')
-        expect(plane['category']).to eql('Bombers')
+        expect(plane['categories']).to match_array(%w[Bombers])
         expect(plane['allied_code']).to eql('Liz')
         expect(plane['first_flown']).to eql(1941)
         expect(plane['number_built']).to eql(6)

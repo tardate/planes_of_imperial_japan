@@ -11,19 +11,31 @@ class Scrapers::WikiList < Scrapers::Base
         cells = row.css('td')
         next unless cells.count > 0
 
+        name = cells[0].css('a').text
         plane = {
-          'name' => cells[0].css('a').text,
-          'category' => category,
-          'path' => cells[0].css('a').last.attr('href'),
+          'uuid' => Digest::MD5.hexdigest(name),
+          'name' => name
+        }
+        next if plane['uuid'] =='754bd2a4d1ec2c57c7f513c56c2ccd42' # ignore duplicate Kawasaki Ki-10 entry
+
+        categories = case plane['uuid']
+        when '09fbf7e8284a52ac2daef4c61f404048' # customise Kawasaki Ki-10 entry
+          [category, 'Reconnaissance aircraft']
+        else
+          Array(category)
+        end
+
+        path = cells[0].css('a').last.attr('href')
+        plane.merge!(
+          'path' => path,
+          'url' => base_url + path,
+          'categories' => categories,
           'allied_code' => cells[1].text.chomp,
           'first_flown' => as_first_flown(cells[2].text),
           'number_built' => cells[3].text.chomp.to_i,
           'services' => as_service_list(cells[4]&.text)
-        }
-        plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
-        next if plane['uuid'] == '754bd2a4d1ec2c57c7f513c56c2ccd42' # ignore duplicate Kawasaki Ki-10 entry
+        )
 
-        plane['url'] = base_url + plane['path']
         load_plane plane
         catalog.planes[plane['uuid']] = plane
       end

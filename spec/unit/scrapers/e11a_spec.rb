@@ -34,7 +34,7 @@ describe Scrapers::E11a do
         expect(plane['title']).to eql('Aichi E11A')
         expect(plane['title_ja']).to eql('九八夜偵')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Aichi_E11A')
-        expect(plane['category']).to eql('Reconnaissance aircraft')
+        expect(plane['categories']).to match_array(['Reconnaissance aircraft'])
         expect(plane['allied_code']).to eql('Laura')
         expect(plane['first_flown']).to eql(1937)
         expect(plane['number_built']).to eql(17)

@@ -7,7 +7,7 @@ class Scrapers::E10a < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Reconnaissance aircraft',
+      'categories' => ['Reconnaissance aircraft'],
       'allied_code' => 'Hank',
       'first_flown' => 1934,
       'number_built' => 15,

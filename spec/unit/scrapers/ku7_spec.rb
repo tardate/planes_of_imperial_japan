@@ -34,7 +34,7 @@ describe Scrapers::Ku7 do
         expect(plane['title']).to eql('Kokusai Ku-7')
         expect(plane['title_ja']).to eql('真鶴')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kokusai_Ku-7')
-        expect(plane['category']).to eql('Experimental aircraft')
+        expect(plane['categories']).to match_array(['Experimental aircraft'])
         expect(plane['allied_code']).to eql('Buzzard')
         expect(plane['first_flown']).to eql(1942)
         expect(plane['number_built']).to eql(2)

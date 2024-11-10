@@ -1,17 +1,19 @@
 {
   "planes": {
     "2ad0cafbdae52374ba8ee9486f90b0d1": {
+      "uuid": "2ad0cafbdae52374ba8ee9486f90b0d1",
       "name": "Kawanishi N1K Kyofu Navy Fighter Seaplane",
-      "category": "Fighters",
       "path": "/wiki/Kawanishi_N1K",
+      "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Rex",
       "first_flown": 1942,
       "number_built": 1532,
       "services": [
         "IJN"
       ],
-      "uuid": "2ad0cafbdae52374ba8ee9486f90b0d1",
-      "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K",
       "title": "Kawanishi N1K",
       "title_ja": "強風",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kawanishi_N1K2-J_050317-F-1234P-015.jpg/300px-Kawanishi_N1K2-J_050317-F-1234P-015.jpg",
@@ -93,17 +95,19 @@
       ]
     },
     "8db9bedd6990b3c01e31a80e6956a452": {
+      "uuid": "8db9bedd6990b3c01e31a80e6956a452",
       "name": "Kawanishi N1K1-J/N1K2-J Shiden Navy Land-Based Interceptor",
-      "category": "Fighters",
       "path": "/wiki/Kawanishi_N1K-J",
+      "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K-J",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "George",
       "first_flown": 1943,
       "number_built": 1435,
       "services": [
         "IJN"
       ],
-      "uuid": "8db9bedd6990b3c01e31a80e6956a452",
-      "url": "https://en.wikipedia.org/wiki/Kawanishi_N1K-J",
       "title": "Kawanishi N1K-J",
       "title_ja": "強風",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/N1K1_in_biwalake.jpg/220px-N1K1_in_biwalake.jpg",
@@ -185,17 +189,20 @@
       ]
     },
     "09fbf7e8284a52ac2daef4c61f404048": {
+      "uuid": "09fbf7e8284a52ac2daef4c61f404048",
       "name": "Kawasaki Ki-10 Army Type 95 Fighter",
-      "category": "Fighters",
       "path": "/wiki/Kawasaki_Ki-10",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-10",
+      "categories": [
+        "Fighters",
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Perry",
       "first_flown": 1935,
       "number_built": 588,
       "services": [
         "IJA"
       ],
-      "uuid": "09fbf7e8284a52ac2daef4c61f404048",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-10",
       "title": "Kawasaki Ki-10",
       "title_ja": "九五式戦闘機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ki-10_Kumagaya.jpg/300px-Ki-10_Kumagaya.jpg",
@@ -229,17 +236,19 @@
       ]
     },
     "f6a235f91255c394e1223a8db68fd0c9": {
+      "uuid": "f6a235f91255c394e1223a8db68fd0c9",
       "name": "Kawasaki Ki-45 Toryu Army Type 2 Two-Seat Fighter",
-      "category": "Fighters",
       "path": "/wiki/Kawasaki_Ki-45",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-45",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Nick",
       "first_flown": 1941,
       "number_built": 1370,
       "services": [
         "IJA"
       ],
-      "uuid": "f6a235f91255c394e1223a8db68fd0c9",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-45",
       "title": "Kawasaki Ki-45",
       "title_ja": "二式複座戦闘機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Ki_45_001.jpg/300px-Ki_45_001.jpg",
@@ -285,17 +294,19 @@
       ]
     },
     "8c8a9347f44ed82b147f4b794725df80": {
+      "uuid": "8c8a9347f44ed82b147f4b794725df80",
       "name": "Kawasaki Ki-61 Hien Army Type 3 Fighter",
-      "category": "Fighters",
       "path": "/wiki/Kawasaki_Ki-61",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-61",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Tony",
       "first_flown": 1943,
       "number_built": 3159,
       "services": [
         "IJA"
       ],
-      "uuid": "8c8a9347f44ed82b147f4b794725df80",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-61",
       "title": "Kawasaki Ki-61",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Kawasaki_Ki-61-14.jpg/300px-Kawasaki_Ki-61-14.jpg",
       "image_local_name": "8c8a9347f44ed82b147f4b794725df80.jpg",
@@ -352,17 +363,19 @@
       ]
     },
     "c82a2d7f8a2cab40073b04bf25de0dc8": {
+      "uuid": "c82a2d7f8a2cab40073b04bf25de0dc8",
       "name": "Kawasaki Ki-100 Goshikisen Army Type 5 Fighter",
-      "category": "Fighters",
       "path": "/wiki/Kawasaki_Ki-100",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-100",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "n/a",
       "first_flown": 1945,
       "number_built": 395,
       "services": [
         "IJA"
       ],
-      "uuid": "c82a2d7f8a2cab40073b04bf25de0dc8",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-100",
       "title": "Kawasaki Ki-100",
       "title_ja": "五式戦闘機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ki-100-RAF-side.jpg/300px-Ki-100-RAF-side.jpg",
@@ -396,17 +409,19 @@
       ]
     },
     "4327859cf1010025ba9c1b072d94f01c": {
+      "uuid": "4327859cf1010025ba9c1b072d94f01c",
       "name": "Kawasaki Ki-102 Army Type 4 Assault Aircraft",
-      "category": "Fighters",
       "path": "/wiki/Kawasaki_Ki-102",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-102",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Randy",
       "first_flown": 1944,
       "number_built": 238,
       "services": [
         "IJA"
       ],
-      "uuid": "4327859cf1010025ba9c1b072d94f01c",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-102",
       "title": "Kawasaki Ki-102",
       "title_ja": "四式襲撃機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Kawasaki_KI-102b_heavy_fighter.jpg/300px-Kawasaki_KI-102b_heavy_fighter.jpg",
@@ -440,17 +455,19 @@
       ]
     },
     "0af66229ab1cd584e77d1cdfd1c56a5e": {
+      "uuid": "0af66229ab1cd584e77d1cdfd1c56a5e",
       "name": "Mitsubishi A5M Navy Type 96 Carrier-based Fighter",
-      "category": "Fighters",
       "path": "/wiki/Mitsubishi_A5M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A5M",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Claude",
       "first_flown": 1937,
       "number_built": 1094,
       "services": [
         "IJN"
       ],
-      "uuid": "0af66229ab1cd584e77d1cdfd1c56a5e",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A5M",
       "title": "Mitsubishi A5M",
       "title_ja": "九六式艦上戦闘機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/A5M_Claude.jpg/300px-A5M_Claude.jpg",
@@ -461,17 +478,19 @@
       ]
     },
     "40fb0b58fa332e223683f477e048b70d": {
+      "uuid": "40fb0b58fa332e223683f477e048b70d",
       "name": "Mitsubishi A6M Zero-Sen Navy Type Zero Carrier Fighter",
-      "category": "Fighters",
       "path": "/wiki/Mitsubishi_A6M_Zero",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Zeke/Hamp",
       "first_flown": 1940,
       "number_built": 10939,
       "services": [
         "IJN"
       ],
-      "uuid": "40fb0b58fa332e223683f477e048b70d",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A6M_Zero",
       "title": "Mitsubishi A6M Zero",
       "title_ja": "零式艦上戦闘機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/A6M3_Zero_N712Z_1.jpg/300px-A6M3_Zero_N712Z_1.jpg",
@@ -482,17 +501,19 @@
       ]
     },
     "e5066e2fb15de42687a06452e03d72fd": {
+      "uuid": "e5066e2fb15de42687a06452e03d72fd",
       "name": "Mitsubishi A7M Reppū Navy Carrier-based Fighter",
-      "category": "Fighters",
       "path": "/wiki/Mitsubishi_A7M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A7M",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Sam",
       "first_flown": 1944,
       "number_built": 10,
       "services": [
         "IJN"
       ],
-      "uuid": "e5066e2fb15de42687a06452e03d72fd",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_A7M",
       "title": "Mitsubishi A7M",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mitsubishi_A7M2_in_a_hangar%2C_circa_in_late_1945_%2880-G-193473%29.jpg/300px-Mitsubishi_A7M2_in_a_hangar%2C_circa_in_late_1945_%2880-G-193473%29.jpg",
       "image_local_name": "e5066e2fb15de42687a06452e03d72fd.jpg",
@@ -517,17 +538,19 @@
       ]
     },
     "b09789c0676f4db31dec69bc5c1a226c": {
+      "uuid": "b09789c0676f4db31dec69bc5c1a226c",
       "name": "Mitsubishi J2M Raiden Navy Interceptor Fighter",
-      "category": "Fighters",
       "path": "/wiki/Mitsubishi_J2M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_J2M",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Jack",
       "first_flown": 1942,
       "number_built": 621,
       "services": [
         "IJN"
       ],
-      "uuid": "b09789c0676f4db31dec69bc5c1a226c",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_J2M",
       "title": "Mitsubishi J2M",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Mitsubishi_J2M.JPG/300px-Mitsubishi_J2M.JPG",
       "image_local_name": "b09789c0676f4db31dec69bc5c1a226c.jpg",
@@ -580,9 +603,13 @@
       ]
     },
     "2e090e977e02b0b90915b7317b3c7d3f": {
+      "uuid": "2e090e977e02b0b90915b7317b3c7d3f",
       "name": "Mitsubishi Ki-46-III-Kai Army Type 100 Air Defence Fighter",
-      "category": "Fighters",
       "path": "/wiki/Mitsubishi_Ki-46",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Dinah",
       "first_flown": 1941,
       "number_built": 1742,
@@ -590,8 +617,6 @@
         "IJA",
         "IJN"
       ],
-      "uuid": "2e090e977e02b0b90915b7317b3c7d3f",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
       "title": "Mitsubishi Ki-46",
       "title_ja": "一〇〇式司令部偵察機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ki-46_100sitei.jpg/300px-Ki-46_100sitei.jpg",
@@ -657,34 +682,38 @@
       ]
     },
     "839cb0259dfd68e51445995a3136be94": {
+      "uuid": "839cb0259dfd68e51445995a3136be94",
       "name": "Nakajima A6M2-N Navy Type 2 Interceptor/Fighter-Bomber",
-      "category": "Fighters",
       "path": "/wiki/Nakajima_A6M2-N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_A6M2-N",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Rufe",
       "first_flown": 1941,
       "number_built": 327,
       "services": [
         "IJN"
       ],
-      "uuid": "839cb0259dfd68e51445995a3136be94",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_A6M2-N",
       "title": "Nakajima A6M2-N",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/A6M2-N_Rufe.jpg/300px-A6M2-N_Rufe.jpg",
       "image_local_name": "839cb0259dfd68e51445995a3136be94.jpg",
       "description": "The Nakajima A6M2-N (Navy Type 2 Interceptor/Fighter-Bomber) was a single-crew floatplane based on the Mitsubishi A6M Zero Model 11. The Allied reporting name for the aircraft was Rufe."
     },
     "d946df437755f9151345f9f03efd9c49": {
+      "uuid": "d946df437755f9151345f9f03efd9c49",
       "name": "Nakajima J1N1-S Gekko",
-      "category": "Fighters",
       "path": "/wiki/Nakajima_J1N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Irving",
       "first_flown": 1941,
       "number_built": 479,
       "services": [
         "IJN"
       ],
-      "uuid": "d946df437755f9151345f9f03efd9c49",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
       "title": "Nakajima J1N",
       "title_ja": "月光",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/J1N-7s.jpg/300px-J1N-7s.jpg",
@@ -726,17 +755,19 @@
       ]
     },
     "fdcb2fdac1b220cc4a5e522209b6732d": {
+      "uuid": "fdcb2fdac1b220cc4a5e522209b6732d",
       "name": "Nakajima Ki-27 Army Type 97 Fighter",
-      "category": "Fighters",
       "path": "/wiki/Nakajima_Ki-27",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-27",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Nate",
       "first_flown": 1937,
       "number_built": 3368,
       "services": [
         "IJA"
       ],
-      "uuid": "fdcb2fdac1b220cc4a5e522209b6732d",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-27",
       "title": "Nakajima Ki-27",
       "title_ja": "九七式戦闘機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ki-27_2.jpg/300px-Ki-27_2.jpg",
@@ -790,17 +821,19 @@
       ]
     },
     "f25728f0d7e694c1ec1a430d6792ff7b": {
+      "uuid": "f25728f0d7e694c1ec1a430d6792ff7b",
       "name": "Nakajima Ki-43 Hayabusa Army Type 1 Fighter",
-      "category": "Fighters",
       "path": "/wiki/Nakajima_Ki-43",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-43",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Oscar",
       "first_flown": 1939,
       "number_built": 5919,
       "services": [
         "IJA"
       ],
-      "uuid": "f25728f0d7e694c1ec1a430d6792ff7b",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-43",
       "title": "Nakajima Ki-43 Hayabusa",
       "title_ja": "隼",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Nakajima_Ki-43-IIa.jpg/300px-Nakajima_Ki-43-IIa.jpg",
@@ -811,17 +844,19 @@
       ]
     },
     "e616adcad7e8cb71640011378407cc91": {
+      "uuid": "e616adcad7e8cb71640011378407cc91",
       "name": "Nakajima Ki-44 Shoki Army Type 2 Single-Seat Fighter",
-      "category": "Fighters",
       "path": "/wiki/Nakajima_Ki-44",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-44",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Tojo",
       "first_flown": 1941,
       "number_built": 1225,
       "services": [
         "IJA"
       ],
-      "uuid": "e616adcad7e8cb71640011378407cc91",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-44",
       "title": "Nakajima Ki-44",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg/300px-Nakajima_Ki-44-II_Otsu_at_Clark_1945.jpg",
       "image_local_name": "e616adcad7e8cb71640011378407cc91.jpg",
@@ -866,17 +901,19 @@
       ]
     },
     "40e5330f93ceec7576230d897c7ca30a": {
+      "uuid": "40e5330f93ceec7576230d897c7ca30a",
       "name": "Nakajima Ki-84 Hayate Army Type 4 Fighter",
-      "category": "Fighters",
       "path": "/wiki/Nakajima_Ki-84",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-84",
+      "categories": [
+        "Fighters"
+      ],
       "allied_code": "Frank",
       "first_flown": 1943,
       "number_built": 3514,
       "services": [
         "IJA"
       ],
-      "uuid": "40e5330f93ceec7576230d897c7ca30a",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-84",
       "title": "Nakajima Ki-84",
       "title_ja": "キ84 疾風",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Nakajima_Ki84_Hayate_N3385G_ONT_18.10.70_edited-3.jpg/300px-Nakajima_Ki84_Hayate_N3385G_ONT_18.10.70_edited-3.jpg",
@@ -958,34 +995,38 @@
       ]
     },
     "700b7a3089c2fcfe092ebba221d7c9c9": {
+      "uuid": "700b7a3089c2fcfe092ebba221d7c9c9",
       "name": "Aichi D3A Navy Type 99 Carrier Bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Aichi_D3A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_D3A",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Val",
       "first_flown": 1940,
       "number_built": 1486,
       "services": [
         "IJN"
       ],
-      "uuid": "700b7a3089c2fcfe092ebba221d7c9c9",
-      "url": "https://en.wikipedia.org/wiki/Aichi_D3A",
       "title": "Aichi D3A",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/D3A1_Akagi.jpg/300px-D3A1_Akagi.jpg",
       "image_local_name": "700b7a3089c2fcfe092ebba221d7c9c9.jpg",
       "description": "The Aichi D3A Type 99 Carrier Bomber (Allied reporting name \"Val\")[a] is a World War II carrier-borne dive bomber. It was the primary dive bomber of the Imperial Japanese Navy (IJN) and was involved in almost all IJN actions, including the attack on Pearl Harbor."
     },
     "7c698e1440838dc1b20c18ad1b61d217": {
+      "uuid": "7c698e1440838dc1b20c18ad1b61d217",
       "name": "Aichi B7A Ryusei Navy carrier torpedo bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Aichi_B7A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_B7A",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Grace",
       "first_flown": 1942,
       "number_built": 114,
       "services": [
         "IJN"
       ],
-      "uuid": "7c698e1440838dc1b20c18ad1b61d217",
-      "url": "https://en.wikipedia.org/wiki/Aichi_B7A",
       "title": "Aichi B7A",
       "title_ja": "流星",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Aichi_B7A_Ryusei.jpg/300px-Aichi_B7A_Ryusei.jpg",
@@ -1011,17 +1052,19 @@
       ]
     },
     "f447b8e50085f21ac9f55ef5346e8dcd": {
+      "uuid": "f447b8e50085f21ac9f55ef5346e8dcd",
       "name": "Aichi M6A1 Seiran Navy Special Strike Submarine Bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Aichi_M6A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_M6A",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": 1943,
       "number_built": 28,
       "services": [
         "IJN"
       ],
-      "uuid": "f447b8e50085f21ac9f55ef5346e8dcd",
-      "url": "https://en.wikipedia.org/wiki/Aichi_M6A",
       "title": "Aichi M6A",
       "title_ja": "晴嵐",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/M6A1.jpg/300px-M6A1.jpg",
@@ -1047,17 +1090,19 @@
       ]
     },
     "0b78a524c0822a3db0c5738d92935131": {
+      "uuid": "0b78a524c0822a3db0c5738d92935131",
       "name": "Mitsubishi Ki-15 Army Type 97 Command Reconnaissance Plane",
-      "category": "Attack aircraft",
       "path": "/wiki/Mitsubishi_Ki-15",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-15",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Babs",
       "first_flown": 1936,
       "number_built": 500,
       "services": [
         "IJA"
       ],
-      "uuid": "0b78a524c0822a3db0c5738d92935131",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-15",
       "title": "Mitsubishi Ki-15",
       "title_ja": "雁金",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ki-15-2.jpg/300px-Ki-15-2.jpg",
@@ -1091,17 +1136,19 @@
       ]
     },
     "a457477dffff694f40744fd288ea8228": {
+      "uuid": "a457477dffff694f40744fd288ea8228",
       "name": "Mitsubishi Ki-51 Army Type 99 Assault Plane",
-      "category": "Attack aircraft",
       "path": "/wiki/Mitsubishi_Ki-51",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-51",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Sonia",
       "first_flown": 1939,
       "number_built": 2385,
       "services": [
         "IJA"
       ],
-      "uuid": "a457477dffff694f40744fd288ea8228",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-51",
       "title": "Mitsubishi Ki-51",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mitsubishi_Ki-51-1.jpg/300px-Mitsubishi_Ki-51-1.jpg",
       "image_local_name": "a457477dffff694f40744fd288ea8228.jpg",
@@ -1134,17 +1181,19 @@
       ]
     },
     "f9b5b41561fe7e4ec89dd56e6c1590f9": {
+      "uuid": "f9b5b41561fe7e4ec89dd56e6c1590f9",
       "name": "Mitsubishi B5M Navy Type 97 No.2 Carrier Attack Bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Mitsubishi_B5M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_B5M",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Mabel",
       "first_flown": 1937,
       "number_built": 125,
       "services": [
         "IJN"
       ],
-      "uuid": "f9b5b41561fe7e4ec89dd56e6c1590f9",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_B5M",
       "title": "Mitsubishi B5M",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/B5M_Type_97_Carrier_Attack_Bomber_Mabel_B5M-11.jpg/300px-B5M_Type_97_Carrier_Attack_Bomber_Mabel_B5M-11.jpg",
       "image_local_name": "f9b5b41561fe7e4ec89dd56e6c1590f9.jpg",
@@ -1157,17 +1206,19 @@
       ]
     },
     "b97b4a858b171b32fe64d58a001cd239": {
+      "uuid": "b97b4a858b171b32fe64d58a001cd239",
       "name": "Nakajima B5N Navy Type 97 Carrier Attack Bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Nakajima_B5N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_B5N",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Kate",
       "first_flown": 1937,
       "number_built": 1150,
       "services": [
         "IJN"
       ],
-      "uuid": "b97b4a858b171b32fe64d58a001cd239",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_B5N",
       "title": "Nakajima B5N",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Nakajima_B5N.jpg/300px-Nakajima_B5N.jpg",
       "image_local_name": "b97b4a858b171b32fe64d58a001cd239.jpg",
@@ -1192,17 +1243,19 @@
       ]
     },
     "c0bde204d6c836a2da3ec5c4adbf7654": {
+      "uuid": "c0bde204d6c836a2da3ec5c4adbf7654",
       "name": "Nakajima B6N Tenzan Navy Carrier Torpedo Bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Nakajima_B6N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_B6N",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Jill",
       "first_flown": 1941,
       "number_built": 1268,
       "services": [
         "IJN"
       ],
-      "uuid": "c0bde204d6c836a2da3ec5c4adbf7654",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_B6N",
       "title": "Nakajima B6N",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/B6N_in_flight.jpg/300px-B6N_in_flight.jpg",
       "image_local_name": "c0bde204d6c836a2da3ec5c4adbf7654.jpg",
@@ -1235,17 +1288,19 @@
       ]
     },
     "2b752d40d30e567bc4586e413c3931b0": {
+      "uuid": "2b752d40d30e567bc4586e413c3931b0",
       "name": "Tachikawa Ki-36 Army Type 98 Direct Co-operation Aircraft",
-      "category": "Attack aircraft",
       "path": "/wiki/Tachikawa_Ki-36",
+      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-36",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Ida",
       "first_flown": 1938,
       "number_built": 1334,
       "services": [
         "IJA"
       ],
-      "uuid": "2b752d40d30e567bc4586e413c3931b0",
-      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-36",
       "title": "Tachikawa Ki-36",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Tachikawa_Ki-36_98chokkyo.jpg/300px-Tachikawa_Ki-36_98chokkyo.jpg",
       "image_local_name": "2b752d40d30e567bc4586e413c3931b0.jpg",
@@ -1262,17 +1317,19 @@
       ]
     },
     "66ff4161d4bab99abe522b644c436c68": {
+      "uuid": "66ff4161d4bab99abe522b644c436c68",
       "name": "Yokosuka B4Y Navy Type 96 Carrier Attacker",
-      "category": "Attack aircraft",
       "path": "/wiki/Yokosuka_B4Y",
+      "url": "https://en.wikipedia.org/wiki/Yokosuka_B4Y",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Jean",
       "first_flown": 1935,
       "number_built": 205,
       "services": [
         "IJN"
       ],
-      "uuid": "66ff4161d4bab99abe522b644c436c68",
-      "url": "https://en.wikipedia.org/wiki/Yokosuka_B4Y",
       "title": "Yokosuka B4Y",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/96siki-kankou.jpg/300px-96siki-kankou.jpg",
       "image_local_name": "66ff4161d4bab99abe522b644c436c68.jpg",
@@ -1293,17 +1350,19 @@
       ]
     },
     "0dee81b6b0b67a1d80a861bb09a4c45b": {
+      "uuid": "0dee81b6b0b67a1d80a861bb09a4c45b",
       "name": "Yokosuka D4Y Suisei Navy Carrier Dive bomber",
-      "category": "Attack aircraft",
       "path": "/wiki/Yokosuka_D4Y",
+      "url": "https://en.wikipedia.org/wiki/Yokosuka_D4Y",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Judy",
       "first_flown": 1942,
       "number_built": 2038,
       "services": [
         "IJN"
       ],
-      "uuid": "0dee81b6b0b67a1d80a861bb09a4c45b",
-      "url": "https://en.wikipedia.org/wiki/Yokosuka_D4Y",
       "title": "Yokosuka D4Y",
       "title_ja": "彗星",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Yokosuka_D4Y3_in_the_field.jpg/300px-Yokosuka_D4Y3_in_the_field.jpg",
@@ -1377,17 +1436,19 @@
       ]
     },
     "76889e3e340299ae29eec2edbe6245a3": {
+      "uuid": "76889e3e340299ae29eec2edbe6245a3",
       "name": "Yokosuka MXY-7 Ohka",
-      "category": "Attack aircraft",
       "path": "/wiki/Ohka",
+      "url": "https://en.wikipedia.org/wiki/Ohka",
+      "categories": [
+        "Attack aircraft"
+      ],
       "allied_code": "Baka ('Fool' in Japanese)[1]",
       "first_flown": 1944,
       "number_built": 852,
       "services": [
         "IJN"
       ],
-      "uuid": "76889e3e340299ae29eec2edbe6245a3",
-      "url": "https://en.wikipedia.org/wiki/Ohka",
       "title": "Yokosuka MXY-7 Ohka",
       "title_ja": "櫻花",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Japanese_Ohka_rocket_plane.jpg/300px-Japanese_Ohka_rocket_plane.jpg",
@@ -1445,17 +1506,19 @@
       ]
     },
     "48f218c712b017b1d71521dbbec0161e": {
+      "uuid": "48f218c712b017b1d71521dbbec0161e",
       "name": "Kawasaki Ki-48 Army Type 99 Twin-engined Light Bomber",
-      "category": "Bombers",
       "path": "/wiki/Kawasaki_Ki-48",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-48",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Lily",
       "first_flown": 1940,
       "number_built": 1997,
       "services": [
         "IJA"
       ],
-      "uuid": "48f218c712b017b1d71521dbbec0161e",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-48",
       "title": "Kawasaki Ki-48",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Ki-48_99siki-souhatu-keibaku.jpg/300px-Ki-48_99siki-souhatu-keibaku.jpg",
       "image_local_name": "48f218c712b017b1d71521dbbec0161e.jpg",
@@ -1520,17 +1583,19 @@
       ]
     },
     "fc288ecbd8f4183bd9944afe9576771a": {
+      "uuid": "fc288ecbd8f4183bd9944afe9576771a",
       "name": "Kawasaki Ki-32  Army Type 98 Light Bomber",
-      "category": "Bombers",
       "path": "/wiki/Kawasaki_Ki-32",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-32",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Mary",
       "first_flown": 1937,
       "number_built": 854,
       "services": [
         "IJA"
       ],
-      "uuid": "fc288ecbd8f4183bd9944afe9576771a",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-32",
       "title": "Kawasaki Ki-32",
       "title_ja": "九八式軽爆撃機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Ki-32_Mary_in_flight2.jpg/300px-Ki-32_Mary_in_flight2.jpg",
@@ -1538,17 +1603,19 @@
       "description": "The Kawasaki Ki-32 (九八式軽爆撃機, Kyuhachi-shiki keibakugekiki, lit. ''Type 98 light bomber'') was a Japanese light bomber aircraft of World War II. It was a single-engine, two-seat, mid-wing, cantilever monoplane with a fixed tailwheel undercarriage. An internal bomb bay accommodated a 300 kg (660 lb) offensive load, supplemented by 150 kg (330 lb) of bombs on external racks. During the war, it was known by the Allies by the name Mary."
     },
     "5c7d162b67b835926249e60a567a3906": {
+      "uuid": "5c7d162b67b835926249e60a567a3906",
       "name": "Mitsubishi G3M Navy Type 96 Land-based Attack Aircraft",
-      "category": "Bombers",
       "path": "/wiki/Mitsubishi_G3M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_G3M",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Nell",
       "first_flown": 1935,
       "number_built": 1048,
       "services": [
         "IJN"
       ],
-      "uuid": "5c7d162b67b835926249e60a567a3906",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_G3M",
       "title": "Mitsubishi G3M",
       "title_ja": "九六式陸上攻撃機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/G3M-37.jpg/300px-G3M-37.jpg",
@@ -1602,17 +1669,19 @@
       ]
     },
     "ba9ef8f025337d8a74b80fe754bc3ad1": {
+      "uuid": "ba9ef8f025337d8a74b80fe754bc3ad1",
       "name": "Mitsubishi G4M Navy Type 1 Land-based Attack Aircraft",
-      "category": "Bombers",
       "path": "/wiki/Mitsubishi_G4M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_G4M",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Betty",
       "first_flown": 1941,
       "number_built": 2435,
       "services": [
         "IJN"
       ],
-      "uuid": "ba9ef8f025337d8a74b80fe754bc3ad1",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_G4M",
       "title": "Mitsubishi G4M",
       "title_ja": "一式陸上攻撃機, 一式陸攻",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/G4M-45s.jpg/300px-G4M-45s.jpg",
@@ -1623,17 +1692,19 @@
       ]
     },
     "abbf61a9793ea29db193f44ec391fed8": {
+      "uuid": "abbf61a9793ea29db193f44ec391fed8",
       "name": "Mitsubishi Ki-21 Army Type 97 Heavy Bomber",
-      "category": "Bombers",
       "path": "/wiki/Mitsubishi_Ki-21",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-21",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Sally",
       "first_flown": 1938,
       "number_built": 2064,
       "services": [
         "IJA"
       ],
-      "uuid": "abbf61a9793ea29db193f44ec391fed8",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-21",
       "title": "Mitsubishi Ki-21",
       "title_ja": "九七式重爆撃機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ki-21_97juubaku_b.jpg/300px-Ki-21_97juubaku_b.jpg",
@@ -1675,17 +1746,19 @@
       ]
     },
     "68f46a43c9047834b804174f7beeba2e": {
+      "uuid": "68f46a43c9047834b804174f7beeba2e",
       "name": "Mitsubishi Ki-30 Army Type 97 Light bomber",
-      "category": "Bombers",
       "path": "/wiki/Mitsubishi_Ki-30",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-30",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Ann",
       "first_flown": 1938,
       "number_built": 704,
       "services": [
         "IJA"
       ],
-      "uuid": "68f46a43c9047834b804174f7beeba2e",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-30",
       "title": "Mitsubishi Ki-30",
       "title_ja": "九七式軽爆撃機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mitsubishi_Ki_30.jpg/300px-Mitsubishi_Ki_30.jpg",
@@ -1693,17 +1766,19 @@
       "description": "The Mitsubishi Ki-30 (九七式軽爆撃機, Kyunana-shiki keibakugekiki) was a Japanese light bomber of World War II. It was a single-engine, mid-wing, cantilever monoplane of stressed-skin construction with a fixed tailwheel undercarriage and a long transparent cockpit canopy. The type had significance in being the first Japanese aircraft to be powered by a modern two-row radial engine. During the war, it was known by the Allies by the name Ann."
     },
     "56917892bfa99dd1e5c47c6274d367ee": {
+      "uuid": "56917892bfa99dd1e5c47c6274d367ee",
       "name": "Mitsubishi Ki-67 Hiryu Navy Type 4 Heavy Bomber",
-      "category": "Bombers",
       "path": "/wiki/Mitsubishi_Ki-67",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-67",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Peggy",
       "first_flown": 1942,
       "number_built": 767,
       "services": [
         "IJA"
       ],
-      "uuid": "56917892bfa99dd1e5c47c6274d367ee",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-67",
       "title": "Mitsubishi Ki-67",
       "title_ja": "四式重爆撃機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/MitsubishiKi67.jpg/300px-MitsubishiKi67.jpg",
@@ -1793,17 +1868,19 @@
       ]
     },
     "39fd7fd29a1c5f435442256e10b6dbae": {
+      "uuid": "39fd7fd29a1c5f435442256e10b6dbae",
       "name": "Nakajima Ki-49 Donryu Army Type 100 Heavy Bomber",
-      "category": "Bombers",
       "path": "/wiki/Nakajima_Ki-49",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-49",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Helen",
       "first_flown": 1941,
       "number_built": 819,
       "services": [
         "IJA"
       ],
-      "uuid": "39fd7fd29a1c5f435442256e10b6dbae",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-49",
       "title": "Nakajima Ki-49",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ki-49-i_letecka_skola_hamamacu_1chutai.jpg/300px-Ki-49-i_letecka_skola_hamamacu_1chutai.jpg",
       "image_local_name": "39fd7fd29a1c5f435442256e10b6dbae.jpg",
@@ -1844,17 +1921,19 @@
       ]
     },
     "c536192810bf464ed439c4d454bfedf2": {
+      "uuid": "c536192810bf464ed439c4d454bfedf2",
       "name": "Yokosuka P1Y1 Ginga Navy Land-Based Bomber",
-      "category": "Bombers",
       "path": "/wiki/Yokosuka_P1Y",
+      "url": "https://en.wikipedia.org/wiki/Yokosuka_P1Y",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Frances",
       "first_flown": 1943,
       "number_built": 1098,
       "services": [
         "IJN"
       ],
-      "uuid": "c536192810bf464ed439c4d454bfedf2",
-      "url": "https://en.wikipedia.org/wiki/Yokosuka_P1Y",
       "title": "Yokosuka P1Y",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/P1Y_Kyokkou_Aurora_or_Ginga_Milky_Way_Frances_P1Y-11s.jpg/300px-P1Y_Kyokkou_Aurora_or_Ginga_Milky_Way_Frances_P1Y-11s.jpg",
       "image_local_name": "c536192810bf464ed439c4d454bfedf2.jpg",
@@ -1947,17 +2026,19 @@
       ]
     },
     "b38b9829212c48a0a2d97c0e782a32b4": {
+      "uuid": "b38b9829212c48a0a2d97c0e782a32b4",
       "name": "Aichi E13A Navy Type 0 Reconnaissance Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Aichi_E13A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_E13A",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Jake",
       "first_flown": 1941,
       "number_built": 1418,
       "services": [
         "IJN"
       ],
-      "uuid": "b38b9829212c48a0a2d97c0e782a32b4",
-      "url": "https://en.wikipedia.org/wiki/Aichi_E13A",
       "title": "Aichi E13A",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/E13A-3s.jpg/300px-E13A-3s.jpg",
       "image_local_name": "b38b9829212c48a0a2d97c0e782a32b4.jpg",
@@ -1994,17 +2075,19 @@
       ]
     },
     "d4e5d882f074dd25ec30cf32f72cc19c": {
+      "uuid": "d4e5d882f074dd25ec30cf32f72cc19c",
       "name": "Aichi E16A Zuiun Navy Reconnaissance Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Aichi_E16A",
+      "url": "https://en.wikipedia.org/wiki/Aichi_E16A",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Paul",
       "first_flown": 1942,
       "number_built": 256,
       "services": [
         "IJN"
       ],
-      "uuid": "d4e5d882f074dd25ec30cf32f72cc19c",
-      "url": "https://en.wikipedia.org/wiki/Aichi_E16A",
       "title": "Aichi E16A",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Aichi_E16A.jpg/300px-Aichi_E16A.jpg",
       "image_local_name": "d4e5d882f074dd25ec30cf32f72cc19c.jpg",
@@ -2025,17 +2108,19 @@
       ]
     },
     "310e243924cdd34571a174570474a749": {
+      "uuid": "310e243924cdd34571a174570474a749",
       "name": "Kawanishi E7K Navy Type 94 Reconnaissance Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Kawanishi_E7K",
+      "url": "https://en.wikipedia.org/wiki/Kawanishi_E7K",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Alf",
       "first_flown": 1933,
       "number_built": 533,
       "services": [
         "IJN"
       ],
-      "uuid": "310e243924cdd34571a174570474a749",
-      "url": "https://en.wikipedia.org/wiki/Kawanishi_E7K",
       "title": "Kawanishi E7K",
       "title_ja": "九四式水上偵察機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Kawanishi_E7K_seaplane.jpg/300px-Kawanishi_E7K_seaplane.jpg",
@@ -2053,17 +2138,19 @@
       ]
     },
     "e810aa70774caef2c5fe659c70024d78": {
+      "uuid": "e810aa70774caef2c5fe659c70024d78",
       "name": "Kawanishi E15K Shiun Navy Type 2 High-speed Reconnaissance Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Kawanishi_E15K",
+      "url": "https://en.wikipedia.org/wiki/Kawanishi_E15K",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Norm",
       "first_flown": 1941,
       "number_built": 15,
       "services": [
         "IJN"
       ],
-      "uuid": "e810aa70774caef2c5fe659c70024d78",
-      "url": "https://en.wikipedia.org/wiki/Kawanishi_E15K",
       "title": "Kawanishi E15K",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/E15k-3s.jpg/300px-E15k-3s.jpg",
       "image_local_name": "e810aa70774caef2c5fe659c70024d78.jpg",
@@ -2076,17 +2163,19 @@
       ]
     },
     "b5d78d6184aa48ed37871f3730b84233": {
+      "uuid": "b5d78d6184aa48ed37871f3730b84233",
       "name": "Kawanishi H6K Type 97 Large Flying Boat",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Kawanishi_H6K",
+      "url": "https://en.wikipedia.org/wiki/Kawanishi_H6K",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Mavis",
       "first_flown": 1936,
       "number_built": 215,
       "services": [
         "IJN"
       ],
-      "uuid": "b5d78d6184aa48ed37871f3730b84233",
-      "url": "https://en.wikipedia.org/wiki/Kawanishi_H6K",
       "title": "Kawanishi H6K",
       "title_ja": "九七式大型飛行艇",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/KawanishiH6K.jpg/300px-KawanishiH6K.jpg",
@@ -2128,17 +2217,19 @@
       ]
     },
     "4fabeba81715f8697f538888e6b141ac": {
+      "uuid": "4fabeba81715f8697f538888e6b141ac",
       "name": "Kawanishi H8K Type 2 Large Flying Boat",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Kawanishi_H8K",
+      "url": "https://en.wikipedia.org/wiki/Kawanishi_H8K",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Emily",
       "first_flown": 1941,
       "number_built": 167,
       "services": [
         "IJN"
       ],
-      "uuid": "4fabeba81715f8697f538888e6b141ac",
-      "url": "https://en.wikipedia.org/wiki/Kawanishi_H8K",
       "title": "Kawanishi H8K",
       "title_ja": "二式飛行艇",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Kawanishi_H8K2_%28Emily%29_flying_boat.jpg/300px-Kawanishi_H8K2_%28Emily%29_flying_boat.jpg",
@@ -2184,17 +2275,19 @@
       ]
     },
     "5c9677a4dce9d7a648d98600a7570936": {
+      "uuid": "5c9677a4dce9d7a648d98600a7570936",
       "name": "Mitsubishi F1M Type 0 Observation Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Mitsubishi_F1M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_F1M",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Pete",
       "first_flown": 1936,
       "number_built": 1118,
       "services": [
         "IJN"
       ],
-      "uuid": "5c9677a4dce9d7a648d98600a7570936",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_F1M",
       "title": "Mitsubishi F1M",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/F1m_00637_2g.jpg/300px-F1m_00637_2g.jpg",
       "image_local_name": "5c9677a4dce9d7a648d98600a7570936.jpg",
@@ -2215,17 +2308,19 @@
       ]
     },
     "8c7fd7e579132b387970f64da6f8a742": {
+      "uuid": "8c7fd7e579132b387970f64da6f8a742",
       "name": "Mitsubishi Ki-46 Type 100 Command Reconnaissance Aircraft",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Mitsubishi_Ki-46",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Dinah",
       "first_flown": 1941,
       "number_built": 1742,
       "services": [
         "IJA"
       ],
-      "uuid": "8c7fd7e579132b387970f64da6f8a742",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-46",
       "title": "Mitsubishi Ki-46",
       "title_ja": "一〇〇式司令部偵察機",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Ki-46_100sitei.jpg/300px-Ki-46_100sitei.jpg",
@@ -2291,17 +2386,19 @@
       ]
     },
     "f736600d743c6ded14ccec07c358facc": {
+      "uuid": "f736600d743c6ded14ccec07c358facc",
       "name": "Nakajima C6N Saiun Navy Carrier Reconnaissance Plane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Nakajima_C6N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_C6N",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Myrt",
       "first_flown": 1943,
       "number_built": 463,
       "services": [
         "IJN"
       ],
-      "uuid": "f736600d743c6ded14ccec07c358facc",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_C6N",
       "title": "Nakajima C6N",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/NakajimaC6N.JPG/300px-NakajimaC6N.JPG",
       "image_local_name": "f736600d743c6ded14ccec07c358facc.jpg",
@@ -2338,17 +2435,19 @@
       ]
     },
     "9485ab021626a90953417a7911d0bcdc": {
+      "uuid": "9485ab021626a90953417a7911d0bcdc",
       "name": "Nakajima E8N Navy Type 95 Reconnaissance Seaplane Model 1",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Nakajima_E8N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_E8N",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Dave",
       "first_flown": 1934,
       "number_built": 755,
       "services": [
         "IJN"
       ],
-      "uuid": "9485ab021626a90953417a7911d0bcdc",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_E8N",
       "title": "Nakajima E8N",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/95siki-suitei_1929.jpg/300px-95siki-suitei_1929.jpg",
       "image_local_name": "9485ab021626a90953417a7911d0bcdc.jpg",
@@ -2365,17 +2464,19 @@
       ]
     },
     "439faabb9cbb57ad9a597ee4aea90f03": {
+      "uuid": "439faabb9cbb57ad9a597ee4aea90f03",
       "name": "Nakajima J1N Gekkou Navy Type 2 Reconnaissance Plane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Nakajima_J1N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Irving",
       "first_flown": 1942,
       "number_built": 479,
       "services": [
         "IJN"
       ],
-      "uuid": "439faabb9cbb57ad9a597ee4aea90f03",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_J1N",
       "title": "Nakajima J1N",
       "title_ja": "月光",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/J1N-7s.jpg/300px-J1N-7s.jpg",
@@ -2417,43 +2518,51 @@
       ]
     },
     "ab905d490acf6ffcec33cea49b21e96b": {
+      "uuid": "ab905d490acf6ffcec33cea49b21e96b",
       "name": "Watanabe E9W Navy Type 96 Small Reconnaissance Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Watanabe_E9W",
+      "url": "https://en.wikipedia.org/wiki/Watanabe_E9W",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Slim",
       "first_flown": 1935,
       "number_built": 35,
       "services": [
         "IJN"
       ],
-      "uuid": "ab905d490acf6ffcec33cea49b21e96b",
-      "url": "https://en.wikipedia.org/wiki/Watanabe_E9W",
       "title": "Watanabe E9W",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Watanabe_E9W1.jpg/300px-Watanabe_E9W1.jpg",
       "image_local_name": "ab905d490acf6ffcec33cea49b21e96b.jpg",
       "description": "The Watanabe E9W was a Japanese submarine-borne reconnaissance seaplane, the first aircraft designed by Watanabe Ironworks."
     },
     "53fd9aa5673a64d43fbd09feac616b96": {
+      "uuid": "53fd9aa5673a64d43fbd09feac616b96",
       "name": "Yokosuka E14Y Type 0 Small Reconnaissance Seaplane",
-      "category": "Reconnaissance aircraft",
       "path": "/wiki/Yokosuka_E14Y",
+      "url": "https://en.wikipedia.org/wiki/Yokosuka_E14Y",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Glen",
       "first_flown": 1939,
       "number_built": 126,
       "services": [
         "IJN"
       ],
-      "uuid": "53fd9aa5673a64d43fbd09feac616b96",
-      "url": "https://en.wikipedia.org/wiki/Yokosuka_E14Y",
       "title": "Yokosuka E14Y",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Yokosuka_E14Y_in_flight.jpg/300px-Yokosuka_E14Y_in_flight.jpg",
       "image_local_name": "53fd9aa5673a64d43fbd09feac616b96.jpg",
       "description": "The Yokosuka E14Y (Allied reporting name Glen) was an Imperial Japanese Navy reconnaissance seaplane transported aboard and launched from Japanese submarine aircraft carriers such as the I-25 during World War II. The Japanese Navy designation was \"Type 0 Small Reconnaissance Seaplane\" (零式小型水上偵察機)."
     },
     "21e4c6e5822fe16b639c19b342757c2a": {
+      "uuid": "21e4c6e5822fe16b639c19b342757c2a",
       "name": "Kawasaki Ki-56 Army Type 1 Freight Transport & Tachikawa Navy Type LO",
-      "category": "Transports",
       "path": "/wiki/Kawasaki_Ki-56",
+      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-56",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "Thalia/Thelma",
       "first_flown": 1940,
       "number_built": 121,
@@ -2461,25 +2570,25 @@
         "IJA",
         "IJN"
       ],
-      "uuid": "21e4c6e5822fe16b639c19b342757c2a",
-      "url": "https://en.wikipedia.org/wiki/Kawasaki_Ki-56",
       "title": "Kawasaki Ki-56",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Kawasaki_Ki-56.jpg/300px-Kawasaki_Ki-56.jpg",
       "image_local_name": "21e4c6e5822fe16b639c19b342757c2a.jpg",
       "description": "The Kawasaki Ki-56 (Japanese: 一式貨物輸送機, Type 1 Freight Transport) was a Japanese two-engine light transport aircraft used during World War II. It was known to the Allies by the reporting name \"Thalia\". 121 were built between 1940 and 1943."
     },
     "9ef9792550e9a93d4f43d3aa8c84a4ac": {
+      "uuid": "9ef9792550e9a93d4f43d3aa8c84a4ac",
       "name": "Mitsubishi Ki-57 Army Type 100 Transport",
-      "category": "Transports",
       "path": "/wiki/Mitsubishi_Ki-57",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-57",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "Topsy",
       "first_flown": 1940,
       "number_built": 406,
       "services": [
         "IJA"
       ],
-      "uuid": "9ef9792550e9a93d4f43d3aa8c84a4ac",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-57",
       "title": "Mitsubishi Ki-57",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mitsubishi_Ki-57.jpg/300px-Mitsubishi_Ki-57.jpg",
       "image_local_name": "9ef9792550e9a93d4f43d3aa8c84a4ac.jpg",
@@ -2508,9 +2617,13 @@
       ]
     },
     "a09dedeca1979e5ad68450e09ce17bb2": {
+      "uuid": "a09dedeca1979e5ad68450e09ce17bb2",
       "name": "Nakajima Ki-34 Army Type 97 Transport & Nakajima L1N Navy Type AT-2 Transport",
-      "category": "Transports",
       "path": "/wiki/Nakajima_Ki-34",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-34",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "Thora",
       "first_flown": 1936,
       "number_built": 351,
@@ -2518,25 +2631,25 @@
         "IJA",
         "IJN"
       ],
-      "uuid": "a09dedeca1979e5ad68450e09ce17bb2",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-34",
       "title": "Nakajima Ki-34",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Nakajima_AT-2.jpg/300px-Nakajima_AT-2.jpg",
       "image_local_name": "a09dedeca1979e5ad68450e09ce17bb2.jpg",
       "description": "The Nakajima Ki-34 was a Japanese light transport of World War II. It was a twin-engine, low-wing monoplane; the undercarriage was of tailwheel type with retractable main units. During the Pacific War, the Allies assigned the type the reporting name Thora."
     },
     "380cb4fe0510f19c4b0da699e38464f2": {
+      "uuid": "380cb4fe0510f19c4b0da699e38464f2",
       "name": "Showa/Nakajima L2D Navy Type 0 Transport",
-      "category": "Transports",
       "path": "/wiki/Showa/Nakajima_L2D",
+      "url": "https://en.wikipedia.org/wiki/Showa/Nakajima_L2D",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "Tabby",
       "first_flown": 1939,
       "number_built": 487,
       "services": [
         "IJN"
       ],
-      "uuid": "380cb4fe0510f19c4b0da699e38464f2",
-      "url": "https://en.wikipedia.org/wiki/Showa/Nakajima_L2D",
       "title": "Showa/Nakajima L2D",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Showa_L2D.jpg/300px-Showa_L2D.jpg",
       "image_local_name": "380cb4fe0510f19c4b0da699e38464f2.jpg",
@@ -2546,17 +2659,19 @@
       ]
     },
     "3d7668c49dd53fc000fae43fb96fc29c": {
+      "uuid": "3d7668c49dd53fc000fae43fb96fc29c",
       "name": "Mitsubishi Hinazuru-type Passenger Transport",
-      "category": "Transports",
       "path": "/wiki/Airspeed_Envoy#Variants",
+      "url": "https://en.wikipedia.org/wiki/Airspeed_Envoy#Variants",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "n/a",
       "first_flown": 1936,
       "number_built": 11,
       "services": [
         "IJN"
       ],
-      "uuid": "3d7668c49dd53fc000fae43fb96fc29c",
-      "url": "https://en.wikipedia.org/wiki/Airspeed_Envoy#Variants",
       "title": "Airspeed Envoy",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg/300px-Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg",
       "image_local_name": "3d7668c49dd53fc000fae43fb96fc29c.jpg",
@@ -2566,34 +2681,38 @@
       ]
     },
     "25e6f490b1c1a844ebc4391de5c32f23": {
+      "uuid": "25e6f490b1c1a844ebc4391de5c32f23",
       "name": "Kyushu J7W Shinden",
-      "category": "Experimental aircraft",
       "path": "/wiki/Kyushu_J7W_Shinden",
+      "url": "https://en.wikipedia.org/wiki/Kyushu_J7W_Shinden",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": 3,
       "number_built": 2,
       "services": [
 
       ],
-      "uuid": "25e6f490b1c1a844ebc4391de5c32f23",
-      "url": "https://en.wikipedia.org/wiki/Kyushu_J7W_Shinden",
       "title": "Kyushu J7W Shinden",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/A_prototype_of_J7W_Shinden.jpg/300px-A_prototype_of_J7W_Shinden.jpg",
       "image_local_name": "25e6f490b1c1a844ebc4391de5c32f23.jpg",
       "description": "The Kyūshū J7W Shinden (震電, \"Magnificent Lightning\")  was a World War II Japanese propeller-driven prototype fighter with wings at the rear of the fuselage, a nose-mounted canard, and pusher engine."
     },
     "47171b62ddca0c0f679fbb1971d2bff4": {
+      "uuid": "47171b62ddca0c0f679fbb1971d2bff4",
       "name": "Mitsubishi Ki-83",
-      "category": "Experimental aircraft",
       "path": "/wiki/Mitsubishi_Ki-83",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-83",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": 1944,
       "number_built": 4,
       "services": [
 
       ],
-      "uuid": "47171b62ddca0c0f679fbb1971d2bff4",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-83",
       "title": "Mitsubishi Ki-83",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Ki-83-6s.jpg/300px-Ki-83-6s.jpg",
       "image_local_name": "47171b62ddca0c0f679fbb1971d2bff4.jpg",
@@ -2614,17 +2733,19 @@
       ]
     },
     "de041d095242f256140ae59e7c9f5c04": {
+      "uuid": "de041d095242f256140ae59e7c9f5c04",
       "name": "Mitsubishi J8M",
-      "category": "Experimental aircraft",
       "path": "/wiki/Mitsubishi_J8M",
+      "url": "https://en.wikipedia.org/wiki/Mitsubishi_J8M",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": 1944,
       "number_built": 7,
       "services": [
 
       ],
-      "uuid": "de041d095242f256140ae59e7c9f5c04",
-      "url": "https://en.wikipedia.org/wiki/Mitsubishi_J8M",
       "title": "Mitsubishi J8M",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/J8M_Shusui_Sword_Stroke_Komet_J8M-10.jpg/300px-J8M_Shusui_Sword_Stroke_Komet_J8M-10.jpg",
       "image_local_name": "de041d095242f256140ae59e7c9f5c04.jpg",
@@ -2634,17 +2755,19 @@
       ]
     },
     "ea06fcb4f2580f4ff8f77d46203f1ada": {
+      "uuid": "ea06fcb4f2580f4ff8f77d46203f1ada",
       "name": "Nakajima G8N",
-      "category": "Experimental aircraft",
       "path": "/wiki/Nakajima_G8N",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_G8N",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "Rita",
       "first_flown": 1944,
       "number_built": 4,
       "services": [
 
       ],
-      "uuid": "ea06fcb4f2580f4ff8f77d46203f1ada",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_G8N",
       "title": "Nakajima G8N",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Nakajima_G8N1.jpg/300px-Nakajima_G8N1.jpg",
       "image_local_name": "ea06fcb4f2580f4ff8f77d46203f1ada.jpg",
@@ -2665,56 +2788,64 @@
       ]
     },
     "a889ae98a41cb973c8121bab02300ff7": {
+      "uuid": "a889ae98a41cb973c8121bab02300ff7",
       "name": "Nakajima Ki-87",
-      "category": "Experimental aircraft",
       "path": "/wiki/Nakajima_Ki-87",
+      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-87",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": 1945,
       "number_built": 1,
       "services": [
 
       ],
-      "uuid": "a889ae98a41cb973c8121bab02300ff7",
-      "url": "https://en.wikipedia.org/wiki/Nakajima_Ki-87",
       "title": "Nakajima Ki-87",
       "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nakajima_Ki-87.jpg/300px-Nakajima_Ki-87.jpg",
       "image_local_name": "a889ae98a41cb973c8121bab02300ff7.jpg",
       "description": "The Nakajima Ki-87 was a Japanese high-altitude fighter-interceptor of World War II. It was a single seat, exhaust-driven turbo-supercharged engined, low-wing monoplane with a conventional undercarriage."
     },
     "5afc98ea6e5a36f6fc83acd74baee3f2": {
+      "uuid": "5afc98ea6e5a36f6fc83acd74baee3f2",
       "name": "Tachikawa Ki-94-I",
-      "category": "Experimental aircraft",
       "path": "/wiki/Tachikawa_Ki-94",
+      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": null,
       "number_built": 0,
       "services": [
 
       ],
-      "uuid": "5afc98ea6e5a36f6fc83acd74baee3f2",
-      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
       "title": "Tachikawa Ki-94",
       "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
     },
     "01b6d07320c3dd305e3f43c8cef9edd8": {
+      "uuid": "01b6d07320c3dd305e3f43c8cef9edd8",
       "name": "Tachikawa Ki-94-II",
-      "category": "Experimental aircraft",
       "path": "/wiki/Tachikawa_Ki-94",
+      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "n/a",
       "first_flown": null,
       "number_built": 2,
       "services": [
 
       ],
-      "uuid": "01b6d07320c3dd305e3f43c8cef9edd8",
-      "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-94",
       "title": "Tachikawa Ki-94",
       "description": "The Tachikawa Ki-94 was a single-seat fighter-Interceptor aircraft project undertaken by the Tachikawa Aircraft Company and to be operated by the Imperial Japanese Army. The project refers to two aircraft designs: the Ki-94-I and the Ki-94-II, both of which did not advance beyond the mock-up and prototype stage respectively."
     },
     "ab705f484bf3e4959da7af329fc73b13": {
       "path": "/wiki/Aichi_D1A",
       "url": "https://en.wikipedia.org/wiki/Aichi_D1A",
-      "category": "Bombers",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Susie",
       "first_flown": 1934,
       "number_built": 590,
@@ -2746,7 +2877,9 @@
       "title_ja": "一五式水上偵察機",
       "path": "/wiki/Nakajima_E2N",
       "url": "https://en.wikipedia.org/wiki/Nakajima_E2N",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Bob",
       "first_flown": 1927,
       "number_built": 80,
@@ -2773,7 +2906,9 @@
     "f3d004494d37558684d5d84a54bc5ece": {
       "path": "/wiki/Aichi_E10A",
       "url": "https://en.wikipedia.org/wiki/Aichi_E10A",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Hank",
       "first_flown": 1934,
       "number_built": 15,
@@ -2790,7 +2925,9 @@
     "316880560c7f8b18319f48c2447b3556": {
       "path": "/wiki/Aichi_E11A",
       "url": "https://en.wikipedia.org/wiki/Aichi_E11A",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Laura",
       "first_flown": 1937,
       "number_built": 17,
@@ -2814,7 +2951,9 @@
     "0e119196dd333a966cf2032d48847caa": {
       "path": "/wiki/Nakajima_G5N",
       "url": "https://en.wikipedia.org/wiki/Nakajima_G5N",
-      "category": "Bombers",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Liz",
       "first_flown": 1941,
       "number_built": 6,
@@ -2854,7 +2993,9 @@
     "ddde4e5a488a776c3e285a0af739ff2e": {
       "path": "/wiki/Kawanishi_H3K",
       "url": "https://en.wikipedia.org/wiki/Kawanishi_H3K",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Belle",
       "first_flown": 1930,
       "number_built": 5,
@@ -2870,7 +3011,9 @@
     "4d67529969bc1c632374afc790a06140": {
       "path": "/wiki/Yokosuka_H5Y",
       "url": "https://en.wikipedia.org/wiki/Yokosuka_H5Y",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Cherry",
       "first_flown": 1936,
       "number_built": 20,
@@ -2902,7 +3045,9 @@
     "8afb0ea1f873c83ff9883716619646fa": {
       "path": "/wiki/Mitsubishi_K3M",
       "url": "https://en.wikipedia.org/wiki/Mitsubishi_K3M",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Pine",
       "first_flown": 1930,
       "number_built": 625,
@@ -2946,7 +3091,9 @@
     "738a2e1e58fcd7bcdf28d078b4ee53cc": {
       "path": "/wiki/Yokosuka_K5Y",
       "url": "https://en.wikipedia.org/wiki/Yokosuka_K5Y",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Willow",
       "first_flown": 1933,
       "number_built": 5770,
@@ -3006,7 +3153,9 @@
     "ffd163fe6045138648b66de9ca8281c8": {
       "path": "/wiki/Kyushu_K10W",
       "url": "https://en.wikipedia.org/wiki/Kyushu_K10W",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Oak",
       "first_flown": 1941,
       "number_built": 176,
@@ -3023,7 +3172,9 @@
     "55f64f45bf00ef0b8ce665ca468ea94d": {
       "path": "/wiki/Mitsubishi_Ki-2",
       "url": "https://en.wikipedia.org/wiki/Mitsubishi_Ki-2",
-      "category": "Bombers",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Louise",
       "first_flown": 1933,
       "number_built": 187,
@@ -3055,7 +3206,9 @@
     "14db53d4bb7567aac30b377f130c81d5": {
       "path": "/wiki/Tachikawa_Ki-9",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-9",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Spruce",
       "first_flown": 1935,
       "number_built": 2618,
@@ -3087,7 +3240,9 @@
     "a78d76768bb939641ecbf9d7315e9798": {
       "path": "/wiki/Tachikawa_Ki-17",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-17",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Cedar",
       "first_flown": 1935,
       "number_built": 560,
@@ -3105,7 +3260,9 @@
     "727a97f8e20ed1600935feca47fbcad2": {
       "path": "/wiki/Tachikawa_Ki-54",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-54",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Hickory",
       "first_flown": 1941,
       "number_built": 1368,
@@ -3122,7 +3279,9 @@
     "df7ac11604c0afb10f707778555491eb": {
       "path": "/wiki/Tachikawa_Ki-55",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-55",
-      "category": "Trainers",
+      "categories": [
+        "Trainers"
+      ],
       "allied_code": "Ida",
       "first_flown": 1939,
       "number_built": 1389,
@@ -3149,7 +3308,9 @@
     "662f70cf84bf2abd62db71a72006b3df": {
       "path": "/wiki/Kokusai_Ki-59",
       "url": "https://en.wikipedia.org/wiki/Kokusai_Ki-59",
-      "category": "Transports",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "Theresa",
       "first_flown": 1941,
       "number_built": 59,
@@ -3185,7 +3346,9 @@
     "0754e25c6ef22495d0ca122431501de8": {
       "path": "/wiki/Tachikawa_Ki-70",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-70",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Clara",
       "first_flown": 1943,
       "number_built": 3,
@@ -3202,7 +3365,9 @@
     "0ba7342c85d74c7e553decb3f7096c12": {
       "path": "/wiki/Tachikawa_Ki-74",
       "url": "https://en.wikipedia.org/wiki/Tachikawa_Ki-74",
-      "category": "Bombers",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Patsy",
       "first_flown": 1944,
       "number_built": 16,
@@ -3219,7 +3384,9 @@
     "addbd13e8b7b545529e3f6238ba3215b": {
       "path": "/wiki/Kokusai_Ki-76",
       "url": "https://en.wikipedia.org/wiki/Kokusai_Ki-76",
-      "category": "Reconnaissance aircraft",
+      "categories": [
+        "Reconnaissance aircraft"
+      ],
       "allied_code": "Stella",
       "first_flown": 1941,
       "number_built": 937,
@@ -3237,7 +3404,9 @@
     "9e69f0ae7f0a6ca5caa7120bf230343d": {
       "path": "/wiki/Kokusai_Ku-7",
       "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-7",
-      "category": "Experimental aircraft",
+      "categories": [
+        "Experimental aircraft"
+      ],
       "allied_code": "Buzzard",
       "first_flown": 1942,
       "number_built": 2,
@@ -3255,7 +3424,9 @@
     "09ca41f346c5f72e5533a84ca2306556": {
       "path": "/wiki/Kokusai_Ku-8",
       "url": "https://en.wikipedia.org/wiki/Kokusai_Ku-8",
-      "category": "Transports",
+      "categories": [
+        "Transports"
+      ],
       "allied_code": "Gander",
       "first_flown": 1943,
       "number_built": 700,
@@ -3283,7 +3454,9 @@
     "8511d3979da63a09c9a1c5b283e06d29": {
       "path": "/wiki/Kyushu_Q1W",
       "url": "https://en.wikipedia.org/wiki/Kyushu_Q1W",
-      "category": "Bombers",
+      "categories": [
+        "Bombers"
+      ],
       "allied_code": "Lorna",
       "first_flown": 1943,
       "number_built": 153,

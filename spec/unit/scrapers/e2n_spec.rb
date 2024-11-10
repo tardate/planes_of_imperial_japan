@@ -45,7 +45,7 @@ describe Scrapers::E2n do
         expect(plane['title']).to eql('Nakajima E2N')
         expect(plane['title_ja']).to eql('一五式水上偵察機')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Nakajima_E2N')
-        expect(plane['category']).to eql('Reconnaissance aircraft')
+        expect(plane['categories']).to match_array(['Reconnaissance aircraft'])
         expect(plane['allied_code']).to eql('Bob')
         expect(plane['first_flown']).to eql(1927)
         expect(plane['number_built']).to eql(80)

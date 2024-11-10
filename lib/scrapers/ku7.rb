@@ -7,7 +7,7 @@ class Scrapers::Ku7 < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Experimental aircraft',
+      'categories' => ['Experimental aircraft'],
       'allied_code' => 'Buzzard',
       'first_flown' => 1942,
       'number_built' => 2,

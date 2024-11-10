@@ -34,7 +34,7 @@ describe Scrapers::K3m do
         expect(plane['title']).to eql('Mitsubishi K3M')
         expect(plane['title_ja']).to eql('九〇式機上作業練習機')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Mitsubishi_K3M')
-        expect(plane['category']).to eql('Trainers')
+        expect(plane['categories']).to match_array(%w[Trainers])
         expect(plane['allied_code']).to eql('Pine')
         expect(plane['first_flown']).to eql(1930)
         expect(plane['number_built']).to eql(625)

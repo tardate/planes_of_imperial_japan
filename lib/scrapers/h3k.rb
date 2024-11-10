@@ -7,7 +7,7 @@ class Scrapers::H3k < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Reconnaissance aircraft',
+      'categories' => ['Reconnaissance aircraft'],
       'allied_code' => 'Belle',
       'first_flown' => 1930,
       'number_built' => 5,

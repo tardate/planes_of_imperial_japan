@@ -34,7 +34,7 @@ describe Scrapers::K10w do
         expect(plane['title']).to eql('Kyushu K10W')
         expect(plane['title_ja']).to be_nil
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kyushu_K10W')
-        expect(plane['category']).to eql('Trainers')
+        expect(plane['categories']).to match_array(%w[Trainers])
         expect(plane['allied_code']).to eql('Oak')
         expect(plane['first_flown']).to eql(1941)
         expect(plane['number_built']).to eql(176)

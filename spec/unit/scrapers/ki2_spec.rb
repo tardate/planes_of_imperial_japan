@@ -34,7 +34,7 @@ describe Scrapers::Ki2 do
         expect(plane['title']).to eql('Mitsubishi Ki-2')
         expect(plane['title_ja']).to eql('九三式双軽爆撃機')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Mitsubishi_Ki-2')
-        expect(plane['category']).to eql('Bombers')
+        expect(plane['categories']).to match_array(%w[Bombers])
         expect(plane['allied_code']).to eql('Louise')
         expect(plane['first_flown']).to eql(1933)
         expect(plane['number_built']).to eql(187)

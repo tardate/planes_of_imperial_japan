@@ -12,14 +12,13 @@ describe Scrapers::WikiList do
       component.snapshots_enabled = false
       allow(component).to receive(:log)
     end
-    let(:base_keys) { %w[uuid category name path url] }
+    let(:base_keys) { %w[uuid name path url] }
     let(:expected_keys) { (base_keys + added_keys).sort }
 
     context 'for Aichi B7A', vcr: { cassette_name: "#{vcr_base}/Aichi_B7A", match_requests_on: [:path] } do
       let(:plane) do
         {
           'uuid' => '7c698e1440838dc1b20c18ad1b61d217',
-          'category' => 'Attack aircraft',
           'name' => 'Aichi B7A Ryusei Navy carrier torpedo bomber',
           'path' => '/wiki/Aichi_B7A',
           'url' => 'https://en.wikipedia.org/wiki/Aichi_B7A'
@@ -43,7 +42,6 @@ describe Scrapers::WikiList do
       let(:plane) do
         {
           'uuid' => '2ad0cafbdae52374ba8ee9486f90b0d1',
-          'category' => 'Fighters',
           'name' => 'Kawanishi N1K Kyofu Navy Fighter Seaplane',
           'path' => '/wiki/Kawanishi_N1K',
           'url' => 'https://en.wikipedia.org/wiki/Kawanishi_N1K'
@@ -67,7 +65,6 @@ describe Scrapers::WikiList do
       let(:plane) do
         {
           'uuid' => '8db9bedd6990b3c01e31a80e6956a452',
-          'category' => 'Fighters',
           'name' => 'Kawanishi N1K Kyofu Navy Fighter Seaplane',
           'path' => '/wiki/Kawanishi_N1K-J',
           'url' => 'https://en.wikipedia.org/wiki/Kawanishi_N1K-J'
@@ -91,7 +88,6 @@ describe Scrapers::WikiList do
       let(:plane) do
         {
           'uuid' => '5afc98ea6e5a36f6fc83acd74baee3f2',
-          'category' => 'Experimental aircraft',
           'name' => 'Tachikawa Ki-94-I',
           'path' => '/wiki/Tachikawa_Ki-94',
           'url' => 'https://en.wikipedia.org/wiki/Tachikawa_Ki-94'
@@ -109,7 +105,6 @@ describe Scrapers::WikiList do
       let(:plane) do
         {
           'uuid' => '76889e3e340299ae29eec2edbe6245a3',
-          'category' => 'Attack aircraft',
           'name' => 'Yokosuka MXY-7 Ohka',
           'path' => '/wiki/Ohka',
           'url' => 'https://en.wikipedia.org/wiki/Ohka'

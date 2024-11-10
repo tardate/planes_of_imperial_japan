@@ -25,9 +25,9 @@
         keyword_contains, true, true
       ).draw();
 
-      var category = $('select#services_contains', 'form.search').val();
+      var service = $('select#services_contains', 'form.search').val();
       instance.catalog_table.DataTable().column(2).search(
-        category, false, false
+        service, false, false
       ).draw();
 
       var category = $('select#category_equals', 'form.search').val();
@@ -67,7 +67,7 @@
           }, {
             data: 'services', visible: false
           }, {
-            data: 'category', visible: false
+            data: 'categories', visible: false
           },{
             data: 'description', visible: false
           },
@@ -88,7 +88,6 @@
           var google_url = 'https://www.google.com/search?q=' + product_search_term;
 
           var services_styles = '';
-
           for (var i = 0; i < data.services.length; i++) {
             services_styles += ' service-' + data.services[i].toLowerCase();
           }
@@ -101,6 +100,10 @@
               </li>'
           }
 
+          var categories_fragment = '';
+          for (var i = 0; i < data.categories.length; i++) {
+            categories_fragment += '<span class="label label-primary">' + data.categories[i] + '</span> ';
+          }
           var info_fragment = '<ul class="list-group"> \
               <li class="list-group-item"> \
                 <span class="display-ija" style="display: none;"> \
@@ -112,9 +115,7 @@
                   <span class="service-name">IJN</span> \
                 </span> \
               </li> \
-              <li class="list-group-item"> \
-                <span class="label label-primary">' + data.category + '</span> \
-              </li> \
+              <li class="list-group-item"> ' + categories_fragment + ' </li> \
               ' + allied_code_fragment + ' \
               <li class="list-group-item"> \
                 <span class="badge">' + data.first_flown + '</span> \

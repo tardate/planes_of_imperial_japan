@@ -15,8 +15,9 @@ describe Scrapers::WikiList do
 
     let(:expected_keys) do
       %w[
-        name category path allied_code first_flown
-        number_built services uuid url
+        uuid name path url
+        categories allied_code
+        first_flown number_built services
       ]
     end
 
@@ -52,7 +53,7 @@ describe Scrapers::WikiList do
           subject
           expect(plane['name']).to eql('Kawasaki Ki-10 Army Type 95 Fighter')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kawasaki_Ki-10')
-          expect(plane['category']).to eql('Fighters')
+          expect(plane['categories']).to match_array(['Fighters', 'Reconnaissance aircraft'])
           expect(plane['allied_code']).to eql('Perry')
           expect(plane['first_flown']).to eql(1935)
           expect(plane['number_built']).to eql(588)
@@ -67,7 +68,7 @@ describe Scrapers::WikiList do
           plane = component.catalog.planes[expected_uuid]
           expect(plane['name']).to eql('Kawanishi N1K Kyofu Navy Fighter Seaplane')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kawanishi_N1K')
-          expect(plane['category']).to eql('Fighters')
+          expect(plane['categories']).to match_array(%w[Fighters])
           expect(plane['allied_code']).to eql('Rex')
           expect(plane['first_flown']).to eql(1942)
           expect(plane['number_built']).to eql(1532)
@@ -82,7 +83,7 @@ describe Scrapers::WikiList do
           plane = component.catalog.planes[expected_uuid]
           expect(plane['name']).to eql('Kawanishi N1K1-J/N1K2-J Shiden Navy Land-Based Interceptor')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kawanishi_N1K-J')
-          expect(plane['category']).to eql('Fighters')
+          expect(plane['categories']).to match_array(%w[Fighters])
           expect(plane['allied_code']).to eql('George')
           expect(plane['first_flown']).to eql(1943)
           expect(plane['number_built']).to eql(1435)
@@ -97,7 +98,7 @@ describe Scrapers::WikiList do
           plane = component.catalog.planes[expected_uuid]
           expect(plane['name']).to eql('Mitsubishi Ki-46-III-Kai Army Type 100 Air Defence Fighter')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Mitsubishi_Ki-46')
-          expect(plane['category']).to eql('Fighters')
+          expect(plane['categories']).to match_array(%w[Fighters])
           expect(plane['allied_code']).to eql('Dinah')
           expect(plane['first_flown']).to eql(1941)
           expect(plane['number_built']).to eql(1742)
@@ -112,7 +113,7 @@ describe Scrapers::WikiList do
           plane = component.catalog.planes[expected_uuid]
           expect(plane['name']).to eql('Yokosuka MXY-7 Ohka')
           expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Ohka')
-          expect(plane['category']).to eql('Attack aircraft')
+          expect(plane['categories']).to match_array(['Attack aircraft'])
           expect(plane['allied_code']).to eql("Baka ('Fool' in Japanese)[1]")
           expect(plane['first_flown']).to eql(1944)
           expect(plane['number_built']).to eql(852)

@@ -7,7 +7,7 @@ class Scrapers::Ku8 < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Transports',
+      'categories' => %w[Transports],
       'allied_code' => 'Gander',
       'first_flown' => 1943,
       'number_built' => 700,

@@ -34,7 +34,7 @@ describe Scrapers::H5y do
         expect(plane['title']).to eql('Yokosuka H5Y')
         expect(plane['title_ja']).to eql('九九式飛行艇')
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Yokosuka_H5Y')
-        expect(plane['category']).to eql('Reconnaissance aircraft')
+        expect(plane['categories']).to match_array(['Reconnaissance aircraft'])
         expect(plane['allied_code']).to eql('Cherry')
         expect(plane['first_flown']).to eql(1936)
         expect(plane['number_built']).to eql(20)

@@ -7,7 +7,7 @@ class Scrapers::G5n < Scrapers::Base
     plane = {
       'path' => main_path,
       'url' => base_url + main_path,
-      'category' => 'Bombers',
+      'categories' => %w[Bombers],
       'allied_code' => 'Liz',
       'first_flown' => 1941,
       'number_built' => 6,

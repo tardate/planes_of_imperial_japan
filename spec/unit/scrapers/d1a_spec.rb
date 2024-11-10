@@ -34,7 +34,7 @@ describe Scrapers::D1a do
         expect(plane['title']).to eql('Aichi D1A')
         expect(plane['title_ja']).to be_nil
         expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Aichi_D1A')
-        expect(plane['category']).to eql('Bombers')
+        expect(plane['categories']).to match_array(%w[Bombers])
         expect(plane['allied_code']).to eql('Susie')
         expect(plane['first_flown']).to eql(1934)
         expect(plane['number_built']).to eql(590)
