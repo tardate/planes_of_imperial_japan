@@ -76,7 +76,7 @@ describe Scrapers::WikiList do
       let(:added_keys) { %w[title title_ja image_url image_local_name variants description] }
       it 'parses the page correctly' do
         expect { subject }.to change { plane.keys.sort }.to(expected_keys)
-        expect(plane['title']).to eql('Kawanishi N1K')
+        expect(plane['title']).to eql('Kawanishi N1K-J')
         expect(plane['title_ja']).to eql('強風')
         expect(plane['description']).to include('The Kawanishi N1K is an Imperial Japanese Navy fighter aircraft')
         expect(plane['image_url']).to eql('https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/N1K1_in_biwalake.jpg/220px-N1K1_in_biwalake.jpg')

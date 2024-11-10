@@ -42,8 +42,13 @@ class Scrapers::Base
   end
 
   def append_title(plane, doc)
-    plane['title'] = doc.css('.mw-page-title-main').first&.text
-    plane['title'] ||= doc.css('.mw-first-heading').first&.text
+    case plane['uuid']
+    when '8db9bedd6990b3c01e31a80e6956a452'
+      plane['title'] = 'Kawanishi N1K-J'
+    else
+      plane['title'] = doc.css('.mw-page-title-main').first&.text
+      plane['title'] ||= doc.css('.mw-first-heading').first&.text
+    end
   end
 
   def append_title_ja(plane, doc, default: nil)
