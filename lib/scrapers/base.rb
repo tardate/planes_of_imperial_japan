@@ -56,6 +56,7 @@ class Scrapers::Base
     doc.css('.mw-body-content p').detect do |item|
       text = item.text.chomp
       unless text.empty?
+        text.gsub!(/\[\d+\]/, '')
         plane['description'] = text
         return
       end
