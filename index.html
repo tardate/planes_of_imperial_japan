@@ -5,6 +5,9 @@
     <meta content="IE=Edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>The Planes of Imperial Japan</title>
+    <meta name="description" content="A comprehensive quick reference guide to the aircraft of Imperial Japan, including IJN (IJNAS), and IJA (IJAAS). Explore detailed profiles, specifications, and history of Japan's WWII aircraft, all in one easy-to-navigate resource.">
+    <meta name="keywords" content="IJN aircraft reference, IJA aircraft reference, IJNAS, IJAAS, WWII Japanese aircraft, World War II, Second Sino-Japanese War">
+    <meta name="robots" content="all">
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/bs-3.3.5/jq-2.1.4,dt-1.10.8/datatables.min.css"/>
     <link rel="stylesheet" href="assets/skin.css" type="text/css">
@@ -34,12 +37,12 @@
         <form accept-charset="UTF-8" action="" class="search form-inline navbar-form" method="get" novalidate="novalidate">
           <div class="control-group form-group select optional search_keyword_contains">
             <label class="select optional control-label" for="keyword_contains">Search</label>
-            <input class="select optional form-control" id="keyword_contains" type="text" name="search[keyword_contains]"/>
+            <input class="select optional form-control" id="keyword_contains" type="text" name="search[keyword_contains]" placeholder="Enter search keywords"/>
           </div>
           <div class="control-group form-group select optional search_services_contains">
             <label class="select optional control-label" for="services_contains">Service</label>
             <select class="select optional form-control" id="services_contains" name="search[services_contains]">
-              <option value=""></option>
+              <option value="" selected>Any Service</option>
               <option value="IJA">IJA</option>
               <option value="IJN">IJN</option>
             </select>
@@ -47,7 +50,7 @@
           <div class="control-group form-group select optional search_category_equals">
             <label class="select optional control-label" for="category_equals">Category</label>
             <select class="select optional form-control" id="category_equals" name="search[category_equals]">
-              <option value=""></option>
+              <option value="" selected>Any Category</option>
               <option value="Attack aircraft">Attack aircraft</option>
               <option value="Bombers">Bombers</option>
               <option value="Experimental aircraft">Experimental aircraft</option>
