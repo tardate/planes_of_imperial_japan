@@ -6,7 +6,7 @@ describe Scrapers::WikiList do
 
   vcr_base = 'scrapers/wiki_list/load'
 
-  let(:expected_entries) { 61 }
+  let(:expected_entries) { 60 }
 
   describe '#load!' do
     subject { component.load! }
@@ -169,6 +169,13 @@ describe Scrapers::WikiList do
           expect(plane['first_flown']).to eql(1944)
           expect(plane['number_built']).to eql(852)
           expect(plane['services']).to match_array(%w[IJN])
+        end
+      end
+
+      context 'for Mitsubishi Hinazuru-type Passenger Transport' do
+        let(:expected_uuid) { '3d7668c49dd53fc000fae43fb96fc29c' }
+        it 'skips loading' do
+          expect { subject }.to_not change { component.catalog.planes[expected_uuid] }.from(nil)
         end
       end
     end

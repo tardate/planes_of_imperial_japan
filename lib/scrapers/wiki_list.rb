@@ -17,6 +17,7 @@ class Scrapers::WikiList < Scrapers::Base
           'name' => name
         }
         next if [
+          '3d7668c49dd53fc000fae43fb96fc29c', # ignore Mitsubishi Hinazuru-type Passenger Transport entry
           '01b6d07320c3dd305e3f43c8cef9edd8', # duplicate Tachikawa Ki-94 entry
           '754bd2a4d1ec2c57c7f513c56c2ccd42', # duplicate Kawasaki Ki-10 entry
           '8c7fd7e579132b387970f64da6f8a742', # duplicate Mitsubishi Ki-46 entry

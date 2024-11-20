@@ -2528,28 +2528,6 @@
     ]
   },
   {
-    "uuid": "3d7668c49dd53fc000fae43fb96fc29c",
-    "name": "Mitsubishi Hinazuru-type Passenger Transport",
-    "path": "/wiki/Airspeed_Envoy#Variants",
-    "url": "https://en.wikipedia.org/wiki/Airspeed_Envoy#Variants",
-    "categories": [
-      "Transports"
-    ],
-    "allied_code": "n/a",
-    "first_flown": 1936,
-    "number_built": 11,
-    "services": [
-      "IJN"
-    ],
-    "title": "Airspeed Envoy",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg/300px-Airspeed_AS.6_Envoy_G-AHAC_Private_Charter_RWY_1948_edited-2.jpg",
-    "image_local_name": "3d7668c49dd53fc000fae43fb96fc29c.jpg",
-    "description": "The Airspeed AS.6 Envoy was a twin-engined light transport aircraft designed and produced by the British aircraft manufacturer Airspeed Ltd.",
-    "variants": [
-
-    ]
-  },
-  {
     "uuid": "25e6f490b1c1a844ebc4391de5c32f23",
     "name": "Kyushu J7W Shinden",
     "path": "/wiki/Kyushu_J7W_Shinden",
