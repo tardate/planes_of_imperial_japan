@@ -172,6 +172,21 @@ describe Scrapers::WikiList do
         end
       end
 
+      context 'for Kyushu J7W Shinden' do
+        let(:expected_uuid) { '25e6f490b1c1a844ebc4391de5c32f23' }
+        it 'loads details correctly' do
+          expect { subject }.to change { component.catalog.planes[expected_uuid]&.keys }.from(nil).to(expected_keys)
+          plane = component.catalog.planes[expected_uuid]
+          expect(plane['name']).to eql('Kyushu J7W Shinden')
+          expect(plane['url']).to eql('https://en.wikipedia.org/wiki/Kyushu_J7W_Shinden')
+          expect(plane['categories']).to match_array(['Experimental aircraft'])
+          expect(plane['allied_code']).to eql('n/a')
+          expect(plane['first_flown']).to eql(1945)
+          expect(plane['number_built']).to eql(2)
+          expect(plane['services']).to match_array(%w[IJN])
+        end
+      end
+
       context 'for Mitsubishi Hinazuru-type Passenger Transport' do
         let(:expected_uuid) { '3d7668c49dd53fc000fae43fb96fc29c' }
         it 'skips loading' do
