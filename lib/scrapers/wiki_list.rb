@@ -47,6 +47,9 @@ class Scrapers::WikiList < Scrapers::Base
           plane['name'] = 'Tachikawa Ki-94'
           plane['number_built'] = 2
           plane['services'] = %w[IJA]
+        when '25e6f490b1c1a844ebc4391de5c32f23' # customise Kyushu J7W Shinden entry
+          plane['first_flown'] = 1945
+          plane['services'] = %w[IJN]
         end
 
         load_plane plane
