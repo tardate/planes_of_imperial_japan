@@ -38,7 +38,7 @@ describe Scrapers::E11a do
         expect(plane['allied_code']).to eql('Laura')
         expect(plane['first_flown']).to eql(1937)
         expect(plane['number_built']).to eql(17)
-        expect(plane['services']).to match_array(%w[IJA])
+        expect(plane['services']).to match_array(%w[IJN])
       end
     end
   end

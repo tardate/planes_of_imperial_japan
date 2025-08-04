@@ -11,7 +11,7 @@ class Scrapers::E11a < Scrapers::Base
       'allied_code' => 'Laura',
       'first_flown' => 1937,
       'number_built' => 17,
-      'services' => %w[IJA]
+      'services' => %w[IJN]
     }
     plane['name'] = append_title(plane, main_doc)
     plane['uuid'] = Digest::MD5.hexdigest(plane['name'])
